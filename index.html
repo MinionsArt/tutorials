@@ -2,111 +2,69 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/aowp/Data/style.css">
+    <link rel="stylesheet" type="text/css" href="/TutorialLinks/style.css">
     <meta charset="UTF-8">
     <script type="text/javascript" language="javascript" src="/aowp/Data/UnitAbilitiesNew.json"></script>
     <script type="text/javascript" language="javascript" src="/aowp/Data/UnitsNew.json"></script>
     <script type="text/javascript" language="javascript" src="/aowp/Data/BuilderNew.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $("#body").ready(function() {
-
-            $("#header").load("/aowp/header.html");
-
-            $("#unit").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_shrike");
-            });
-            $("#unit2").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_huntress");
-            });
-
-            $("#unit3").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_biomancer");
-            });
 
 
-            $("#unit4").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_lancer");
-            });
-
-            $("#unit5").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_harrier");
-            });
-
-            $("#unit6").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_hydromancer");
-            });
-
-            $("#unit7").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_bombardon");
-            });
-            $("#unit8").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_arborian_sentinel");
-            });
-            $("#unit9").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_aquatica");
-            });
-            $("#unit10").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_tyrannodon");
-            });
-            $("#unit11").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_arborian_queen");
-            });
-            $("#unit12").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_colonizer");
-            });
-            $("#unit13").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_nourishing_field_pylon");
-            });
-            $("#unit14").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_luring_field_pylon");
-            });
-            $("#unit15").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_amplifying_field_pylon");
-            });
-
-            $("#unit16").load("/aowp/unitcard.html", function() {
-                showUnit("amazon_laser_turret");
-            });
-        });
-
-    </script>
-
-
-    <title>Age of Wonders Planetfall - Amazon Units</title>
+    <title>Tutorial List</title>
 </head>
 
-<body>
-    <div id="header"></div>
+<main>
+    <div class="header-img">
+        <div class="hero-text">
+            <h1>Minions Art Tutorials</h1>
 
-    <p>
-        Amazon Units
-    </p>
-    <div id="unit">
+        </div>
     </div>
-    <div id="unit2"></div>
-    <div id="unit3"></div>
-    <div id="unit4"></div>
-    <div id="unit5"></div>
+</main>
 
-    <div id="unit6"></div>
-    <div id="unit7"></div>
-    <div id="unit8"></div>
-    <div id="unit9"></div>
-    <div id="unit10"></div>
-    <div id="unit11"></div>
-    <div id="unit12"></div>
-    <div id="unit13"></div>
-    <div id="unit14"></div>
-    <div id="unit15"></div>
-    <div id="unit16"></div>
+<body>
 
-    <!-- <iframe id="testing" width=0px height=0px src="../../../unitcard.html">
+
+    <div class="holder"> <img class="preview" src="Images/BannerUnity1.png"> </img>
+        <button type="button" class="collapsible">Summary & Files Link &#11167;</button>
+        <div class="content">
+            <p>($10 Tier) Files</p>
+        </div>
+
+        <p>Collapsible Set:</p>
+        <button type="button" class="collapsible">Open Section 1</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button type="button" class="collapsible">Open Section 2</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button type="button" class="collapsible">Open Section 3</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <!-- <iframe id="testing" width=0px height=0px src="../../../unitcard.html">
         <p>Your browser does not support iframes.</p>
     </iframe>-->
     </div>
 
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-</body>
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
 
-</html>
+</body></html>

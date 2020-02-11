@@ -1,0 +1,53 @@
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.header-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    font-family: 'Duru Sans', sans-serif;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-shadow: 2px 2px 5px black;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        2px 2px 5px black,
+        -2px -2px 5px black, 1px 1px 0 #000;
+    color: whitesmoke;
+}
+
+.holder {
+    text-align: center;
+    top: 20%;
+    left: 50%;
+}
