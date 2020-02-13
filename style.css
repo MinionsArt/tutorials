@@ -1,10 +1,10 @@
 html {
     background-color: black;
-
+    font-family: 'Domine', serif;
 }
 
 .mainbody {
-    background-color: #161616;
+    background-color: #202020;
     color: white;
     width: 840px;
     height: 600px;
@@ -42,8 +42,9 @@ html {
 .header-img {
     background-image: url(Images/BGTwittedec.png);
     width: 100%;
-    height: 300px;
-    background-size: auto;
+
+    height: 200px;
+    background-size: cover;
 }
 
 .hero-text {
@@ -72,11 +73,10 @@ html {
 .centered {
     position: absolute;
     top: 30%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    left: 20%;
     color: white;
     text-shadow: 2px 2px purple;
-    font-size: 2em;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1;
     font-family: 'Domine', serif;
@@ -90,15 +90,29 @@ html {
 
 .number {
     position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 0%;
+    transform: translate(-30%, -50%);
     padding-left: 85px;
     padding-top: 23px;
     padding-bottom: 5px;
-    color: white;
-    text-shadow: 1px 1px #000;
-    font-size: 20px;
+    color: lightgray;
+    text-shadow: 2px 2px #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Domine', serif;
+}
+
+.date {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    padding-bottom: 5px;
+    color: aquamarine;
+    text-shadow: 2px 2px #000;
+    font-size: 1em;
+
     font-weight: bold;
     line-height: 1;
     font-family: 'Domine', serif;
@@ -107,11 +121,11 @@ html {
 
 .description {
     position: absolute;
-    top: 70%;
-    left: 40%;
+    top: 40%;
+    left: 20%;
     text-align: left;
-    transform: translate(-50%, -50%);
-    padding-left: 85px;
+
+    padding-left: 0px;
     padding-top: 23px;
     padding-bottom: 5px;
     color: white;
@@ -128,7 +142,7 @@ html {
     position: relative;
     width: 100%;
     height: 80px;
-    border: 1px solid grey;
+    border: 1px solid black;
 }
 
 .preview-image-holder:hover {
@@ -138,7 +152,7 @@ html {
 
 .patreon-link {
 
-    height: 50px;
+    height: 40px;
     color: white;
     padding-left: 20px;
     padding-top: 10px;
@@ -147,20 +161,22 @@ html {
     font-weight: bold;
     line-height: 1;
     font-family: 'Domine', serif;
+    background-color: black;
 }
 
 .headertext {
-
-    height: 50px;
+    border-radius: 15px;
+    height: 40px;
     color: white;
     text-shadow: 1px 1px #000;
-    background-color: darkslategray;
+    background-color: #30144A;
     font-size: 1em;
     padding-top: 23px;
     text-align: center;
     font-weight: bold;
     line-height: 1;
     font-family: 'Domine', serif;
+    background-image: linear-gradient(to bottom right, #52326F, #492D63);
 }
 
 .patreon-link:hover {
@@ -173,4 +189,115 @@ Patreon {
     top: 3px;
     content: url(/TutorialLinks/Images/PatreonIcon.png);
     position: relative;
+}
+
+Unity {
+    max-height: 60px;
+    top: 8px;
+    content: url(/TutorialLinks/Images/UnityIcon.png);
+    position: relative;
+}
+
+MayaLT {
+    max-height: 50px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/mayaltIcon.png);
+    position: relative;
+}
+
+Blender {
+    max-height: 50px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/blenderIcon.png);
+    position: relative;
+}
+
+Photoshop {
+    max-height: 50px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/photoshopIcon.png);
+    position: relative;
+}
+
+Twitter {
+    max-height: 40px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/TwitterIcon.png);
+    position: relative;
+}
+
+PatreonBig {
+    max-height: 40px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/PatreonIcon.png);
+    position: relative;
+}
+
+
+Twitch {
+    max-height: 40px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/TwitchIcon.png);
+    position: relative;
+}
+
+Kofi {
+    max-height: 40px;
+    top: 3px;
+    content: url(/TutorialLinks/Images/kofiIcon.png);
+    position: relative;
+}
+
+.LinkButton {
+    border-radius: 15px;
+    height: 20px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    text-shadow: 1px 1px #000;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Domine', serif;
+    background-color: black;
+}
+
+.LinkButton:hover {
+    color: antiquewhite;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: darkmagenta;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
 }
