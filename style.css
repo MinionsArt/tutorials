@@ -143,6 +143,7 @@ html {
     width: 100%;
     height: 80px;
     border: 1px solid black;
+    background-size: contain;
 }
 
 .preview-image-holder:hover {
@@ -187,49 +188,49 @@ html {
 Patreon {
     max-height: 20px;
     top: 3px;
-    content: url(/TutorialLinks/Images/PatreonIcon.png);
+    content: url(/Tutorials/Images/PatreonIcon.png);
     position: relative;
 }
 
 Unity {
     max-height: 60px;
     top: 8px;
-    content: url(/TutorialLinks/Images/UnityIcon.png);
+    content: url(/Tutorials/Images/UnityIcon.png);
     position: relative;
 }
 
 MayaLT {
     max-height: 50px;
     top: 3px;
-    content: url(/TutorialLinks/Images/mayaltIcon.png);
+    content: url(/Tutorials/Images/mayaltIcon.png);
     position: relative;
 }
 
 Blender {
     max-height: 50px;
     top: 3px;
-    content: url(/TutorialLinks/Images/blenderIcon.png);
+    content: url(/Tutorials/Images/blenderIcon.png);
     position: relative;
 }
 
 Photoshop {
     max-height: 50px;
     top: 3px;
-    content: url(/TutorialLinks/Images/photoshopIcon.png);
+    content: url(/Tutorials/Images/photoshopIcon.png);
     position: relative;
 }
 
 Twitter {
     max-height: 40px;
     top: 3px;
-    content: url(/TutorialLinks/Images/TwitterIcon.png);
+    content: url(/Tutorials/Images/TwitterIcon.png);
     position: relative;
 }
 
 PatreonBig {
     max-height: 40px;
     top: 3px;
-    content: url(/TutorialLinks/Images/PatreonIcon.png);
+    content: url(/Tutorials/Images/PatreonIcon.png);
     position: relative;
 }
 
@@ -237,14 +238,14 @@ PatreonBig {
 Twitch {
     max-height: 40px;
     top: 3px;
-    content: url(/TutorialLinks/Images/TwitchIcon.png);
+    content: url(/Tutorials/Images/TwitchIcon.png);
     position: relative;
 }
 
 Kofi {
     max-height: 40px;
     top: 3px;
-    content: url(/TutorialLinks/Images/kofiIcon.png);
+    content: url(/Tutorials/Images/kofiIcon.png);
     position: relative;
 }
 
