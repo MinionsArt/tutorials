@@ -274,6 +274,15 @@ Kofi {
 
 }
 
+
+Youtube {
+    max-height: 40px;
+    top: 3px;
+    content: url(/tutorials/Images/Youtube.png);
+    position: relative;
+
+}
+
 .LinkButton {
     border-radius: 15px;
     height: 20px;
