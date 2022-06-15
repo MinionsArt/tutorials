@@ -44,7 +44,7 @@ var tutorials = {
            ],
         },
         {
-            "id": "article2",
+            "id": "article3",
             "title": "Stencil Buffer Examples",
             "date": "10/2017",
             "link": "https://www.patreon.com/posts/12551796",
@@ -69,7 +69,7 @@ var tutorials = {
            ],
         },
         {
-            "id": "article2",
+            "id": "article4",
             "title": "Stencil Buffer Examples",
             "date": "10/2017",
             "link": "https://www.patreon.com/posts/12551796",

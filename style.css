@@ -57,8 +57,8 @@ html {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 10px;
+    gap: 20px;
+    padding: 15px;
 }
 
 .active,
@@ -110,7 +110,8 @@ html {
     left: 0px;
     width: inherit;
     color: white;
-    text-shadow: rgb(136, 70, 190) 2px 2px 1px, rgb(136, 70, 190) 1px 1px 1px;
+    text-shadow: rgb(136, 70, 190) 3px 3px 1px, rgb(136, 70, 190) 1px 1px 1px,
+        rgb(136, 70, 190) -1px -1px 1px;
     font-size: 20px;
     font-weight: bold;
     line-height: 1;
@@ -122,8 +123,11 @@ html {
 
 .bottom-holder {
     position: relative;
-    display: flex;
+
     width: 300px;
+    text-decoration: none;
+    height: 100px;
+    border-radius: 15px;
 }
 
 .centered:hover {
@@ -160,13 +164,13 @@ html {
 
 
 .description {
-    position: absolute;
+
     text-align: left;
     width: 280px;
-    display: flex;
+
     color: white;
     text-shadow: rgb(0, 0, 0) 1px 1px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
     line-height: 1;
     font-family: round, sans-serif;
@@ -183,7 +187,7 @@ html {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: rgb(0, 0, 0) 2px 2px 8px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
 }
 
@@ -200,7 +204,8 @@ html {
     background-color: aliceblue;
     color: white;
     position: relative;
-    background-size: auto;
+    background-size: cover;
+
     display: flex;
     width: 300px;
     height: 160px;
@@ -208,23 +213,32 @@ html {
     text-decoration: none;
 }
 
+.preview-image-holder:hover {}
+
 
 
 .patreon-link {
-
+    position: absolute;
+    bottom: 0%;
     height: 40px;
     color: white;
-    padding-right: 20px;
+    padding-left: 20px;
     display: flex;
     width: inherit;
     padding-top: 10px;
-    text-shadow: rgb(0, 0, 0) 1px 1px;
+    text-shadow:
+        -1px -1px 0 #a63020,
+        1px -1px 0 #a63020,
+        -1px 1px 0 #a63020,
+        2px 2px 5px #a63020,
+        -2px -2px 5px #a63020, 1px 1px 0 #a63020;
     text-align: right;
-    font-size: 1em;
+    font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
     line-height: 1;
     font-family: round, serif;
-    background-color: black;
+
 }
 
 .normal-link {
@@ -272,7 +286,8 @@ html {
 
 Patreon {
     max-height: 20px;
-    top: 3px;
+    bottom: 2px;
+    right: 2px;
     content: url(/tutorials/Images/PatreonIcon.png);
     position: relative;
 }

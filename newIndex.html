@@ -19,7 +19,6 @@
 
 
         });
-
     </script>
     <title>Minionsart Tutorial List</title>
 
@@ -41,9 +40,9 @@
                     extra link
                 </div>
 
-                <div class="patreon-link" id="patreonlink">
+                <a class="patreon-link" id="patreonlink">
                     patreon link
-                </div>
+                </a>
             </div>
 
 
@@ -90,6 +89,26 @@
 
         </div>
     </div>
+
+    <div class="buttons">
+        <a href="#" onclick="showfilter('built-in');" style="font-size: 20px; color: aqua" class="togglelink"> Built-in </a>
+        <a href="#" onclick="showfilter('3d');" style="font-size: 20px" class="togglelink"> 3D </a>
+
+    </div>
+
+    <div id="modS" style=" width:100%;margin: auto">
+        <h2 style="color:white;text-align: center">Mod Search</h2>
+        <p style="color:white;text-align: center">Search name and description of mods</p>
+        <br>
+        <div style="margin-right: auto; margin-left: auto; width: 300px;">
+            <input type="text" style="margin-right: auto; margin-left: auto; width: 300px;" id="searchInput">
+            <input type="submit" value="Submit" id="button">
+            <p id="searchResultMod" style="color: aqua"></p>
+
+        </div>
+        <div id="searchOutput">test</div>
+    </div>
+
     <div class="mainbody">
         <div class="grid-container" id="output"></div>
 
@@ -105,7 +124,21 @@
 
 </body>
 <script>
+    $(document).ready(function() {
 
-</script>
+        $('#button').click(function() {
+            searchData();
+        });
+    });
 
-</html>
+
+
+    $(function() {
+
+        $("#searchInput").keyup(function(event) {
+            if (event.which === 13) {
+                searchData();
+            }
+        })
+    });
+</script></html>
