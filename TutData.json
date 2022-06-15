@@ -399,9 +399,7 @@ var tutorials = {
             "patreonlink": "",
             "description": "Design process of a lizard character for Astro Kat (Free models & Video)",
             "types": [
-                {
-                    "slug": "asset-pack"
-   },
+
                 {
                     "slug": "design"
    }
@@ -464,10 +462,8 @@ var tutorials = {
             "types": [
                 {
                     "slug": "other"
-   },
-                {
-                    "slug": "built-in"
    }
+
             ],
             "tags": [
 
@@ -588,12 +584,12 @@ var tutorials = {
         },
         {
             "id": "article29",
-            "title": "Shader Graph Positions & Sway",
+            "title": "Shader Graph Positional FX & Sway",
             "date": "12/2019",
             "link": "https://www.patreon.com/posts/32245525",
             "extralink": "",
             "patreonlink": "https://www.patreon.com/posts/32329687",
-            "description": "Shader Graph Positional Effects and Swaying Grass",
+            "description": "Shader Graph growing flowers, moving scattered objects back, and Swaying Grass",
             "types": [
 
                 {

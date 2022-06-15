@@ -296,8 +296,8 @@ html {
 
 Patreon {
     max-height: 20px;
-    bottom: 2px;
-    right: 2px;
+    bottom: 3px;
+    right: 5px;
     content: url(/tutorials/Images/PatreonIcon.png);
     position: relative;
 }
