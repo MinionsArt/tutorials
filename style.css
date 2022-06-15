@@ -9,7 +9,7 @@ html {
 }
 
 .mainbody {
-    background-color: rgb(130, 118, 134);
+    background-color: #353635;
     color: white;
     width: 840px;
     height: 600px;
@@ -17,6 +17,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding: 35px;
+    border-radius: 10px;
 }
 
 .typefilter {
@@ -25,14 +26,14 @@ html {
     text-align: center;
     text-shadow: rgb(7, 59, 136) -1px -1px 0px, rgb(7, 59, 136) 1px -1px 0px, rgb(7, 59, 136) -1px 1px 0px, rgb(7, 59, 136) 1px 1px 0px;
     color: white;
-    font-size: 1em;
+    font-size: 14px;
     font-weight: bold;
     line-height: 10px;
     font-family: "Franklin Gothic Medium", serif;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .typeOfPost {
@@ -104,6 +105,13 @@ html {
     left: 100%;
 }
 
+.buttons {
+    display: table;
+    margin: 0 auto;
+    text-decoration: none;
+
+}
+
 .centered {
     position: absolute;
     bottom: 0px;
@@ -130,9 +138,7 @@ html {
     border-radius: 15px;
 }
 
-.centered:hover {
-    color: cyan;
-}
+
 
 .number {
     position: absolute;
@@ -187,7 +193,7 @@ html {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
 }
 
@@ -211,9 +217,13 @@ html {
     height: 160px;
     border-radius: 15px 15px 0px 0px;
     text-decoration: none;
+    opacity: 0.9;
+
 }
 
-.preview-image-holder:hover {}
+.preview-image-holder:hover {
+    opacity: 1;
+}
 
 
 

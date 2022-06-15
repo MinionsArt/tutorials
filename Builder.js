@@ -218,14 +218,14 @@ function fillPost(id) {
                         break;
                     case "asset-pack":
 
-                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+                        typeDiv.setAttribute("style", "background-color: #8d48cd; border: 2px solid #be79ff;")
 
                         typeDiv.innerHTML = "Asset Pack";
 
                         break;
                     case "design":
 
-                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+                        typeDiv.setAttribute("style", "background-color: #3c422f; border: 2px solid #999c91;")
 
                         typeDiv.innerHTML = "Design";
 

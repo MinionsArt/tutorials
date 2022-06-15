@@ -72,6 +72,9 @@ var tutorials = {
             "types": [
                 {
                     "slug": "built-in"
+   },
+                {
+                    "slug": "gameplay"
    }
             ],
             "tags": [
