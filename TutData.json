@@ -543,7 +543,7 @@ var tutorials = {
             "link": "https://www.patreon.com/posts/31534289",
             "extralink": "",
             "patreonlink": "https://www.patreon.com/posts/31970239",
-            "description": "Interactive water with foam and refraction in Shader Graph",
+            "description": "My character toon shader with tutorial for a hit effect",
             "types": [
 
                 {
@@ -844,6 +844,568 @@ var tutorials = {
                 {
                     "slug": "urp"
    }
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+  ,
+        {
+            "id": "article41",
+            "title": "Animated Light Cookie",
+            "date": "06/2020",
+            "link": "https://www.patreon.com/posts/animated-light-38047499",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/animated-light-38155780",
+            "description": "Cloud/Tree shadows using Light Cookies",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article42",
+            "title": "Interactive Chains",
+            "date": "06/2020",
+            "link": "https://www.patreon.com/posts/setting-up-using-38499638",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/interactive-38733604",
+            "description": "Setting up Interactive Chains with Joints",
+            "types": [
+
+                {
+                    "slug": "gameplay"
+   },
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article43",
+            "title": "Shader Graph Stylized Skybox",
+            "date": "07/2020",
+            "link": "https://www.patreon.com/posts/shader-graph-39024186",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/shader-graph-39069131",
+            "description": "Shader Graph Conversion of the Skybox",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   }, {
+                    "slug": "urp"
+   },
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article44",
+            "title": "Gradient Map Image Effect",
+            "date": "08/2020",
+            "link": "https://www.patreon.com/posts/40192059",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/image-effects-40445929",
+            "description": "ImageEffect setup for URP and Built-in",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   },
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article45",
+            "title": "Advanced Waterfall Shader",
+            "date": "08/2020",
+            "link": "https://www.patreon.com/posts/40078029",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/new-waterfall-40810634",
+            "description": "New Waterfall with Refractions, Interactivity",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article46",
+            "title": "URP Waterfall Shader Advanced",
+            "date": "09/2020",
+            "link": "https://www.patreon.com/posts/41188449",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/41199702",
+            "description": "New Waterfall with Refractions, Interactivity, for Shader Graph",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   }, {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article47",
+            "title": "Moving Kat 3(Ledges)",
+            "date": "10/2020",
+            "link": "https://www.patreon.com/posts/32716107",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/43485524",
+            "description": "Character Controller Ledge Climbing",
+            "types": [
+
+                {
+                    "slug": "gameplay"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article48",
+            "title": "Stylized Glass Shader",
+            "date": "10/2020",
+            "link": "https://www.patreon.com/posts/42255564",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/42779375",
+            "description": "Creating a cartoon glass effect",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article49",
+            "title": "URP Stylized Glass Shader",
+            "date": "10/2020",
+            "link": "https://www.patreon.com/posts/43026766",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/43182004",
+            "description": "Creating a cartoon glass effect in Shader Graph",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article50",
+            "title": "UI - Sprite Swapping Shader",
+            "date": "11/2020",
+            "link": "https://www.patreon.com/posts/43816363",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/44255626",
+            "description": "Sprite effects for URP and Built-In",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article51",
+            "title": "Grass Geometry Shader with Interactivity 1",
+            "date": "12/2020",
+            "link": "https://www.patreon.com/posts/40090373",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/45177238",
+            "description": "(Part 1, the shader)",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+,
+        {
+            "id": "article52",
+            "title": "URP Tessellation",
+            "date": "12/2020",
+            "link": "https://www.patreon.com/posts/45320078",
+            "extralink": "",
+
+            "patreonlink": "",
+            "description": "Basic Tessellation setup in URP",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article53",
+            "title": "Grass Geometry Shader with Interactivity 2",
+            "date": "01/2021",
+            "link": "https://www.patreon.com/posts/40077798",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/46530102",
+            "description": "(Part 2, the tool)",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+,
+        {
+            "id": "article54",
+            "title": "URP Grass Geometry Shader with Interactivity",
+            "date": "02/2021",
+            "link": "https://www.patreon.com/posts/47447321",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/47452120",
+            "description": "The URP version",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article55",
+            "title": "URP Interactive Snow ",
+            "date": "02/2021",
+            "link": "https://www.patreon.com/posts/47452596",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/48489345",
+            "description": "Toon Snow with trails",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+,
+        {
+            "id": "article56",
+            "title": " Forward Decals Prototype",
+            "date": "03/2021",
+            "link": "https://www.patreon.com/posts/49100194",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/49338996",
+            "description": "Projecting Decals, bit experimental",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article57",
+            "title": " URP Forward Decals Prototype",
+            "date": "04/2021",
+            "link": "https://www.patreon.com/posts/49899065",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/49939876",
+            "description": "Projecting Decals, bit experimental",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article58",
+            "title": " Improved Shiny/Sparkly Shader",
+            "date": "05/2021",
+            "link": "https://www.patreon.com/posts/51125313",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/51479974",
+            "description": "More sparkly this time ",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article59",
+            "title": " Shader Graph Improved Shiny/Sparkly Shader",
+            "date": "05/2021",
+            "link": "https://www.patreon.com/posts/51480100",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/51482939",
+            "description": "More sparkly this time in URP",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   }, {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article60",
+            "title": " Potions/Poisons Asset Pack",
+            "date": "06/2021",
+            "link": "https://www.patreon.com/posts/52073394",
+            "extralink": "https://www.patreon.com/posts/52484865",
+            "xtralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "https://www.patreon.com/posts/52479169",
+            "description": "10 Free Potion Assets",
+            "types": [
+
+                {
+                    "slug": "asset-pack"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+,
+        {
+            "id": "article61",
+            "title": " Twitch Chat Overlay",
+            "date": "06/2021",
+            "link": "https://www.patreon.com/posts/40078043",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/52878609",
+            "description": "Hook into Twitch Chat",
+            "types": [
+
+                {
+                    "slug": "other"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+,
+        {
+            "id": "article62",
+            "title": " Compute Shader Grass + Tool",
+            "date": "07/2021",
+            "link": "https://www.patreon.com/posts/53587750",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/53939857",
+            "description": "Compute Shader Version and Tool Update",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article63",
+            "title": "URP Compute Shader Grass + Tool",
+            "date": "07/2021",
+            "link": "https://www.patreon.com/posts/54164790",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/54214472",
+            "description": "Compute Shader Version and Tool Update for URP",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
             ],
             "tags": [
 
