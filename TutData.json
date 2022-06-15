@@ -1,0 +1,96 @@
+var tutorials = {
+    "posts": [{
+            "id": "article1",
+            "title": "Lighting Setup (Gamma)",
+            "date": "07/2017",
+            "link": "https://www.patreon.com/posts/12551796",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/12551796",
+            "description": "My Unity Lighting Setup for Gamma Color Space",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+                {
+                    "slug": "lighting"
+   },
+                {
+                    "slug": "gamma"
+   },
+           ],
+        },
+        {
+            "id": "article2",
+            "title": "Stylized Rocks",
+            "date": "03/2017",
+            "link": "https://www.patreon.com/posts/12551796",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/12551796",
+            "description": "A few ways to hide/show things using the stencil buffer",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+                {
+                    "slug": "stencil"
+   },
+                {
+                    "slug": "buffer"
+   },
+           ],
+        },
+        {
+            "id": "article2",
+            "title": "Stencil Buffer Examples",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/12551796",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/12551796",
+            "description": "A few ways to hide/show things using the stencil buffer",
+            "types": [
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "3d"
+   }
+            ],
+            "tags": [
+                {
+                    "slug": "stencil"
+   },
+                {
+                    "slug": "buffer"
+   },
+           ],
+        },
+        {
+            "id": "article2",
+            "title": "Stencil Buffer Examples",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/12551796",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/12551796",
+            "description": "A few ways to hide/show things using the stencil buffer",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+                {
+                    "slug": "stencil"
+   },
+                {
+                    "slug": "buffer"
+   },
+           ],
+        }
+
+
+]
+}
