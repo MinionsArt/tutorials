@@ -10,7 +10,7 @@ function showAllPosts() {
         fillPost(tutorials.posts[i].id);
 
     };
-
+    console.log("amount of posts: " + tutorials.posts.length);
 
 
 }
@@ -165,7 +165,7 @@ function fillPost(id) {
             // type
             type = document.getElementById("type");
             for (let i = 0; i < a.types.length; i++) {
-                console.log("Done number " + i);
+
                 var typeDiv = document.createElement("DIV");
                 typeDiv.className = "typefilter";
 
