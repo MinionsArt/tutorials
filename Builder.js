@@ -142,7 +142,8 @@ function fillPost(id) {
 
             extralink = document.getElementById("extralink");
             if (a.extralink != "") {
-                extralink.innerHTML = "<a href=" + a.extralink + "> ...</a>";
+                extralink.setAttribute("href", a.extralink);
+                extralink.innerHTML = a.extralink_description;
 
 
             } else {

@@ -242,11 +242,11 @@ html {
         -1px 1px 0 #a63020,
         2px 2px 5px #a63020,
         -2px -2px 5px #a63020, 1px 1px 0 #a63020;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    line-height: 1;
+    line-height: 40px;
     font-family: round, serif;
 
 }
@@ -254,18 +254,25 @@ html {
 .normal-link {
 
     position: absolute;
+    bottom: 30%;
     height: 40px;
-    width: 550px;
     color: white;
-    padding-left: 30px;
-    padding-top: 15px;
-    text-shadow: rgb(0, 0, 0) 1px 1px;
-    text-align: left;
+    padding-left: 20px;
     display: flex;
-    font-size: 1em;
+    width: inherit;
+    padding-top: 10px;
+    text-shadow:
+        -1px -1px 0 #a63020,
+        1px -1px 0 #a63020,
+        -1px 1px 0 #a63020,
+        2px 2px 5px #a63020,
+        -2px -2px 5px #a63020, 1px 1px 0 #a63020;
+    text-align: left;
+    font-size: 14px;
     font-weight: bold;
-    line-height: 1;
-    font-family: 'round', serif;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: round, serif;
 
 }
 
@@ -290,13 +297,13 @@ html {
 }
 
 .normal-link:hover {
-    color: aqua;
+    color: orange;
 
 }
 
 Patreon {
     max-height: 20px;
-    bottom: 3px;
+    top: 10px;
     right: 5px;
     content: url(/tutorials/Images/PatreonIcon.png);
     position: relative;

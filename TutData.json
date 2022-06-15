@@ -627,6 +627,229 @@ var tutorials = {
            ],
 
 
+        },
+        {
+            "id": "article31",
+            "title": "Stylized Lava Shader",
+            "date": "01/2020",
+            "link": "https://www.patreon.com/posts/32245619",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/33250352",
+            "description": "Stylized Lava using Scrolling Noise and Vertex Colors",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article32",
+            "title": "Shader Graph Lava",
+            "date": "01/2020",
+            "link": "https://www.patreon.com/posts/33388865",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/33416472",
+            "description": "Stylized Lava for Shader Graph using Scrolling Noise and Vertex Colors",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article33",
+            "title": "2D Sprite Overlays",
+            "date": "02/2020",
+            "link": "https://www.patreon.com/posts/33606001",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/33606001",
+            "description": "Sprite based Overlay effects for 2D games",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article34",
+            "title": "Shader Graph Eyes",
+            "date": "02/2020",
+            "link": "https://www.patreon.com/posts/shader-graph-32245563",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/eyeball-shader-34219911",
+            "description": "Eyeball shader graph conversion",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article35",
+            "title": "Moving Kat 2(Jumps/Slopes)",
+            "date": "03/2020",
+            "link": "https://www.patreon.com/posts/35207209",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/42662358",
+            "description": "Handling Jumps and Slopes on a Character Controller",
+            "types": [
+
+                {
+                    "slug": "gameplay"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article36",
+            "title": "Shader Graph Dissolve/Teleport",
+            "date": "04/2020",
+            "link": "https://www.patreon.com/posts/35698820",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/35787482",
+            "description": "Shader graph for the Vertical Dissolve/Teleport effect",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article37",
+            "title": "Resources for VFX/Shader Textures",
+            "date": "04/2020",
+            "link": "https://www.patreon.com/posts/36130209",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Noise & Pattern texture Resources and Tools for VFX/Shaders",
+            "types": [
+
+                {
+                    "slug": "other"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article38",
+            "title": "Free models from B-day Stream",
+            "date": "05/2020",
+            "link": "https://www.patreon.com/posts/free-small-from-36587566",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "29 small low-poly models asset pack",
+            "types": [
+
+                {
+                    "slug": "asset-pack"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article39",
+            "title": "Clean (Mini)Map Setup",
+            "date": "05/2020",
+            "link": "https://www.patreon.com/posts/making-clean-map-37285218",
+            "extralink": "https://www.patreon.com/posts/urp-friendly-map-37881295",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "https://www.patreon.com/posts/clean-navmesh-37464650",
+            "description": "Making a clean (mini)map using Navmesh and a Shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "gameplay"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article40",
+            "title": "Shader Graph Sprite Outline Effects",
+            "date": "05/2020",
+            "link": "https://www.patreon.com/posts/shader-graph-32245554",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/shader-graph-37654802",
+            "description": "Outline effects for sprites in Shader Graph",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
         }
 
 ]
