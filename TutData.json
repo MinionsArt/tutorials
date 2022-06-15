@@ -1325,7 +1325,7 @@ var tutorials = {
             "date": "06/2021",
             "link": "https://www.patreon.com/posts/52073394",
             "extralink": "https://www.patreon.com/posts/52484865",
-            "xtralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
             "patreonlink": "https://www.patreon.com/posts/52479169",
             "description": "10 Free Potion Assets",
             "types": [
@@ -1413,6 +1413,1181 @@ var tutorials = {
 
 
         }
+              // quick shader
+
+              ,
+        {
+            "id": "unity1",
+            "title": "Lit Toon Shader",
+            "date": "01/2017",
+            "link": "https://www.patreon.com/posts/quick-game-art-7709208",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/7709604",
+            "description": "Effect of Gradient Ramps on Shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "unity2",
+            "title": "Heat Distortion Effect",
+            "date": "02/2017",
+            "link": "https://www.patreon.com/posts/8172058",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8182189",
+            "description": "Using the Standard Glass Refraction Shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "unity3",
+            "title": "Toon Fire Particles",
+            "date": "03/2017",
+            "link": "https://www.patreon.com/posts/8345206",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8353751",
+            "description": "Fire particle system with a masking shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity4",
+            "title": "Portal Effect",
+            "date": "03/2017",
+            "link": "https://www.patreon.com/posts/8505325",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8514560",
+            "description": "Using ZTest greater and the render queue",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+,
+        {
+            "id": "unity5",
+            "title": "Toon Dissolve Shader",
+            "date": "05/2017",
+            "link": "https://www.patreon.com/posts/11304399",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/11322157",
+            "description": "Using a noise texture to dissolve the toon shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity6",
+            "title": "Toon Ice Shader",
+            "date": "06/2017",
+            "link": "https://www.patreon.com/posts/12135718",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/12222170",
+            "description": "A Glowing Ice Effect",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity7",
+            "title": "Toon Specular Shader",
+            "date": "07/2017",
+            "link": "https://www.patreon.com/posts/13059579",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/13120763",
+            "description": "Adding a fake specular to the toon shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity8",
+            "title": "Moving Grass Shader",
+            "date": "08/2017",
+            "link": "https://www.patreon.com/posts/13724221",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/13742468",
+            "description": "A swaying vertex shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+,
+        {
+            "id": "unity9",
+            "title": "Hologram Shader",
+            "date": "08/2017",
+            "link": "https://www.patreon.com/posts/13974634",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/13990939",
+            "description": "A moving scanlines hologram shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity10",
+            "title": "Color Mask Shader",
+            "date": "09/2017",
+            "link": "https://www.patreon.com/posts/14433920",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/14434150",
+            "description": "Changing colours using an RGB mask",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity11",
+            "title": "Stencil Buffer Shader",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/14782336",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/14821653",
+            "description": "Using the stencil buffer to hide or reveal meshes",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity12",
+            "title": "(Noise) Outline Shader",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/15010751",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15040339",
+            "description": "A smooth outline with an optional noise",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity13",
+            "title": "Stylized Water Shader",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/15121329",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15156023",
+            "description": "Wavy water shader with a foam edge",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity14",
+            "title": "Painting On Meshes",
+            "date": "11/2017",
+            "link": "https://www.patreon.com/posts/15265060",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15292412",
+            "description": "Using Raycasts and secondary UV's",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity15",
+            "title": "Iridescent Shader",
+            "date": "11/2017",
+            "link": "https://www.patreon.com/posts/15466787",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15486319",
+            "description": "Based on fresnel and noise ",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity16",
+            "title": "Directional Rim Outline Shader",
+            "date": "12/2017",
+            "link": "https://www.patreon.com/posts/15705239",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15707822",
+            "description": "A smooth outline based on light direction ",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity17",
+            "title": "Snow Shader",
+            "date": "12/2017",
+            "link": "https://www.patreon.com/posts/15944770",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15945846",
+            "description": "A shader that adds a layer of snow gradually",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity18",
+            "title": "Eye Tracking + Blinking",
+            "date": "01/2018",
+            "link": "https://www.patreon.com/posts/16184307",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/16207134",
+            "description": "Zelda style eye tracking and blinking animation using material offsets",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "other"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity19",
+            "title": "Uv Distortion Shader",
+            "date": "01/2018",
+            "link": "https://www.patreon.com/posts/16438429",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/16451682",
+            "description": "A distortion shader for special (weapon) effects",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity20",
+            "title": "Triplanar Shader",
+            "date": "01/2018",
+            "link": "https://www.patreon.com/posts/16714688",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/16721198",
+            "description": "A Worldspace based UV-Free terrain shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity21",
+            "title": "Fire Shader",
+            "date": "02/2018",
+            "link": "https://www.patreon.com/posts/17021975",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/17038501",
+            "description": "Stylized animated fire shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity22",
+            "title": "Cloud Shader",
+            "date": "03/2018",
+            "link": "https://www.patreon.com/posts/17402688",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/17417663",
+            "description": "Simple stylized moving clouds",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity23",
+            "title": "Aura Outline Shader",
+            "date": "03/2018",
+            "link": "https://www.patreon.com/posts/17670580",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/17681635",
+            "description": "An outline shader with a firey aura effect ",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity24",
+            "title": "Fake Liquid Shader",
+            "date": "04/2018",
+            "link": "https://www.patreon.com/posts/18245226",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/18263907",
+            "description": "A fake liquid that reacts to movement",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity25",
+            "title": "Waterfall Shader",
+            "date": "05/2018",
+            "link": "https://www.patreon.com/posts/18701684",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/18703957",
+            "description": " Using normal and triplanar noise for a waterfall",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        }
+,
+        {
+            "id": "unity26",
+            "title": "World Position Shader",
+            "date": "06/2018",
+            "link": "https://www.patreon.com/posts/19355776",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/19389890",
+            "description": " Switching textures based on an objects position",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity27",
+            "title": "Interactive Grass Shader",
+            "date": "07/2018",
+            "link": "https://www.patreon.com/posts/19844414",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/19856973",
+            "description": " Vertex displacement of grass near an object",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity28",
+            "title": "Colored Directional Shadow Shader",
+            "date": "07/2018",
+            "link": "https://www.patreon.com/posts/20335708",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/20406335",
+            "description": " Changing the color of shadows",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity29",
+            "title": "Sprite Outline/Glow Shader",
+            "date": "08/2018",
+            "link": "https://www.patreon.com/posts/20894506",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/20895991",
+            "description": " Adding a colored out/glow effect to sprites",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity30",
+            "title": "Toon Metal Shader",
+            "date": "09/2018",
+            "link": "https://www.patreon.com/posts/21398935",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/21400430",
+            "description": " A Shiny Specular material based on View and Lighting directions",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity31",
+            "title": "Sprite Aura Shader",
+            "date": "10/2018",
+            "link": "https://www.patreon.com/posts/22396709",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/22502442",
+            "description": " A moving aura effect using UV distortion",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity32",
+            "title": "Material Property Blocks",
+            "date": "12/2018",
+            "link": "https://www.patreon.com/posts/23117822",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/23118668",
+            "description": " Adding per-instance data to shaders",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity33",
+            "title": "Snow & Icicles Shaders",
+            "date": "12/2018",
+            "link": "https://www.patreon.com/posts/23437127",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/23449485",
+            "description": " Adding per-instance data to shaders",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity34",
+            "title": "Caustics Projector Shader",
+            "date": "01/2019",
+            "link": "https://www.patreon.com/posts/23929697",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/23956404",
+            "description": " A moving caustics projector shader",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity35",
+            "title": "Bastion Tile Effect",
+            "date": "03/2019",
+            "link": "https://www.patreon.com/posts/25418236",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/25460352",
+            "description": " Moving into position with Material Property Blocks",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity36",
+            "title": "Particle Fire Shader",
+            "date": "05/2019",
+            "link": "https://www.patreon.com/posts/29141036",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/29164761",
+            "description": " Using custom data from particles for a fire effect(lifetime)",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity37",
+            "title": "Procedural Eye Shader",
+            "date": "08/2019",
+            "link": "https://www.patreon.com/posts/29141036",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/29164761",
+            "description": " Using distance fields for procedural eyeballs",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity38",
+            "title": "Ghost Shader",
+            "date": "10/2019",
+            "link": "https://www.patreon.com/posts/31055278",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/31141529",
+            "description": " Using an empty pass and outline for a ghost effect",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity39",
+            "title": "Simple Fog Effect",
+            "date": "11/2019",
+            "link": "https://www.patreon.com/posts/31720777",
+            "extralink": "",
+
+            "patreonlink": "",
+            "description": " Making a fog plane effect with screen depth",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity40",
+            "title": "Vertical Dissolve/Teleport Shader",
+            "date": "04/2020",
+            "link": "https://www.patreon.com/posts/34859694",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/34963755",
+            "description": " Effect that dissolves with vertex displacement",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "unity41",
+            "title": "Sprite/UI Color Mask",
+            "date": "07/2020",
+            "link": "https://www.patreon.com/posts/39412122",
+            "extralink": "",
+
+            "patreonlink": "",
+            "description": " Using color channels as a mask",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }, {
+                    "slug": "urp"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+
+              //// texturing
+        {
+            "id": "texture1",
+            "title": "'Lazy' Unwrapping",
+            "date": "01/2017",
+            "link": "https://www.patreon.com/posts/7715616",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/7718237",
+            "description": " Projecting UV's onto gradient textures",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "texture2",
+            "title": "'Lazy' Unwrapping Extra",
+            "date": "02/2017",
+            "link": "https://www.patreon.com/posts/8043700",
+            "extralink": "",
+
+            "patreonlink": "",
+            "description": " More in-depth step-by-step of lazy unwrapping",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture3",
+            "title": "Palettes",
+            "date": "02/2017",
+            "link": "https://www.patreon.com/posts/8097226",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8104936",
+            "description": " Creating a palette using warm/cold colour balance",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "texture4",
+            "title": "Palettes 2",
+            "date": "02/2017",
+            "link": "https://www.patreon.com/posts/8253235",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8263299",
+            "description": " Creating a palette using the colour wheel",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "texture5",
+            "title": "Applying Palette",
+            "date": "04/2017",
+            "link": "https://www.patreon.com/posts/8677977",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8703308",
+            "description": " Adding colours to a characters",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture6",
+            "title": "Gradient Tricks",
+            "date": "04/2017",
+            "link": "https://www.patreon.com/posts/8857826",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8867540",
+            "description": " Tricks to make gradient textures look better",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "texture7",
+            "title": "Gradient Materials",
+            "date": "07/2017",
+            "link": "https://www.patreon.com/posts/12859658",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/12886639",
+            "description": " Expressing Wood, Cloth, and Metal with gradients",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "texture8",
+            "title": "Gradient Setup",
+            "date": "09/2017",
+            "link": "https://www.patreon.com/posts/14216203",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/14216700",
+            "description": " Basic rules for making the gradient textures",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "texture9",
+            "title": "Alien/ Fantasy Plants",
+            "date": "11/2017",
+            "link": "https://www.patreon.com/posts/15374159",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15393187",
+            "description": " Some words on designing interesting plants",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+, {
+                    "slug": "design"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture10",
+            "title": "Gradients Metal",
+            "date": "11/2017",
+            "link": "https://www.patreon.com/posts/15586373",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/15586517",
+            "description": " Making gradient textures look like metal",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture11",
+            "title": "Handpainted Rock",
+            "date": "02/2018",
+            "link": "https://www.patreon.com/posts/16858817",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/16859742",
+            "description": " Steps for a seamless handpainted rock texture",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture12",
+            "title": "Gradients Cloth",
+            "date": "04/2018",
+            "link": "https://www.patreon.com/posts/17995974",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/17996452",
+            "description": " Using gradient textures to fake folds in clothing",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture13",
+            "title": "Handpainted Grass",
+            "date": "04/2018",
+            "link": "https://www.patreon.com/posts/18425663",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/18468513",
+            "description": " Stylized seamless grass/plants texture",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "texture14",
+            "title": "Handpainted Stone Tiles",
+            "date": "10/2018",
+            "link": "https://www.patreon.com/posts/22245501",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/22260969",
+            "description": " Stylized stone floor tile texture",
+            "types": [
+
+                {
+                    "slug": "texturing"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+
 
 ]
 }

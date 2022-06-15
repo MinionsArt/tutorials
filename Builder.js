@@ -1,5 +1,5 @@
 function showAllPosts() {
-
+    document.getElementById("output").innerHTML = '';
     var i = 0;
     for (let i = 0; i < tutorials.posts.length; i++) {
         var iDiv = test.content.cloneNode(true);
@@ -229,6 +229,13 @@ function fillPost(id) {
                         typeDiv.setAttribute("style", "background-color: #3c422f; border: 2px solid #999c91;")
 
                         typeDiv.innerHTML = "Design";
+
+                        break;
+                    case "texturing":
+
+                        typeDiv.setAttribute("style", "background-color: #c44e4e; border: 2px solid #f38e8e;")
+
+                        typeDiv.innerHTML = "Textures";
 
                         break;
                 }
