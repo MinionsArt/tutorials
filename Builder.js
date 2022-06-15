@@ -156,6 +156,8 @@ function fillPost(id) {
                 patreonlink.setAttribute("href", a.patreonlink);
                 patreonlink.innerHTML = "<Patreon></Patreon>  Source Files ($10 Tier)";
 
+            } else {
+                patreonlink.innerHTML = "";
             }
             patreonlink.setAttribute("id", "patreonlink" + a.id);
 
@@ -176,14 +178,56 @@ function fillPost(id) {
 
 
                         break;
-                }
 
-                switch (a.types[i].slug) {
                     case "3d":
 
                         typeDiv.setAttribute("style", "background-color: #c31f8b; border: 2px solid #ff00f6;")
 
                         typeDiv.innerHTML = "3D";
+
+                        break;
+
+                    case "other":
+
+                        typeDiv.setAttribute("style", "background-color: #666666; border: 2px solid #bdbdbd;")
+
+                        typeDiv.innerHTML = "Other";
+
+                        break;
+
+                    case "gameplay":
+
+                        typeDiv.setAttribute("style", "background-color: #ca9243; border: 2px solid #ffc470;")
+
+                        typeDiv.innerHTML = "Gameplay";
+
+                        break;
+                    case "shader-graph":
+
+                        typeDiv.setAttribute("style", "background-color: #5ad2b7; border: 2px solid #92ffe7;")
+
+                        typeDiv.innerHTML = "Shader Graph";
+
+                        break;
+                    case "urp":
+
+                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+
+                        typeDiv.innerHTML = "URP";
+
+                        break;
+                    case "asset-pack":
+
+                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+
+                        typeDiv.innerHTML = "Asset Pack";
+
+                        break;
+                    case "design":
+
+                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+
+                        typeDiv.innerHTML = "Design";
 
                         break;
                 }

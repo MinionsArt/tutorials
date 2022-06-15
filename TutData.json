@@ -5,7 +5,7 @@ var tutorials = {
             "date": "07/2017",
             "link": "https://www.patreon.com/posts/12551796",
             "extralink": "",
-            "patreonlink": "https://www.patreon.com/posts/12551796",
+            "patreonlink": "",
             "description": "My Unity Lighting Setup for Gamma Color Space",
             "types": [
                 {
@@ -23,11 +23,11 @@ var tutorials = {
         },
         {
             "id": "article2",
-            "title": "Stylized Rocks",
-            "date": "03/2017",
-            "link": "https://www.patreon.com/posts/12551796",
+            "title": "Stencil Buffer Examples",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/14832618",
             "extralink": "",
-            "patreonlink": "https://www.patreon.com/posts/12551796",
+            "patreonlink": "",
             "description": "A few ways to hide/show things using the stencil buffer",
             "types": [
                 {
@@ -45,52 +45,590 @@ var tutorials = {
         },
         {
             "id": "article3",
-            "title": "Stencil Buffer Examples",
-            "date": "10/2017",
-            "link": "https://www.patreon.com/posts/12551796",
+            "title": "RenderTexture Painting Examples",
+            "date": "12/2017",
+            "link": "https://www.patreon.com/posts/17804712",
             "extralink": "",
-            "patreonlink": "https://www.patreon.com/posts/12551796",
-            "description": "A few ways to hide/show things using the stencil buffer",
+            "patreonlink": "",
+            "description": "A few ways to paint on meshes and UI using RenderTextures in Unity",
             "types": [
                 {
                     "slug": "built-in"
-   },
-                {
-                    "slug": "3d"
    }
+
             ],
             "tags": [
-                {
-                    "slug": "stencil"
-   },
-                {
-                    "slug": "buffer"
-   },
+
            ],
         },
         {
             "id": "article4",
-            "title": "Stencil Buffer Examples",
-            "date": "10/2017",
-            "link": "https://www.patreon.com/posts/12551796",
+            "title": "Map System",
+            "date": "12/2017",
+            "link": "https://www.patreon.com/posts/17804712",
             "extralink": "",
-            "patreonlink": "https://www.patreon.com/posts/12551796",
-            "description": "A few ways to hide/show things using the stencil buffer",
+            "patreonlink": "https://www.patreon.com/posts/17838079",
+            "description": "Setting up a map system that tracks exploration and multiple levels",
             "types": [
                 {
                     "slug": "built-in"
    }
             ],
             "tags": [
-                {
-                    "slug": "stencil"
-   },
-                {
-                    "slug": "buffer"
-   },
-           ],
-        }
 
+           ],
+
+        },
+        {
+            "id": "article5",
+            "title": "Shader Intro",
+            "date": "05/2018",
+            "link": "https://www.patreon.com/posts/how-i-got-with-19042499",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "How I got started with shaders (Non-Scary shader intro)",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+
+           ],
+
+        },
+        {
+            "id": "article6",
+            "title": "Line of Sight Prototype",
+            "date": "06/2018",
+            "link": "https://www.patreon.com/posts/19530112",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/19671923",
+            "description": "World Position Shader examples (appear & dissolve code)",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+
+           ],
+
+        },
+        {
+            "id": "article7",
+            "title": "Astro Kat : Orniaf Houses",
+            "date": "07/2018",
+            "link": "https://www.patreon.com/posts/20130909",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Design behind houses + Environment shader",
+            "types": [
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "design"
+   }
+            ],
+            "tags": [
+
+           ],
+
+        },
+        {
+            "id": "article8",
+            "title": "Shader Intro 2",
+            "date": "07/2018",
+            "link": "https://www.patreon.com/posts/20430343",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Non-Scary shader intro 2: Vertex Fun",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+        },
+        {
+            "id": "article9",
+            "title": "Polybrush and Vertex Color Shaders",
+            "date": "08/2018",
+            "link": "https://www.patreon.com/posts/21033280",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Using Polybrush to add effects in the editor",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+        },
+        {
+            "id": "article10",
+            "title": "Astro Kat : Moving Kat",
+            "date": "09/2018",
+            "link": "https://www.patreon.com/posts/21343562",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/42112548",
+            "description": "Character Controller Sample with IK",
+            "types": [
+                {
+                    "slug": "gameplay"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+        },
+        {
+            "id": "article11",
+            "title": "Skinned Mesh Painting Prototype",
+            "date": "10/2018",
+            "link": "https://www.patreon.com/posts/22015350",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Decals using Projectors and Rendertexture",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article12",
+            "title": "Character Customisation Prototype",
+            "date": "11/2018",
+            "link": "https://www.patreon.com/posts/22650450",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/22803341",
+            "description": "Custom Character using Blendshapes and Color masking",
+            "types": [
+                {
+                    "slug": "other"
+   }, {
+                    "slug": "gameplay"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article13",
+            "title": "Interactive Water",
+            "date": "01/2019",
+            "link": "https://www.patreon.com/posts/24192529",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/24235739",
+            "description": "Interactive water using RenderTexture and Particles",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article14",
+            "title": "Intro to Shader Graph (LWRP/URP)",
+            "date": "02/2019",
+            "link": "https://www.patreon.com/posts/24601204",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/25096975",
+            "description": "Introduction to the Shader Graph UI and a simple effect",
+            "types": [
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article15",
+            "title": "Converting to Shader Graph",
+            "date": "02/2019",
+            "link": "https://www.patreon.com/posts/24781996",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/25096975",
+            "description": "Converting 3 effects: Toon Shader, Iridescent, Snow Buildup",
+            "types": [
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article16",
+            "title": "Converting to Shader Graph 2",
+            "date": "03/2019",
+            "link": "https://www.patreon.com/posts/shader-part-2-24996282",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/25096975",
+            "description": "Converting 3 effects: Waterfall, Triplanar, Fake Liquid",
+            "types": [
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article17",
+            "title": "Interactive Snow",
+            "date": "03/2019",
+            "link": "https://www.patreon.com/posts/25641162",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/25736816",
+            "description": "Interactive snow using RenderTexture and Tesselation",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article18",
+            "title": "Selective Image Effects",
+            "date": "04/2019",
+            "link": "https://www.patreon.com/posts/26211104",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/26353960",
+            "description": "Using Stencil buffer to control image effects",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article19",
+            "title": "Shader Graph World Position Effect",
+            "date": "04/2019",
+            "link": "https://www.patreon.com/posts/26438849",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Shader Graph conversion of the World Position Radius Effects (Appear, Swap, Disappear)",
+            "types": [
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+                ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article20",
+            "title": "Astro Kat : Character Design",
+            "date": "05/2019",
+            "link": "https://www.patreon.com/posts/25345683",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Design process of a lizard character for Astro Kat (Free models & Video)",
+            "types": [
+                {
+                    "slug": "asset-pack"
+   },
+                {
+                    "slug": "design"
+   }
+                ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article21",
+            "title": "Stylized Skybox",
+            "date": "06/2019",
+            "link": "https://www.patreon.com/posts/27402644",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/27806295",
+            "description": "Unity setup for a procedural clouds skybox with a day and night setting",
+            "types": [
+                {
+                    "slug": "built-in"
+   }
+                ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article22",
+            "title": "Shader Graph (Vertex / Toon)",
+            "date": "06/2019",
+            "link": "https://www.patreon.com/posts/27942969",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Toon Lighting (Custom node) and vertex colors for specular and texture painting",
+            "types": [
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article23",
+            "title": "Blendshape Face Anim & Eye Tracking",
+            "date": "07/2019",
+            "link": "https://www.patreon.com/posts/28252090",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/28388886",
+            "description": "Facial expression animations via Blendshapes + Eye Tracking",
+            "types": [
+                {
+                    "slug": "other"
+   },
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article24",
+            "title": "Hit/ Explosion effects",
+            "date": "07/2019",
+            "link": "https://www.patreon.com/posts/28616038",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/28733514",
+            "description": "Making hit/explosion particle effects with custom particle shaders",
+            "types": [
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article25",
+            "title": "Parallax Effects",
+            "date": "09/2019",
+            "link": "https://www.patreon.com/posts/29753575",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/29853624",
+            "description": "Making parallax shaders for ice/gems",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article26",
+            "title": "Shader Graph Interactive Water",
+            "date": "10/2019",
+            "link": "https://www.patreon.com/posts/30490169",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/30596272",
+            "description": "Interactive water with foam and refraction in Shader Graph",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article27",
+            "title": "Toon Shader with Hit Effect",
+            "date": "11/2019",
+            "link": "https://www.patreon.com/posts/31534289",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/31970239",
+            "description": "Interactive water with foam and refraction in Shader Graph",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "gameplay"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article28",
+            "title": "Positional Effects",
+            "date": "11/2019",
+            "link": "https://www.patreon.com/posts/31938500",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/31970239",
+            "description": "Moving Scattered Objects Back / Growing Flowers",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "gameplay"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article29",
+            "title": "Shader Graph Positions & Sway",
+            "date": "12/2019",
+            "link": "https://www.patreon.com/posts/32245525",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/32329687",
+            "description": "Shader Graph Positional Effects and Swaying Grass",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article30",
+            "title": "Thermal Vision Effect",
+            "date": "12/2019",
+            "link": "https://www.patreon.com/posts/32245569",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/32421575",
+            "description": "Thermal/Stealh Vision using Replacement Shaders",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "gameplay"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        }
 
 ]
 }
