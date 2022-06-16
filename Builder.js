@@ -1,4 +1,4 @@
-function showAllPostsDescending() {
+function showAllPostsDescending(evt) {
 
     var i = 0;
     var list = new Array();
@@ -28,9 +28,30 @@ function showAllPostsDescending() {
 
     };
 
-    console.log("amount of posts: " + tutorials.posts.length);
+    if (evt === undefined) {
+
+    } else {
 
 
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+
+        evt.currentTarget.className += " active";
+        console.log("amount of posts: " + tutorials.posts.length);
+
+    }
+
+
+}
+
+function ShowStartButton() {
+    var allbutton = document.getElementById("allbutton");
+    allbutton.className += " active";
 }
 
 function showAllPostsAscending() {
@@ -69,7 +90,7 @@ function compare_date(a, b) {
 
 
 
-function showfilter(type) {
+function showfilter(evt, type) {
     var list = new Array();
     var textvalue;
     document.getElementById("output").innerHTML = '';
@@ -93,14 +114,22 @@ function showfilter(type) {
         fillPost(list[i]);
 
     };
+    out
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+
+    evt.currentTarget.className += " active";
 }
 
 
 function searchData() {
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("searchInput");
-    output = document.getElementById("searchOutput");
-    output.innerHTML = "";
 
 
     filter = input.value.toUpperCase();
