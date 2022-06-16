@@ -3,10 +3,10 @@ html {
     font-family: 'Domine', serif;
 }
 
-/*@font-face {
+@font-face {
     font-family: 'round';
-    src: url(/tutorials/BRLNSDB.ttf);
-}*/
+    src: url(/tutorials/BRLNSDB.TTF);
+}
 
 .mainbody {
     background-color: #353635;
@@ -90,7 +90,7 @@ html {
     font-size: 40px;
     font-weight: bold;
     line-height: 1;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: round, sans-serif;
 }
 
 .hero-text {
@@ -180,7 +180,7 @@ html {
     font-size: 20px;
     font-weight: bold;
     line-height: 1;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: round, sans-serif;
     text-align: left;
     padding: 10px;
 
@@ -221,7 +221,7 @@ html {
     text-shadow: rgb(0, 0, 0) 1px 2px 6px;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: round, sans-serif;
     text-decoration: none;
 }
 
@@ -236,7 +236,7 @@ html {
     font-size: 14px;
     font-weight: 100;
     line-height: 1;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: round, sans-serif;
     margin: 10px;
 }
 
@@ -305,7 +305,7 @@ html {
     font-weight: bold;
     text-decoration: none;
     line-height: 40px;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: round, serif;
 
 }
 
@@ -330,7 +330,8 @@ html {
     font-weight: bold;
     text-decoration: none;
     line-height: 40px;
-    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-family: round, serif;
+
 }
 
 .headertext {
