@@ -42,9 +42,10 @@ function showAllPostsDescending(evt) {
         // Show the current tab, and add an "active" class to the button that opened the tab
 
         evt.currentTarget.className += " active";
-        console.log("amount of posts: " + tutorials.posts.length);
 
     }
+
+    console.log("amount of posts: " + tutorials.posts.length);
 
 
 }
@@ -79,7 +80,7 @@ function showAllPostsAscending() {
 }
 
 function compare_date(a, b) {
-    console.log(a.date + b.date);
+
     var dateA = a.date.split('/');
     dateA = dateA[1] + dateA[0];
     var dateB = b.date.split('/');
@@ -141,42 +142,69 @@ function searchData() {
 function searchUnits(keyword) {
     var i, output, textvalue, j, l, result = "";
 
-    var fields = keyword.split(' ', 3);
+    var fields = keyword.split(' ');
+    console.log(fields.length);
     var list = new Array();
     document.getElementById("output").innerHTML = '';
 
-    for (let i = 0; i < tutorials.posts.length; i++) {
-        textvalue = tutorials.posts[i].title;
-        if (textvalue.toUpperCase().indexOf(fields[0]) > -1) {
-            if (!isInArray(list, tutorials.posts[i].id)) {
-                list.push(tutorials.posts[i].id);
-            }
-        }
-        textvalue = tutorials.posts[i].description;
-        if (textvalue.toUpperCase().indexOf(fields[0]) > -1) {
-            if (!isInArray(list, tutorials.posts[i].id)) {
-                list.push(tutorials.posts[i].id);
-            }
-        }
-        for (let j = 0; j < tutorials.posts[i].tags.length; j++) {
-            if (fields[0] == tutorials.posts[i].tags[j].slug.toUpperCase()) {
-                if (!isInArray(list, tutorials.posts[i].id)) {
-                    list.push(tutorials.posts[i].id);
-                }
+    var searchList = Array.from(tutorials.posts);
+    for (let i = 0; i < fields.length; i++) {
+        list = new Array();
+        SearchListUsingKeyWordAndPush(searchList, fields[i], list);
+        searchList = Array.from(list);
 
-            }
-        }
+
     }
+
+
+
+
+
+
     for (let i = 0; i < list.length; i++) {
         var iDiv = test.content.cloneNode(true);
         document.getElementById("output").appendChild(iDiv);
 
         // elem.append(newDiv); // (*)
 
-        fillPost(list[i]);
+        fillPost(list[i].id);
 
-    };
+    }
 
+}
+
+function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
+    for (let i = 0; i < inlist.length; i++) {
+        textvalue = inlist[i].title;
+        if (textvalue.toUpperCase().indexOf(keyword) > -1) {
+            if (!isInArray(outlist, inlist[i])) {
+                outlist.push(inlist[i]);
+            }
+        }
+        textvalue = inlist[i].description;
+        if (textvalue.toUpperCase().indexOf(keyword) > -1) {
+            if (!isInArray(outlist, inlist[i])) {
+                outlist.push(inlist[i]);
+            }
+        }
+        for (let j = 0; j < inlist[i].tags.length; j++) {
+            if (keyword == inlist[i].tags[j].slug.toUpperCase()) {
+                if (!isInArray(outlist, inlist[i])) {
+                    outlist.push(inlist[i]);
+                }
+
+            }
+        }
+        for (let j = 0; j < inlist[i].types.length; j++) {
+            if (keyword == inlist[i].types[j].slug.toUpperCase()) {
+                if (!isInArray(outlist, inlist[i])) {
+                    outlist.push(inlist[i]);
+                }
+
+            }
+        }
+    }
+    return outlist;
 }
 
 function isInArray(array, search) {
@@ -207,6 +235,7 @@ function fillPost(id) {
             //title
             title = document.getElementById("title");
             title.innerHTML = a.title;
+
             title.setAttribute("id", "title" + a.id);
 
             // background image

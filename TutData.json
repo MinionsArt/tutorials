@@ -1366,6 +1366,8 @@ var tutorials = {
 
 
         }
+
+
 ,
         {
             "id": "article62",
@@ -1403,6 +1405,396 @@ var tutorials = {
 
                 {
                     "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+
+
+        {
+            "id": "article64",
+            "title": " Lit Toon Shader Graph",
+            "date": "08/2021",
+            "link": "https://www.patreon.com/posts/54740865",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/54959081",
+            "description": "Making a lit toon shader graph that receives shadows",
+            "types": [
+
+                {
+                    "slug": "shader-graph"
+   }
+, {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article65",
+            "title": " Inky Effect Outline URP",
+            "date": "09/2021",
+            "link": "https://www.patreon.com/posts/55990741",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/56657049",
+            "description": "URP Mesh Outlines Part 1 : Inky Effect Outline",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article66",
+            "title": " Directional Rim Outline URP",
+            "date": "09/2021",
+            "link": "https://www.patreon.com/posts/56372978",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/56657049",
+            "description": "URP Mesh Outlines Part 2 : Directional Rim Outline",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article67",
+            "title": " Aura Outline URP",
+            "date": "09/2021",
+            "link": "https://www.patreon.com/posts/56459128",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/56657049",
+            "description": "URP Mesh Outlines Part 3 : Aura Outline",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article68",
+            "title": " Aura Outline URP",
+            "date": "10/2021",
+            "link": "https://www.patreon.com/posts/57349862",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/57731700",
+            "description": "VFX Breakdown : Animated Bats Particles + Shader (Built-in and URP)",
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+, {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article69",
+            "title": " Halloween Asset Pack",
+            "date": "10/2021",
+            "link": "https://www.patreon.com/posts/57933348",
+            "extralink": "",
+
+            "patreonlink": "",
+            "description": "Free Halloween themed asset pack with skulls, gravestones, candles, weapons, lanterns, spellbook",
+            "types": [
+
+                {
+                    "slug": "asset-pack"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article70",
+            "title": " After-Image Mesh Effect",
+            "date": "11/2021",
+            "link": "https://www.patreon.com/posts/58726256",
+            "extralink": "https://www.patreon.com/posts/59049419",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+            "patreonlink": "https://www.patreon.com/posts/59003008",
+            "description": "Creating an After-Image mesh effect that trails behind, by baking skinnedmeshes",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article71",
+            "title": " Toon Lighting Update",
+            "date": "12/2021",
+            "link": "https://www.patreon.com/posts/59854502",
+            "extralink": "https://www.patreon.com/posts/59945936",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+            "patreonlink": "https://www.patreon.com/posts/59945186",
+            "description": "Update to the Toon Shader for Built-in and URP to better handle point lights",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article72",
+            "title": " Culling System & Effects",
+            "date": "12/2021",
+            "link": "https://www.patreon.com/posts/60214085",
+            "extralink": "https://www.patreon.com/posts/60255515",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+            "patreonlink": "https://www.patreon.com/posts/60255370",
+            "description": "Culling system and effects for Top-Down games",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article73",
+            "title": " Grass Painting Tool Update",
+            "date": "01/2022",
+            "link": "https://www.patreon.com/posts/61761853",
+            "extralink": "https://www.patreon.com/posts/63117476",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+            "patreonlink": "https://www.patreon.com/posts/63117476",
+            "description": "Grass Update Part 1, Painting Tool Improvements",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article74",
+            "title": " Grass Compute Shader Update",
+            "date": "01/2022",
+            "link": "https://www.patreon.com/posts/62240948",
+            "extralink": "https://www.patreon.com/posts/63117476",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+            "patreonlink": "https://www.patreon.com/posts/63117476",
+            "description": "Grass Update Part 2, Shader Update with Terrain Blending",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+               ,
+        {
+            "id": "article75",
+            "title": " Moving Kat 4: 3rd Person Cam",
+            "date": "03/2022",
+            "link": "https://www.patreon.com/posts/64067762",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/64394049",
+            "description": "Part 4 of the Character Controller series, going over the setup for a 3rd person camera with Cinemachine",
+
+            "types": [
+
+                {
+                    "slug": "gameplay"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article76",
+            "title": " Moving Kat 5: Targetting",
+            "date": "03/2022",
+            "link": "https://www.patreon.com/posts/64421388",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/64566227",
+            "description": "Part 5 of the Character Controller series, Setting up a Targetting camera and locked on system with Cinemachine",
+
+            "types": [
+
+                {
+                    "slug": "gameplay"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article77",
+            "title": " RPG Themed Asset Pack",
+            "date": "04/2022",
+            "link": "https://www.patreon.com/posts/65777619",
+            "extralink": "",
+
+
+            "patreonlink": "",
+            "description": "31 RPG - themed asset requested by Twitch chat",
+
+            "types": [
+
+                {
+                    "slug": "asset-pack"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article78",
+            "title": " Glitch/Wireframe Shader Graph",
+            "date": "05/2022",
+            "link": "https://www.patreon.com/posts/67016261",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/67072815",
+            "description": "A Glitchy Wireframe effect using split normals and colored backfaces, for Shader Graph",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "shader-graph"
    }
 
 
@@ -2273,6 +2665,28 @@ var tutorials = {
                     "slug": "urp"
    }
 
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+
+        {
+            "id": "unity42",
+            "title": "Glitch/Wireframe",
+            "date": "05/2022",
+            "link": "https://www.patreon.com/posts/65951657",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/67077440",
+            "description": "A Glitchy Wireframe effect using split normals and solid colored backfaces",
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
 
 
             ],
@@ -3492,6 +3906,54 @@ var tutorials = {
             "patreonlink": "",
 
             "description": "Unity | I made an Interactive Grass Shader + Tool",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+    },
+        {
+            "id": "video13",
+            "title": "Lit Toon Shader Graph",
+            "date": "08/2021",
+            "link": "https://www.youtube.com/watch?v=FIP6I1x6lMA&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Creating a lit toon shader graph",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+    },
+        {
+            "id": "video14",
+            "title": "Grass Compute Shader Update",
+            "date": "02/2022",
+            "link": "https://www.youtube.com/watch?v=wbEn3PqX80c&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Video on the Compute Shader update for the interactive grass with tool improvements and terrain blending",
             "types": [
 
                 {
