@@ -114,7 +114,7 @@ function showfilter(evt, type) {
         fillPost(list[i]);
 
     };
-    out
+
     // Get all elements with class="tablinks" and remove the class "active"
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
