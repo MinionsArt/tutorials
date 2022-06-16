@@ -3,10 +3,10 @@ html {
     font-family: 'Domine', serif;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'round';
     src: url(/tutorials/BRLNSDB.ttf);
-}
+}*/
 
 .mainbody {
     background-color: #353635;
