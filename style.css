@@ -5,7 +5,7 @@ html {
 
 @font-face {
     font-family: 'round';
-    src: url(BRLNSDB.ttf);
+    src: url(/tutorials/BRLNSDB.ttf);
 }
 
 .mainbody {
