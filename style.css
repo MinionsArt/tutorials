@@ -106,9 +106,15 @@ html {
 }
 
 .buttons {
-    display: table;
-    margin: 0 auto;
-    text-decoration: none;
+
+    width: 500px;
+    display: grid;
+
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -203,7 +209,7 @@ html {
     left: 0px;
     width: inherit;
     height: 40px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .preview-image-holder {

@@ -1,19 +1,73 @@
-function showAllPosts() {
-    document.getElementById("output").innerHTML = '';
+function showAllPostsDescending() {
+
     var i = 0;
+    var list = new Array();
+
+
+
+
+    for (let i = 0; i < tutorials.posts.length; i++) {
+
+        var iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+
+
+
+        // elem.append(newDiv); // (*)
+        list.push(tutorials.posts[i]);
+
+
+    };
+    document.getElementById("output").innerHTML = '';
+    list.sort(compare_date);
+    list.reverse();
+    for (let i = 0; i < list.length; i++) {
+        var iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+        fillPost(list[i].id);
+
+    };
+
+    console.log("amount of posts: " + tutorials.posts.length);
+
+
+}
+
+function showAllPostsAscending() {
+    var i = 0;
+    var list = new Array();
     for (let i = 0; i < tutorials.posts.length; i++) {
         var iDiv = test.content.cloneNode(true);
         document.getElementById("output").appendChild(iDiv);
 
         // elem.append(newDiv); // (*)
+        list.push(tutorials.posts[i]);
 
-        fillPost(tutorials.posts[i].id);
 
     };
-    console.log("amount of posts: " + tutorials.posts.length);
+    document.getElementById("output").innerHTML = '';
+    list.sort(compare_date);
 
+    for (let i = 0; i < list.length; i++) {
+        var iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+        fillPost(list[i].id);
+
+    };
 
 }
+
+function compare_date(a, b) {
+    console.log(a.date + b.date);
+    var dateA = a.date.split('/');
+    dateA = dateA[1] + dateA[0];
+    var dateB = b.date.split('/');
+    dateB = dateB[1] + dateB[0];
+    return dateA - dateB;
+
+}
+
+
 
 function showfilter(type) {
     var list = new Array();
@@ -107,7 +161,19 @@ function fillPost(id) {
     for (let i = 0; i < tutorials.posts.length; i++) {
         if (id == tutorials.posts[i].id) {
             a = tutorials.posts[i];
-            var title, icon, date, description, mainlink, type, background = "";
+            var title, icon, date, description, mainlink, type, background, card = "";
+            card = document.getElementById("card");
+            card.setAttribute("id", "card" + a.id);
+            /*if (a.types[0].slug == "video") {
+                var iDiv = videoTest.content.cloneNode(true);
+                card.innerHTML = "";
+                card.appendChild(iDiv);
+                video = document.getElementById("video");
+                video.setAttribute("src", a.videolink);
+                video.setAttribute("id", "video" + a.id);
+
+            } else {*/
+
 
             //title
             title = document.getElementById("title");
@@ -238,6 +304,13 @@ function fillPost(id) {
                         typeDiv.innerHTML = "Textures";
 
                         break;
+                    case "video":
+
+                        typeDiv.setAttribute("style", "background-color: #dce065; border: 2px solid #fdffc7;")
+
+                        typeDiv.innerHTML = "Video";
+
+                        break;
                 }
                 type.appendChild(typeDiv);
 
@@ -247,6 +320,7 @@ function fillPost(id) {
             type.setAttribute("id", "type" + a.id);
 
 
+            /*}*/
         }
     }
 }

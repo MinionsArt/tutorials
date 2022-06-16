@@ -14,7 +14,7 @@
         $("#body").ready(function() {
 
 
-            showAllPosts();
+            showAllPostsDescending();
             //showNew();
 
 
@@ -24,7 +24,7 @@
     <title>Minionsart Tutorial List</title>
 
     <template id="test">
-        <div class="unit_card">
+        <div class="unit_card" id="card">
 
 
             <a class="preview-image-holder" id="linkBackground">
@@ -44,6 +44,7 @@
                 <a class="patreon-link" id="patreonlink">
                     patreon link
                 </a>
+
             </div>
 
 
@@ -51,6 +52,10 @@
 
 
         </div>
+    </template>
+
+    <template id="videoTest">
+        <iframe id="video" width="300" height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </template>
 </head>
 
@@ -101,17 +106,15 @@
         <a href="#" onclick="showfilter('asset-pack');" style="background-color: #8d48cd; border: 2px solid #be79ff;" class="typefilter"> Asset Pack </a>
         <a href="#" onclick="showfilter('design');" style="background-color: #3c422f; border: 2px solid #999c91;" class="typefilter"> Design </a>
         <a href="#" onclick="showfilter('texturing');" style="background-color: #c44e4e; border: 2px solid #f38e8e;" class="typefilter"> Textures </a>
-        <a href="#" onclick="showAllPosts();" style="background-color: #3c422f; border: 2px solid #999c91;" class="typefilter"> All </a>
+        <a href="#" onclick="showfilter('video');" style="background-color: #dce065; border: 2px solid #fdffc7;" class="typefilter"> Video </a>
+        <a href="#" onclick="showAllPostsDescending();" style="background-color: #3c422f; border: 2px solid #999c91;" class="typefilter"> All </a>
 
     </div>
 
     <div id="modS" style=" width:100%;margin: auto">
-        <h2 style="color:white;text-align: center">Search</h2>
-        <p style="color:white;text-align: center">Search name and description of posts</p>
-        <br>
         <div style="margin-right: auto; margin-left: auto; width: 300px;">
-            <input type="text" style="margin-right: auto; margin-left: auto; width: 300px;" id="searchInput">
-            <input type="submit" value="Submit" id="button">
+            <input type="text" style="margin-right: auto; margin-left: auto; width: 200px;" id="searchInput">
+            <input type="submit" value="Search" id="button">
             <p id="searchResultMod" style="color: aqua"></p>
 
         </div>
@@ -119,9 +122,12 @@
     </div>
 
     <div class="mainbody">
+
         <div class="grid-container" id="output"></div>
 
     </div>
+
+
 
 
 </main>

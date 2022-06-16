@@ -1295,7 +1295,7 @@ var tutorials = {
         },
         {
             "id": "article59",
-            "title": " Shader Graph Improved Shiny/Sparkly Shader",
+            "title": "Improved Shiny/Sparkly Shader Graph",
             "date": "05/2021",
             "link": "https://www.patreon.com/posts/51480100",
             "extralink": "",
@@ -1931,7 +1931,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/18703957",
-            "description": " Using normal and triplanar noise for a waterfall",
+            "description": "Using normal and triplanar noise for a waterfall",
             "types": [
 
                 {
@@ -1952,7 +1952,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/19389890",
-            "description": " Switching textures based on an objects position",
+            "description": "Switching textures based on an objects position",
             "types": [
 
                 {
@@ -1972,7 +1972,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/19856973",
-            "description": " Vertex displacement of grass near an object",
+            "description": "Vertex displacement of grass near an object",
             "types": [
 
                 {
@@ -1992,7 +1992,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/20406335",
-            "description": " Changing the color of shadows",
+            "description": "Changing the color of shadows",
             "types": [
 
                 {
@@ -2012,7 +2012,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/20895991",
-            "description": " Adding a colored out/glow effect to sprites",
+            "description": "Adding a colored out/glow effect to sprites",
             "types": [
 
                 {
@@ -2032,7 +2032,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/21400430",
-            "description": " A Shiny Specular material based on View and Lighting directions",
+            "description": "A Shiny Specular material based on View and Lighting directions",
             "types": [
 
                 {
@@ -2052,7 +2052,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/22502442",
-            "description": " A moving aura effect using UV distortion",
+            "description": "A moving aura effect using UV distortion",
             "types": [
 
                 {
@@ -2072,7 +2072,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/23118668",
-            "description": " Adding per-instance data to shaders",
+            "description": "Adding per-instance data to shaders",
             "types": [
 
                 {
@@ -2092,7 +2092,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/23449485",
-            "description": " Adding per-instance data to shaders",
+            "description": "Adding per-instance data to shaders",
             "types": [
 
                 {
@@ -2112,7 +2112,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/23956404",
-            "description": " A moving caustics projector shader",
+            "description": "A moving caustics projector shader",
             "types": [
 
                 {
@@ -2132,7 +2132,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/25460352",
-            "description": " Moving into position with Material Property Blocks",
+            "description": "Moving into position with Material Property Blocks",
             "types": [
 
                 {
@@ -2152,7 +2152,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/29164761",
-            "description": " Using custom data from particles for a fire effect(lifetime)",
+            "description": "Using custom data from particles for a fire effect(lifetime)",
             "types": [
 
                 {
@@ -2175,7 +2175,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/29164761",
-            "description": " Using distance fields for procedural eyeballs",
+            "description": "Using distance fields for procedural eyeballs",
             "types": [
 
                 {
@@ -2196,7 +2196,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/31141529",
-            "description": " Using an empty pass and outline for a ghost effect",
+            "description": "Using an empty pass and outline for a ghost effect",
             "types": [
 
                 {
@@ -2217,7 +2217,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "",
-            "description": " Making a fog plane effect with screen depth",
+            "description": "Making a fog plane effect with screen depth",
             "types": [
 
                 {
@@ -2242,7 +2242,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/34963755",
-            "description": " Effect that dissolves with vertex displacement",
+            "description": "Effect that dissolves with vertex displacement",
             "types": [
 
                 {
@@ -2264,7 +2264,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "",
-            "description": " Using color channels as a mask",
+            "description": "Using color channels as a mask",
             "types": [
 
                 {
@@ -2290,7 +2290,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/7718237",
-            "description": " Projecting UV's onto gradient textures",
+            "description": "Projecting UV's onto gradient textures",
             "types": [
 
                 {
@@ -2311,7 +2311,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "",
-            "description": " More in-depth step-by-step of lazy unwrapping",
+            "description": "More in-depth step-by-step of lazy unwrapping",
             "types": [
 
                 {
@@ -2333,7 +2333,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/8104936",
-            "description": " Creating a palette using warm/cold colour balance",
+            "description": "Creating a palette using warm/cold colour balance",
             "types": [
 
                 {
@@ -2354,7 +2354,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/8263299",
-            "description": " Creating a palette using the colour wheel",
+            "description": "Creating a palette using the colour wheel",
             "types": [
 
                 {
@@ -2375,7 +2375,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/8703308",
-            "description": " Adding colours to a characters",
+            "description": "Adding colours to a characters",
             "types": [
 
                 {
@@ -2397,7 +2397,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/8867540",
-            "description": " Tricks to make gradient textures look better",
+            "description": "Tricks to make gradient textures look better",
             "types": [
 
                 {
@@ -2418,7 +2418,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/12886639",
-            "description": " Expressing Wood, Cloth, and Metal with gradients",
+            "description": "Expressing Wood, Cloth, and Metal with gradients",
             "types": [
 
                 {
@@ -2439,7 +2439,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/14216700",
-            "description": " Basic rules for making the gradient textures",
+            "description": "Basic rules for making the gradient textures",
             "types": [
 
                 {
@@ -2460,7 +2460,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/15393187",
-            "description": " Some words on designing interesting plants",
+            "description": "Some words on designing interesting plants",
             "types": [
 
                 {
@@ -2485,7 +2485,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/15586517",
-            "description": " Making gradient textures look like metal",
+            "description": "Making gradient textures look like metal",
             "types": [
 
                 {
@@ -2507,7 +2507,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/16859742",
-            "description": " Steps for a seamless handpainted rock texture",
+            "description": "Steps for a seamless handpainted rock texture",
             "types": [
 
                 {
@@ -2529,7 +2529,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/17996452",
-            "description": " Using gradient textures to fake folds in clothing",
+            "description": "Using gradient textures to fake folds in clothing",
             "types": [
 
                 {
@@ -2551,7 +2551,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/18468513",
-            "description": " Stylized seamless grass/plants texture",
+            "description": "Stylized seamless grass/plants texture",
             "types": [
 
                 {
@@ -2573,7 +2573,7 @@ var tutorials = {
             "extralink": "",
 
             "patreonlink": "https://www.patreon.com/posts/22260969",
-            "description": " Stylized stone floor tile texture",
+            "description": "Stylized stone floor tile texture",
             "types": [
 
                 {
@@ -2587,7 +2587,925 @@ var tutorials = {
 
            ],
         }
+///////////////////////////////////3d
+, {
+            "id": "3d1",
+            "title": "Stylized House",
+            "date": "01/2017",
+            "link": "https://www.patreon.com/posts/7790432",
+            "extralink": "",
 
+            "patreonlink": "https://www.patreon.com/posts/7790877",
+            "description": "Adding style to a basic house model",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "3d2",
+            "title": "Prototyping with Primitives",
+            "date": "01/2017",
+            "link": "https://www.patreon.com/posts/quick-game-art-7862881",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/7867876",
+            "description": "Using Primitive shapes to build objects",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d3",
+            "title": "Character Build-up",
+            "date": "01/2017",
+            "link": "https://www.patreon.com/posts/7935265",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/7946046",
+            "description": "Thought Process behind making a character",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d4",
+            "title": "Tree Build-up",
+            "date": "02/2017",
+            "link": "https://www.patreon.com/posts/8019316",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8026439",
+            "description": "Setup overview for different tree types",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d5",
+            "title": "Stylized Ruins",
+            "date": "03/2017",
+            "link": "https://www.patreon.com/posts/8426840",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8434836",
+            "description": "Adding a worn down look to a base castle model",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d6",
+            "title": "Humanoid 'Strong' Base",
+            "date": "03/2017",
+            "link": "https://www.patreon.com/posts/8588003",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8595767",
+            "description": "Make a base model of a strong looking character",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d7",
+            "title": "Quadruped 'Hunter' Base",
+            "date": "04/2017",
+            "link": "https://www.patreon.com/posts/8770669",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/8779536",
+            "description": "Make a base model for a four-legged hunter",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d8",
+            "title": "Humanoid 'Cute' Base",
+            "date": "04/2017",
+            "link": "https://www.patreon.com/posts/9224678",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/9290744",
+            "description": "Make a base model for a cute humanoid",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d9",
+            "title": "Toon Eyes",
+            "date": "05/2017",
+            "link": "https://www.patreon.com/posts/9707447",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/9807028",
+            "description": "Making full geometry toon eyes",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d10",
+            "title": "Base > Finished 'Cute'",
+            "date": "05/2017",
+            "link": "https://www.patreon.com/posts/10699596",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/10847714",
+            "description": "Finishing a humanoid cute model from the base",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d11",
+            "title": "Tiny Environment Concepts",
+            "date": "05/2017",
+            "link": "https://www.patreon.com/posts/11209539",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/11228263",
+            "description": "Quickly prototyping small environments",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d12",
+            "title": "Stylized Rocks",
+            "date": "05/2017",
+            "link": "https://www.patreon.com/posts/11435399",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/11454342",
+            "description": "Steps for modelling a clump of rocks",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d13",
+            "title": "Minotaur",
+            "date": "06/2017",
+            "link": "https://www.patreon.com/posts/11582647",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/11595892",
+            "description": "Making a minotaur character from the strong humanoid base",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "3d14",
+            "title": "Stylized Hair",
+            "date": "06/2017",
+            "link": "https://www.patreon.com/posts/11696817",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/11783511",
+            "description": "Steps to model stylized hair",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d15",
+            "title": "Fantasy Swords",
+            "date": "06/2017",
+            "link": "https://www.patreon.com/posts/11826759",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/11861442",
+            "description": "Making swords from components (with Random Generator)",
+            "types": [
+
+                {
+                    "slug": "3d"
+   },
+                {
+                    "slug": "other"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d16",
+            "title": "Hands",
+            "date": "07/2017",
+            "link": "https://www.patreon.com/posts/12440010",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/12471499",
+            "description": "Steps to model simple hands",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d17",
+            "title": "Bat Wings",
+            "date": "07/2017",
+            "link": "https://www.patreon.com/posts/13278579",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/13317219",
+            "description": "Steps to model bat wings",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d18",
+            "title": "Toon Skulls",
+            "date": "07/2017",
+            "link": "https://www.patreon.com/posts/13555743",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/13579656",
+            "description": "Steps to make happy skulls",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d19",
+            "title": "Stylized Layered Rocks",
+            "date": "08/2017",
+            "link": "https://www.patreon.com/posts/13854302",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/13867733",
+            "description": "Steps for a layered rock formation",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+, {
+            "id": "3d20",
+            "title": "Jacket & Trousers",
+            "date": "08/2017",
+            "link": "https://www.patreon.com/posts/14089232",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/14095730",
+            "description": "Adding an outfit to a character",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d21",
+            "title": "Stylized Tree",
+            "date": "09/2017",
+            "link": "https://www.patreon.com/posts/14329689",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/14344949",
+            "description": "Steps for a mushroom-like stylized big tree",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+              , {
+            "id": "3d22",
+            "title": "Spooky Props",
+            "date": "10/2017",
+            "link": "https://www.patreon.com/posts/14929892",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/14968371",
+            "description": "Simple Pumpkin, Spider, and Ghost for Halloween",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+                , {
+            "id": "3d23",
+            "title": "Fish",
+            "date": "12/2017",
+            "link": "https://www.patreon.com/posts/15852332",
+            "extralink": "https://www.patreon.com/posts/15886388",
+            "extralink_description": "Free Models Pack",
+            "patreonlink": "https://www.patreon.com/posts/15888021",
+            "description": "Making fish from components (with Random Generator)",
+            "types": [
+
+                {
+                    "slug": "3d"
+   },
+                {
+                    "slug": "other"
+   }
+,
+                {
+                    "slug": "asset-pack"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+   , {
+            "id": "3d24",
+            "title": "Fantasy Shields",
+            "date": "01/2018",
+            "link": "https://www.patreon.com/posts/16297874",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/16308103",
+            "description": "Steps to make fantasy shields",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+ , {
+            "id": "3d25",
+            "title": "Toon Faces",
+            "date": "01/2018",
+            "link": "https://www.patreon.com/posts/16569049",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/16603444",
+            "description": "Steps for a cute female face",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+              , {
+            "id": "3d26",
+            "title": "Modular Wall",
+            "date": "02/2018",
+            "link": "https://www.patreon.com/posts/17253606",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/17265013",
+            "description": "Steps for stylized wall building blocks",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d27",
+            "title": "Pine Tree",
+            "date": "03/2018",
+            "link": "https://www.patreon.com/posts/17531808",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/17532539",
+            "description": "Steps for a pine tree from primitive shapes",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d28",
+            "title": "Dragon Head",
+            "date": "08/2018",
+            "link": "https://www.patreon.com/posts/20674019",
+            "extralink": "",
+
+            "patreonlink": "https://www.patreon.com/posts/20738610",
+            "description": "Steps for a basic dragon/ lizard head",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "3d29",
+            "title": "Santa Hat",
+            "date": "12/2018",
+            "link": "https://www.patreon.com/posts/23472026",
+            "extralink": "",
+
+            "patreonlink": "",
+            "description": "Creating a festive christmas hat",
+            "types": [
+
+                {
+                    "slug": "3d"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+              //// videos
+
+              , {
+            "id": "video1",
+            "title": "Character Model - Concept Art Imp",
+            "date": "09/2017",
+            "link": "https://www.youtube.com/watch?v=oYer6ukpBBk&list=PLV96MV08FFhfKZ8uJmJSj4luyfUH0IPcJ&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "The first step in this character model series, making the concept art for an imp",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video2",
+            "title": "Character Model - Modelling an Imp",
+            "date": "09/2017",
+            "link": "https://www.youtube.com/watch?v=L0J3nZTk-No&list=PLV96MV08FFhfKZ8uJmJSj4luyfUH0IPcJ&index=3&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "The second step in this character model series, making the 3D model",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video3",
+            "title": "Character Model - Texturing an Imp",
+            "date": "09/2017",
+            "link": "https://www.youtube.com/watch?v=DD84GSJiTVc&list=PLV96MV08FFhfKZ8uJmJSj4luyfUH0IPcJ&index=3&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "The final step in this character model series, texturing the model",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video4",
+            "title": "Fantasy Sword Speed Model",
+            "date": "08/2017",
+            "link": "https://www.youtube.com/watch?v=f77_sQEUKng&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Making a fantasy sword in Maya LT 2017 based on a loose sketch. ",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video5",
+            "title": "Fantasy Shield Speed Model",
+            "date": "08/2017",
+            "link": "https://www.youtube.com/watch?v=IJYH8bVQqVI&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Speed modeling a shield in Maya LT. ",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video6",
+            "title": "Toon Face Speed Model",
+            "date": "01/2018",
+            "link": "https://www.youtube.com/watch?v=py4DVbNOMQ8&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Speed modeling a toon face in Maya LT. ",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video7",
+            "title": "Sprite Color Mask Shader",
+            "date": "07/2020",
+            "link": "https://www.youtube.com/watch?v=4dAGUxvsD24&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Creating a Sprite Color Mask in Shader Graph ",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video8",
+            "title": "Lizard Model",
+            "date": "07/2020",
+            "link": "https://www.youtube.com/watch?v=MCQPAQq2lsI&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Maya | Making of Lizard Boi 3D Model ",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video9",
+            "title": "Gradient Map Effect",
+            "date": "08/2020",
+            "link": "https://www.youtube.com/watch?v=Kv9W7qQ0ONY&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Custom Image Effects | Gradient Map in Unity URP",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+
+
+        {
+            "id": "video10",
+            "title": "Stylized Waterfall Shader",
+            "date": "08/2020",
+            "link": "https://www.youtube.com/watch?v=DIE3qfCGXl8&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Stylized Waterfall Shader breakdown",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+    },
+        {
+            "id": "video11",
+            "title": "Stylized Glass Shader Graph",
+            "date": "11/2020",
+            "link": "https://www.youtube.com/watch?v=B975bBfHTTg&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Unity Shader Graph | Creating Stylized Glass",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+    },
+        {
+            "id": "video12",
+            "title": "Geometry Grass Tool",
+            "date": "01/2021",
+            "link": "https://www.youtube.com/watch?v=xKJHL8nQiuM&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Unity | I made an Interactive Grass Shader + Tool",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+    }
 
 ]
 }
