@@ -1757,7 +1757,8 @@ var tutorials = {
         {
             "id": "article77",
             "title": " RPG Themed Asset Pack",
-            "date": "04/2022",
+            "date": "06/2022",
+            "originalDate": "04/2022",
             "link": "https://www.patreon.com/posts/65777619",
             "extralink": "",
 
