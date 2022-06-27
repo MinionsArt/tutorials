@@ -98,13 +98,15 @@ function showfilter(evt, type) {
     for (let i = 0; i < tutorials.posts.length; i++) {
         for (let j = 0; j < tutorials.posts[i].types.length; j++) {
             if (type == tutorials.posts[i].types[j].slug) {
-                if (!isInArray(list, tutorials.posts[i].id)) {
-                    list.push(tutorials.posts[i].id);
+                if (!isInArray(list, tutorials.posts[i])) {
+                    list.push(tutorials.posts[i]);
                 }
 
             }
         }
     }
+    list.sort(compare_date);
+    list.reverse();
 
     for (let i = 0; i < list.length; i++) {
         var iDiv = test.content.cloneNode(true);
@@ -112,7 +114,7 @@ function showfilter(evt, type) {
 
         // elem.append(newDiv); // (*)
 
-        fillPost(list[i]);
+        fillPost(list[i].id);
 
     };
 
@@ -218,7 +220,7 @@ function fillPost(id) {
     for (let i = 0; i < tutorials.posts.length; i++) {
         if (id == tutorials.posts[i].id) {
             a = tutorials.posts[i];
-            var title, icon, date, description, mainlink, type, background, card = "";
+            var title, icon, date, originalDate, description, mainlink, type, background, card = "";
             card = document.getElementById("card");
             card.setAttribute("id", "card" + a.id);
             /*if (a.types[0].slug == "video") {
@@ -253,11 +255,26 @@ function fillPost(id) {
 
             background.setAttribute("id", "linkBackground" + a.id);
             background.setAttribute("style", "background-image: url(" + "/tutorials/Images/Thumbnails/" + a.id + ".jpg");
-            // date
 
+            // date
             date = document.getElementById("postdate");
-            date.innerHTML = a.date;
+            originalDate = document.getElementById("originaldate");
+            if (a.originalDate == undefined) {
+                // original date for updated posts
+                date.innerHTML = a.date;
+                originalDate.innerHTML = "";
+
+            } else {
+                originalDate.innerHTML = a.originalDate;
+                date.innerHTML = a.date + " *Updated*";
+            }
+            originalDate.setAttribute("id", "originaldate" + a.id);
+
+
+
             date.setAttribute("id", "postdate" + a.id);
+
+
             // description
             description = document.getElementById("postdescription");
             description.innerHTML = a.description;

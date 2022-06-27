@@ -227,6 +227,18 @@ html {
     text-decoration: none;
 }
 
+.ogdate {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: darkgrey;
+    text-shadow: rgb(0, 0, 0) 1px 2px 6px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: round, sans-serif;
+    text-decoration: none;
+}
+
 
 .description {
 

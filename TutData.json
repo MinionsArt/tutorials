@@ -1123,7 +1123,8 @@ var tutorials = {
         {
             "id": "article52",
             "title": "URP Tessellation",
-            "date": "12/2020",
+            "date": "06/2022",
+            "originalDate": "12/2020",
             "link": "https://www.patreon.com/posts/45320078",
             "extralink": "",
 
