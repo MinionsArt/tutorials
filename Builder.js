@@ -162,7 +162,8 @@ function searchUnits(keyword) {
 
 
 
-
+    list.sort(compare_date);
+    list.reverse();
     for (let i = 0; i < list.length; i++) {
         var iDiv = test.content.cloneNode(true);
         document.getElementById("output").appendChild(iDiv);
