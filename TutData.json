@@ -331,7 +331,7 @@ var tutorials = {
         {
             "id": "article17",
             "title": "Interactive Snow",
-            "date": "06/2022",
+            "date": "07/2022",
             "originalDate": "03/2019",
             "link": "https://www.patreon.com/posts/25641162",
             "extralink": "",
@@ -1201,7 +1201,8 @@ var tutorials = {
         {
             "id": "article55",
             "title": "URP Interactive Snow ",
-            "date": "02/2021",
+            "date": "07/2022",
+            "originalDate": "02/2021",
             "link": "https://www.patreon.com/posts/47452596",
             "extralink": "",
 
