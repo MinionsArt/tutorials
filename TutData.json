@@ -1808,6 +1808,33 @@ var tutorials = {
            ],
 
 
+        },
+        {
+            "id": "article79",
+            "title": " Custom Meshes in UI",
+            "date": "08/2022",
+            "link": "https://www.patreon.com/posts/69499068",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/custom-meshes-in-70427383",
+            "description": "Script and Shaders to create Custom Meshes in the UI",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "built-in"
+   }
+
+
+            ],
+            "tags": [
+
+           ],
+
+
         }
               // quick shader
 
@@ -3971,7 +3998,30 @@ var tutorials = {
             "tags": [
 
            ],
-    }
+    }, {
+            "id": "video15",
+            "title": "Custom UI Meshes URP + Built-In",
+            "date": "08/2022",
+            "link": "https://youtu.be/G9teDAkhaXs",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Creating Custom Meshes for UI",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
 
 ]
 }
