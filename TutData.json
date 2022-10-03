@@ -1811,9 +1811,9 @@ var tutorials = {
         },
         {
             "id": "article79",
-            "title": " Custom Meshes in UI",
+            "title": "Custom Meshes in UI",
             "date": "08/2022",
-            "link": "https://www.patreon.com/posts/69499068",
+            "link": "https://www.patreon.com/posts/vfx-breakdown-71191108",
             "extralink": "",
 
 
@@ -1826,7 +1826,59 @@ var tutorials = {
                     "slug": "urp"
    }, {
                     "slug": "built-in"
+   }, ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article80",
+            "title": "Lightning / Shock Particles",
+            "date": "08/2022",
+            "link": "https://www.patreon.com/posts/69499068",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/lightning-files-71300701",
+            "extralink": "https://www.patreon.com/posts/lightning-files-71301075",
+            "description": "VFX Breakdown : Lightning Particles + Shader(Graph)",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "built-in"
    }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }, {
+            "id": "article81",
+            "title": "Mesh Decals in URP",
+            "date": "09/2022",
+            "link": "https://www.patreon.com/posts/mesh-decals-in-72532653",
+            "extralink": "",
+
+
+            "patreonlink": "",
+
+            "description": "Setting up Mesh based Decals in URP",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
 
 
             ],
@@ -4008,6 +4060,29 @@ var tutorials = {
             "patreonlink": "",
 
             "description": "Creating Custom Meshes for UI",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video16",
+            "title": "Unity | Interactive Snow Shader | Stylized Setup URP + Built-In",
+            "date": "07/2022",
+            "link": "https://www.youtube.com/watch?v=zr5kgZeo9LA&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Interactive Snow Shader",
             "types": [
 
                 {
