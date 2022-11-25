@@ -372,10 +372,11 @@ var tutorials = {
         {
             "id": "article19",
             "title": "Shader Graph World Position Effect",
-            "date": "04/2019",
+            "date": "11/2022",
+            "originalDate": "04/2019",
             "link": "https://www.patreon.com/posts/26438849",
             "extralink": "",
-            "patreonlink": "",
+            "patreonlink": "https://www.patreon.com/posts/world-position-74358101",
             "description": "Shader Graph conversion of the World Position Radius Effects (Appear, Swap, Disappear)",
             "types": [
                 {
@@ -1888,6 +1889,36 @@ var tutorials = {
 
 
         }
+              , {
+            "id": "article82",
+            "title": "Resource Orb/Shape Shader",
+            "date": "10/2022",
+            "link": "https://www.patreon.com/posts/resource-orb-urp-73860779",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/resource-orb-urp-74346346",
+
+            "description": "A filling Resource UI Shader with custom shape support",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "built-in"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
               // quick shader
 
               ,
@@ -2381,7 +2412,8 @@ var tutorials = {
         {
             "id": "unity24",
             "title": "Fake Liquid Shader",
-            "date": "04/2018",
+            "date": "11/2022",
+            "originalDate": "04/2018",
             "link": "https://www.patreon.com/posts/18245226",
             "extralink": "",
 
