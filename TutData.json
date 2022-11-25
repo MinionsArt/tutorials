@@ -4128,6 +4128,29 @@ var tutorials = {
             "tags": [
 
            ],
+        }, {
+            "id": "video17",
+            "title": "Unity | How to make Shock / Lightning Particles",
+            "date": "09/2022",
+            "link": "https://www.youtube.com/watch?v=NMTXHnsxgss&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Lightning VFX breakdown",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
         }
 
 ]
