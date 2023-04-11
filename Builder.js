@@ -1,3 +1,11 @@
+ const queryString = window.location.search;
+ const urlParams = new URLSearchParams(queryString);
+
+ // get parameters stuff
+ const filter = urlParams.get('type');
+
+
+
 function showAllPostsDescending(evt) {
 
     var i = 0;
@@ -53,6 +61,10 @@ function showAllPostsDescending(evt) {
 function ShowStartButton() {
     var allbutton = document.getElementById("allbutton");
     allbutton.className += " active";
+    
+     if (filter != undefined) {
+     showfilter(event, filter)
+ }
 }
 
 function showAllPostsAscending() {
@@ -127,6 +139,10 @@ function showfilter(evt, type) {
     // Show the current tab, and add an "active" class to the button that opened the tab
 
     evt.currentTarget.className += " active";
+    
+      var currenturl = window.location.href.split('?')[0];
+
+     window.history.replaceState({}, 'foo', currenturl + "?type=" + type);
 }
 
 
