@@ -174,7 +174,7 @@ html {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    width: inherit;
+    width: 280px;
     color: white;
     text-shadow: rgb(136, 70, 190) 3px 3px 1px, rgb(136, 70, 190) 1px 1px 1px,
         rgb(136, 70, 190) -1px -1px 1px;
