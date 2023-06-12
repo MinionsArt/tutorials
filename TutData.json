@@ -371,7 +371,7 @@ var tutorials = {
         },
         {
             "id": "article19",
-            "title": "Shader Graph World Position Effect",
+            "title": "World Position Effects Part 1: Sphere Radius",
             "date": "11/2022",
             "originalDate": "04/2019",
             "link": "https://www.patreon.com/posts/26438849",
@@ -1373,52 +1373,53 @@ var tutorials = {
 
 
 ,
-        {
-            "id": "article62",
-            "title": " Compute Shader Grass + Tool",
-            "date": "07/2021",
-            "link": "https://www.patreon.com/posts/53587750",
-            "extralink": "",
-
-            "patreonlink": "https://www.patreon.com/posts/53939857",
-            "description": "Compute Shader Version and Tool Update",
-            "types": [
-
+        /*
                 {
-                    "slug": "built-in"
-   }
+                    "id": "article62",
+                    "title": " Compute Shader Grass + Tool",
+                    "date": "07/2021",
+                    "link": "https://www.patreon.com/posts/53587750",
+                    "extralink": "",
+
+                    "patreonlink": "https://www.patreon.com/posts/53939857",
+                    "description": "Compute Shader Version and Tool Update",
+                    "types": [
+
+                        {
+                            "slug": "built-in"
+           }
 
 
-            ],
-            "tags": [
+                    ],
+                    "tags": [
 
-           ],
+                   ],
 
 
-        },
-        {
-            "id": "article63",
-            "title": "URP Compute Shader Grass + Tool",
-            "date": "07/2021",
-            "link": "https://www.patreon.com/posts/54164790",
-            "extralink": "",
-
-            "patreonlink": "https://www.patreon.com/posts/54214472",
-            "description": "Compute Shader Version and Tool Update for URP",
-            "types": [
-
+                }, 
                 {
-                    "slug": "built-in"
-   }
+                    "id": "article63",
+                    "title": "URP Compute Shader Grass + Tool",
+                    "date": "07/2021",
+                    "link": "https://www.patreon.com/posts/54164790",
+                    "extralink": "",
+
+                    "patreonlink": "https://www.patreon.com/posts/54214472",
+                    "description": "Compute Shader Version and Tool Update for URP",
+                    "types": [
+
+                        {
+                            "slug": "built-in"
+           }
 
 
-            ],
-            "tags": [
+                    ],
+                    "tags": [
 
-           ],
+                   ],
 
 
-        },
+                }, */
 
 
         {
@@ -1519,7 +1520,7 @@ var tutorials = {
         },
         {
             "id": "article68",
-            "title": " Aura Outline URP",
+            "title": " Bat VFX Breakdown",
             "date": "10/2021",
             "link": "https://www.patreon.com/posts/57349862",
             "extralink": "",
@@ -1648,7 +1649,7 @@ var tutorials = {
 
 
         },
-        {
+       /* {
             "id": "article73",
             "title": " Grass Painting Tool Update",
             "date": "01/2022",
@@ -1675,18 +1676,18 @@ var tutorials = {
            ],
 
 
-        }
-              ,
+        } 
+              ,*/
         {
             "id": "article74",
-            "title": " Grass Compute Shader Update",
+            "title": " Grass Compute Blending",
             "date": "01/2022",
             "link": "https://www.patreon.com/posts/62240948",
             "extralink": "https://www.patreon.com/posts/63117476",
             "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
 
             "patreonlink": "https://www.patreon.com/posts/63162723",
-            "description": "Grass Update Part 2, Shader Update with Terrain Blending",
+            "description": "Setting up Terrain Blending for the Compute Grass shader",
 
             "types": [
 
@@ -1911,6 +1912,201 @@ var tutorials = {
    }
 
 
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }, {
+            "id": "article83",
+            "title": "Fake Liquid Shader Graph",
+            "date": "11/2022",
+            "link": "https://www.patreon.com/posts/fake-liquid-urp-75665057",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/liquid-shader-75622191",
+
+            "description": "A fake liquid effect that reacts to movement",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+            ],
+            "tags": [
+           ],
+        },
+        {
+            "id": "article84",
+            "title": "World Position Effects 2: More Shapes",
+            "date": "01/2023",
+            "link": "https://www.patreon.com/posts/urp-world-part-2-77812661",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/world-position-74358101",
+
+            "description": "Box/Square Shape and Multiple Interactors",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "shader-graph"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article85",
+            "title": "World Position Effects 2: More Shapes",
+            "date": "02/2023",
+            "link": "https://www.patreon.com/posts/birp-world-part-78327175",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/19389890",
+
+            "description": "Box/Square Shape and Multiple Interactors",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article86",
+            "title": "Stencil Buffer Lights",
+            "date": "02/2023",
+            "link": "https://www.patreon.com/posts/wind-waker-style-78831006",
+            "extralink": "https://www.patreon.com/posts/stencil-buffer-78907348",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+
+            "patreonlink": "https://www.patreon.com/posts/stencil-buffer-78907474",
+
+            "description": "Wind Waker style low-poly lights using the stencil buffer",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+               ,
+        {
+            "id": "article87",
+            "title": "Basic Quad/Octree Culling 1",
+            "date": "03/2023",
+            "link": "https://www.patreon.com/posts/basic-quad-for-1-80481278",
+            "extralink": "https://www.patreon.com/posts/quad-octree-urp-80788948",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+
+            "patreonlink": "https://www.patreon.com/posts/quad-octree-birp-80781703",
+
+            "description": "Setup for Quad/OcTree Culling for Instanced Meshes, the Culling Tree",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "shader-graph"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+                 ,
+        {
+            "id": "article88",
+            "title": "Basic Quad/Octree Culling 2",
+            "date": "03/2023",
+            "link": "https://www.patreon.com/posts/basic-quad-for-2-80481579",
+            "extralink": "https://www.patreon.com/posts/quad-octree-urp-80788948",
+            "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
+
+
+            "patreonlink": "https://www.patreon.com/posts/quad-octree-birp-80781703",
+
+            "description": "Setup for Quad/OcTree Culling for Instanced Meshes, Instantiating Meshes",
+
+            "types": [
+
+                {
+                    "slug": "built-in"
+   },
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "shader-graph"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+                 ,
+        {
+            "id": "article89",
+            "title": "Grass System Shader Graph",
+            "date": "05/2023",
+            "link": "https://www.patreon.com/posts/shader-graph-for-81985104",
+            "extralink": "",
+
+
+            "patreonlink": "",
+
+            "description": "Shader Graph for Compute Grass System, using custom function nodes",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "shader-graph"
+   }
 
             ],
             "tags": [
@@ -4138,6 +4334,53 @@ var tutorials = {
             "patreonlink": "",
 
             "description": "Lightning VFX breakdown",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        },
+        {
+            "id": "video18",
+            "title": "Liquid Shader Breakdown | Unity URP + Built-in",
+            "date": "12/2022",
+            "link": "https://www.youtube.com/watch?v=DKSpgFuKeb4&ab_channel=MinionsArt",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Liquid Shader Breakdown Video",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video19",
+            "title": "Recreating Wind Waker Style Lights in Unity",
+            "date": "03/2023",
+            "link": "https://youtu.be/mNndyHHNh78",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Stencil Lights Breakdown Video",
             "types": [
 
                 {
