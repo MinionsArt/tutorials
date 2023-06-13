@@ -218,7 +218,7 @@ html {
     top: 5%;
     left: 5%;
     color: white;
-    text-shadow: rgb(0, 0, 0) 1px 2px 6px;
+    text-shadow: #30144a -1.5px -1.5px 2px, #30144a 1.5px -1.5px 2px, #30144a -1.5px 1.5px 2px;
     font-size: 14px;
     font-weight: bold;
     font-family: round, sans-serif;
