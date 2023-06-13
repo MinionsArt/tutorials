@@ -171,20 +171,18 @@ html {
 }
 
 .centered {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+
+
     width: 280px;
     color: white;
-    text-shadow: rgb(136, 70, 190) 3px 3px 1px, rgb(136, 70, 190) 1px 1px 1px,
-        rgb(136, 70, 190) -1px -1px 1px;
-
+    text-shadow: #30144a -1px -2px 0px, #30144a 2px -2px 1px, #30144a 0px 1px 1px;
     font-size: 20px;
-    font-weight: bold;
     line-height: 1;
-    font-family: round, sans-serif;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', sans-serif;
     text-align: left;
-    padding: 10px;
+    padding: 5px;
+    padding-left: 10px;
 
 }
 
@@ -274,8 +272,8 @@ html {
     bottom: 0px;
     left: 0px;
     width: inherit;
-    height: 40px;
-    background: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .preview-image-holder {
