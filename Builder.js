@@ -377,9 +377,16 @@
                          break;
                      case "urp":
 
-                         typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+                         typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;")
 
                          typeDiv.innerHTML = "URP";
+
+                         break;
+                     case "godot":
+
+                         typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
+
+                         typeDiv.innerHTML = "GODOT";
 
                          break;
                      case "asset-pack":

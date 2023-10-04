@@ -2086,8 +2086,7 @@ var tutorials = {
            ],
 
 
-        }
-                 ,
+        },
         {
             "id": "article89",
             "title": "Grass System Shader Graph",
@@ -2106,6 +2105,112 @@ var tutorials = {
                     "slug": "urp"
    }, {
                     "slug": "shader-graph"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article90",
+            "title": "Grass System",
+            "date": "06/2023",
+            "link": "https://www.patreon.com/posts/grass-system-urp-83683483",
+            "extralink": "https://www.patreon.com/posts/grass-system-urp-85356573",
+
+
+            "patreonlink": "https://www.patreon.com/posts/grass-system-in-85318378",
+
+            "description": "The full interactive generating grass system",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "shader-graph"
+   }, {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article91",
+            "title": "Portal Effect with Stencil Decals",
+            "date": "08/2023",
+            "link": "https://www.patreon.com/posts/portal-effect-88069142",
+            "extralink": "https://www.patreon.com/posts/stencil-decal-88360229",
+
+
+            "patreonlink": "https://www.patreon.com/posts/stencil-decals-88419240",
+
+            "description": "Create a portal effect using the Stencil Buffer",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }, {
+                    "slug": "built-in"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article92",
+            "title": "Animated Light Cookie ",
+            "date": "08/2023",
+            "link": "https://www.patreon.com/posts/animated-light-88618240",
+            "extralink": "",
+
+
+            "patreonlink": "",
+
+            "description": "Creating Cloud & Tree Shadows using Directional Light Cookies",
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article93",
+            "title": "Stylized Skybox Shader",
+            "date": "09/2023",
+            "link": "https://www.patreon.com/posts/stylized-skybox-89917325",
+            "extralink": "",
+
+
+            "patreonlink": "",
+
+            "description": "A stylized Skybox with sun, moon, and clouds for Godot 4",
+
+            "types": [
+
+                {
+                    "slug": "godot"
    }
 
             ],
@@ -4381,6 +4486,29 @@ var tutorials = {
             "patreonlink": "",
 
             "description": "Stencil Lights Breakdown Video",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }, {
+            "id": "video20",
+            "title": "Even Better Interactive Grass System",
+            "date": "03/2023",
+            "link": "https://youtu.be/2OA9sicjj7E",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "Grass System Update Video",
             "types": [
 
                 {
