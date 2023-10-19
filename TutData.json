@@ -2178,7 +2178,7 @@ var tutorials = {
             "extralink": "",
 
 
-            "patreonlink": "",
+            "patreonlink": "https://www.patreon.com/posts/urp-light-cookie-91271610",
 
             "description": "Creating Cloud & Tree Shadows using Directional Light Cookies",
 
@@ -2186,6 +2186,10 @@ var tutorials = {
 
                 {
                     "slug": "urp"
+   },
+
+                {
+                    "slug": "shader-graph"
    }
 
             ],
@@ -2211,6 +2215,37 @@ var tutorials = {
 
                 {
                     "slug": "godot"
+   }
+
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article94",
+
+            "title": "URP Light Cookies",
+            "date": "10/2023",
+            "link": "https://www.patreon.com/posts/urp-light-color-88419650",
+            "extralink": "",
+
+
+            "patreonlink": "https://www.patreon.com/posts/urp-light-cookie-91271610",
+
+
+            "description": "Some more effects using light cookies (Orbs, Colors, Caustics, and Point Lights)",
+
+
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "shader-graph"
    }
 
             ],
