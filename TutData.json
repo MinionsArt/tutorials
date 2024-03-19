@@ -2120,7 +2120,7 @@ var tutorials = {
             "date": "06/2023",
             "link": "https://www.patreon.com/posts/grass-system-urp-83683483",
             "extralink": "https://www.patreon.com/posts/grass-system-urp-85356573",
-
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
 
             "patreonlink": "https://www.patreon.com/posts/grass-system-in-85318378",
 
@@ -2150,7 +2150,7 @@ var tutorials = {
             "link": "https://www.patreon.com/posts/portal-effect-88069142",
             "extralink": "https://www.patreon.com/posts/stencil-decal-88360229",
 
-
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
             "patreonlink": "https://www.patreon.com/posts/stencil-decals-88419240",
 
             "description": "Create a portal effect using the Stencil Buffer",
@@ -2248,6 +2248,121 @@ var tutorials = {
                     "slug": "shader-graph"
    }
 
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article95",
+            "title": "Free Asset Pack - Halloween 2",
+            "date": "10/2023",
+            "link": "https://www.patreon.com/posts/free-asset-pack-91590914",
+            "extralink": "",
+            "patreonlink": "",
+            "description": "Extended low-poly Halloween models asset pack",
+            "types": [
+
+                {
+                    "slug": "asset-pack"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article96",
+            "title": "Godot - Lightning Particles Effect",
+            "date": "12/2023",
+            "link": "https://www.patreon.com/posts/godot-lightning-95017731",
+            "extralink": "",
+            "patreonlink": "https://www.patreon.com/posts/godot-4-particle-95017570",
+            "description": "Setting up lightning/shock particles in Godot 4",
+            "types": [
+
+                {
+                    "slug": "godot"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+              ,
+        {
+            "id": "article97",
+            "title": "Unity - Glitchy Display Shader",
+            "date": "12/2023",
+            "link": "https://www.patreon.com/posts/unity-glitchy-94335880",
+            "extralink": "https://www.patreon.com/posts/glitchy-display-96363405",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "",
+            "description": "Creating a layered and parralax glitching shader",
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "shader-graph"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        }
+                ,
+        {
+            "id": "article98",
+            "title": "Selective Image Effects URP Edition",
+            "date": "01/2024",
+            "link": "https://www.patreon.com/posts/selective-image-97503637",
+            "extralink": "https://www.patreon.com/posts/urp-selective-97559035",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "",
+            "description": "Using stencil and render features for selective fullscreen effects",
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "shader-graph"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article99",
+            "title": "Bonus: Selective Pixelation URP",
+            "date": "01/2024",
+            "link": "https://www.patreon.com/posts/bonus-selective-98590556",
+            "extralink": "https://www.patreon.com/posts/urp-selective-97559035",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "",
+            "description": "Creating Selective fullscreen Pixelation or Creating a 3D censor bar (URP)",
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "shader-graph"
+   }
             ],
             "tags": [
 
@@ -4544,6 +4659,30 @@ var tutorials = {
             "patreonlink": "",
 
             "description": "Grass System Update Video",
+            "types": [
+
+                {
+                    "slug": "video"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ],
+        }
+              , {
+            "id": "video21",
+            "title": "Portal Decal Effect",
+            "date": "12/2023",
+            "link": "https://www.youtube.com/watch?v=a1mDf2dj6JU",
+            "extralink": "",
+
+            "patreonlink": "",
+
+            "description": "How to make a Portal Decal Effect (VFX Breakdown)",
             "types": [
 
                 {
