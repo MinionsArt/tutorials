@@ -2349,7 +2349,7 @@ var tutorials = {
         {
             "id": "article99",
             "title": "Bonus: Selective Pixelation URP",
-            "date": "01/2024",
+            "date": "02/2024",
             "link": "https://www.patreon.com/posts/bonus-selective-98590556",
             "extralink": "https://www.patreon.com/posts/urp-selective-97559035",
             "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
@@ -2362,6 +2362,33 @@ var tutorials = {
    },
                 {
                     "slug": "shader-graph"
+   }
+            ],
+            "tags": [
+
+           ],
+
+
+        },
+        {
+            "id": "article100",
+            "title": "Grass System Extension: Cutting",
+            "date": "03/2024",
+            "link": "https://www.patreon.com/posts/grass-system-100668614",
+            "extralink": "https://www.patreon.com/posts/grass-system-urp-101031491",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "https://www.patreon.com/posts/grass-system-101033622",
+            "description": "Adding the ability to cut grass to the system",
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "shader-graph"
+   },
+                {
+                    "slug": "built-in"
    }
             ],
             "tags": [
