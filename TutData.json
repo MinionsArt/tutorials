@@ -1,5 +1,4 @@
-var tutorials = {
-    "posts": [{
+ [{
             "id": "article1",
             "title": "Lighting Setup (Gamma)",
             "date": "07/2017",
@@ -18,8 +17,8 @@ var tutorials = {
    },
                 {
                     "slug": "gamma"
-   },
-           ],
+   }
+           ]
         },
         {
             "id": "article2",
@@ -40,9 +39,9 @@ var tutorials = {
    },
                 {
                     "slug": "buffer"
-   },
-           ],
-        },
+   }
+           ]
+        }, 
         {
             "id": "article3",
             "title": "RenderTexture Painting Examples",
@@ -59,7 +58,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "article4",
@@ -79,7 +78,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -97,7 +96,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -115,7 +114,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -136,7 +135,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -155,7 +154,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -174,7 +173,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -193,7 +192,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
         },
         {
@@ -212,7 +211,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -234,7 +233,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -254,7 +253,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -278,7 +277,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -301,7 +300,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -324,7 +323,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -345,7 +344,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -365,7 +364,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -388,7 +387,7 @@ var tutorials = {
                 ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -408,7 +407,7 @@ var tutorials = {
                 ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -427,7 +426,7 @@ var tutorials = {
                 ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -449,7 +448,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -469,7 +468,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -491,7 +490,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -511,7 +510,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -534,7 +533,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -557,7 +556,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -580,7 +579,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -603,7 +602,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -625,8 +624,7 @@ var tutorials = {
    }
             ],
             "tags": [
-
-           ],
+           ]
 
 
         },
@@ -646,7 +644,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -669,7 +667,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -692,7 +690,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -715,7 +713,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -735,7 +733,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -758,7 +756,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -778,7 +776,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -798,7 +796,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -824,7 +822,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -849,7 +847,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -867,12 +865,12 @@ var tutorials = {
 
                 {
                     "slug": "built-in"
-   },
+   }
 
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -889,12 +887,12 @@ var tutorials = {
 
                 {
                     "slug": "gameplay"
-   },
+   }
 
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -914,12 +912,12 @@ var tutorials = {
                     "slug": "shader-graph"
    }, {
                     "slug": "urp"
-   },
+   }
 
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -939,12 +937,12 @@ var tutorials = {
    },
                 {
                     "slug": "urp"
-   },
+   }
 
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -967,7 +965,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -993,7 +991,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1016,7 +1014,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1039,7 +1037,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1066,7 +1064,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1093,7 +1091,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1117,7 +1115,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1143,7 +1141,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1170,7 +1168,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1195,7 +1193,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1220,7 +1218,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1245,7 +1243,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1269,7 +1267,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1293,7 +1291,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1319,7 +1317,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1342,7 +1340,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1366,14 +1364,14 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
 
 
 ,
-        /*
+       
                 {
                     "id": "article62",
                     "title": " Compute Shader Grass + Tool",
@@ -1383,6 +1381,7 @@ var tutorials = {
 
                     "patreonlink": "https://www.patreon.com/posts/53939857",
                     "description": "Compute Shader Version and Tool Update",
+                    "deprecated" : "true",
                     "types": [
 
                         {
@@ -1393,7 +1392,7 @@ var tutorials = {
                     ],
                     "tags": [
 
-                   ],
+                   ]
 
 
                 }, 
@@ -1406,6 +1405,7 @@ var tutorials = {
 
                     "patreonlink": "https://www.patreon.com/posts/54214472",
                     "description": "Compute Shader Version and Tool Update for URP",
+                    "deprecated" : "true",
                     "types": [
 
                         {
@@ -1416,10 +1416,10 @@ var tutorials = {
                     ],
                     "tags": [
 
-                   ],
+                   ]
 
 
-                }, */
+                }, 
 
 
         {
@@ -1444,7 +1444,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1467,7 +1467,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1490,7 +1490,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1514,7 +1514,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1540,7 +1540,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1563,7 +1563,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1590,7 +1590,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1617,7 +1617,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1645,18 +1645,18 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
-       /* {
+        {
             "id": "article73",
             "title": " Grass Painting Tool Update",
             "date": "01/2022",
             "link": "https://www.patreon.com/posts/61761853",
             "extralink": "https://www.patreon.com/posts/63117476",
             "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
-
+            "deprecated" : "true",
             "patreonlink": "https://www.patreon.com/posts/63162723",
             "description": "Grass Update Part 1, Painting Tool Improvements",
 
@@ -1673,11 +1673,11 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         } 
-              ,*/
+              ,
         {
             "id": "article74",
             "title": " Grass Compute Blending",
@@ -1702,7 +1702,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1728,7 +1728,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1753,7 +1753,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1780,7 +1780,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1807,7 +1807,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1828,10 +1828,10 @@ var tutorials = {
                     "slug": "urp"
    }, {
                     "slug": "built-in"
-   }, ],
+   } ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -1840,7 +1840,7 @@ var tutorials = {
             "title": "Lightning / Shock Particles",
             "date": "08/2022",
             "link": "https://www.patreon.com/posts/vfx-breakdown-71191108",
-            "extralink": "",
+          
 
 
             "patreonlink": "https://www.patreon.com/posts/lightning-files-71300701",
@@ -1860,7 +1860,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }, {
@@ -1886,7 +1886,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1916,7 +1916,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }, {
@@ -1938,7 +1938,7 @@ var tutorials = {
    }
             ],
             "tags": [
-           ],
+           ]
         },
         {
             "id": "article84",
@@ -1963,7 +1963,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -1989,7 +1989,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -2019,7 +2019,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -2051,7 +2051,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -2083,7 +2083,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2110,7 +2110,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2139,7 +2139,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2166,7 +2166,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2195,7 +2195,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2220,7 +2220,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2251,7 +2251,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -2272,7 +2272,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2292,7 +2292,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -2317,7 +2317,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         }
@@ -2342,7 +2342,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2366,7 +2366,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2393,11 +2393,94 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
+
+
+        },
+               {
+            "id": "article101",
+            "title": "Worldspace Ground Fog Effect",
+            "date": "06/2024",
+            "link": "https://www.patreon.com/posts/worldspace-fog-107004859",
+            "extralink": "",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "",
+            "description": "Creating a parallax moving ground fog",
+            "types": [
+
+                {
+                    "slug": "urp"
+   },
+                {
+                    "slug": "shader-graph"
+   }
+            ],
+            "tags": [
+
+           ]
+
+
+        }   , { 
+            "id": "article102",
+            "title": "Dungeon Asset Pack",
+            "date": "06/2024",
+            "link": "https://www.patreon.com/posts/free-asset-pack-106367673",
+            "extralink": "",
+            "extralink_description": "",
+            "patreonlink": "",
+            "description": "Free Asset Pack - Modular Dungeon",
+         "types":   [
+
+                {
+                    "slug": "3d"
+   }
+            ,
+                {
+                    "slug": "other"
+   }
+,
+                {
+                    "slug": "asset-pack"
+   }
+
+
+
+            ],
+            "tags": [
+
+           ]
+
+
+        },{ 
+            "id": "article103",
+            "title": "Fun with Wireframe shaders",
+            "date": "05/2024",
+            "link": "https://www.patreon.com/posts/fun-with-shaders-103077771",
+            "extralink": "https://www.patreon.com/posts/fun-with-birp-104040983",
+            "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+            "patreonlink": "https://www.patreon.com/posts/fun-with-birp-104040983",
+            "description": "Using the built-in wireframe shader for some dissolving effects",
+         "types":   [
+
+                {
+                    "slug": "urp"
+   }
+            ,
+                {
+                    "slug": "built-in"
+   }
+
+
+
+
+            ],
+            "tags": [
+
+           ]
 
 
         }
-              // quick shader
+           
 
               ,
         {
@@ -2419,7 +2502,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2442,7 +2525,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
 
 
         },
@@ -2464,8 +2547,7 @@ var tutorials = {
 
             ],
             "tags": [
-
-           ],
+           ]
         },
         {
             "id": "unity4",
@@ -2485,8 +2567,7 @@ var tutorials = {
 
             ],
             "tags": [
-
-           ],
+           ]
         }
 ,
         {
@@ -2508,7 +2589,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity6",
@@ -2529,7 +2610,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity7",
@@ -2550,7 +2631,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity8",
@@ -2566,12 +2647,10 @@ var tutorials = {
                 {
                     "slug": "built-in"
    }
-
-
             ],
             "tags": [
 
-           ],
+           ]
         }
 ,
         {
@@ -2593,7 +2672,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity10",
@@ -2614,7 +2693,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity11",
@@ -2635,7 +2714,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity12",
@@ -2656,7 +2735,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity13",
@@ -2677,7 +2756,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity14",
@@ -2698,7 +2777,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity15",
@@ -2719,7 +2798,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity16",
@@ -2740,7 +2819,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity17",
@@ -2761,7 +2840,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity18",
@@ -2785,7 +2864,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity19",
@@ -2805,7 +2884,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity20",
@@ -2825,7 +2904,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity21",
@@ -2845,7 +2924,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity22",
@@ -2865,7 +2944,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity23",
@@ -2885,7 +2964,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity24",
@@ -2906,7 +2985,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity25",
@@ -2926,7 +3005,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 ,
         {
@@ -2947,7 +3026,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity27",
@@ -2967,7 +3046,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity28",
@@ -2987,7 +3066,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity29",
@@ -3007,7 +3086,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity30",
@@ -3027,7 +3106,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity31",
@@ -3047,7 +3126,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity32",
@@ -3067,7 +3146,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity33",
@@ -3087,7 +3166,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity34",
@@ -3107,7 +3186,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity35",
@@ -3127,7 +3206,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity36",
@@ -3150,7 +3229,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity37",
@@ -3171,7 +3250,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity38",
@@ -3192,7 +3271,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity39",
@@ -3217,7 +3296,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity40",
@@ -3239,7 +3318,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "unity41",
@@ -3263,7 +3342,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
 
         {
@@ -3285,10 +3364,9 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
 
-              //// texturing
         {
             "id": "texture1",
             "title": "'Lazy' Unwrapping",
@@ -3309,7 +3387,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "texture2",
             "title": "'Lazy' Unwrapping Extra",
@@ -3330,7 +3408,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture3",
@@ -3352,7 +3430,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "texture4",
             "title": "Palettes 2",
@@ -3373,7 +3451,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "texture5",
             "title": "Applying Palette",
@@ -3394,7 +3472,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture6",
@@ -3416,7 +3494,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "texture7",
             "title": "Gradient Materials",
@@ -3437,7 +3515,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "texture8",
             "title": "Gradient Setup",
@@ -3458,7 +3536,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "texture9",
             "title": "Alien/ Fantasy Plants",
@@ -3482,7 +3560,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture10",
@@ -3504,7 +3582,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture11",
@@ -3526,7 +3604,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture12",
@@ -3548,7 +3626,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture13",
@@ -3570,7 +3648,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "texture14",
@@ -3592,9 +3670,8 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
-///////////////////////////////////3d
 , {
             "id": "3d1",
             "title": "Stylized House",
@@ -3615,7 +3692,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "3d2",
@@ -3637,7 +3714,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d3",
             "title": "Character Build-up",
@@ -3658,7 +3735,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d4",
             "title": "Tree Build-up",
@@ -3679,7 +3756,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d5",
             "title": "Stylized Ruins",
@@ -3700,7 +3777,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d6",
             "title": "Humanoid 'Strong' Base",
@@ -3721,7 +3798,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d7",
             "title": "Quadruped 'Hunter' Base",
@@ -3742,7 +3819,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d8",
             "title": "Humanoid 'Cute' Base",
@@ -3763,7 +3840,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d9",
             "title": "Toon Eyes",
@@ -3784,7 +3861,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d10",
             "title": "Base > Finished 'Cute'",
@@ -3805,7 +3882,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d11",
             "title": "Tiny Environment Concepts",
@@ -3826,7 +3903,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d12",
             "title": "Stylized Rocks",
@@ -3847,7 +3924,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d13",
             "title": "Minotaur",
@@ -3868,7 +3945,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "3d14",
@@ -3890,7 +3967,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d15",
             "title": "Fantasy Swords",
@@ -3914,7 +3991,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d16",
             "title": "Hands",
@@ -3935,7 +4012,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d17",
             "title": "Bat Wings",
@@ -3956,7 +4033,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d18",
             "title": "Toon Skulls",
@@ -3977,7 +4054,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d19",
             "title": "Stylized Layered Rocks",
@@ -3998,7 +4075,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 , {
             "id": "3d20",
@@ -4020,7 +4097,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d21",
             "title": "Stylized Tree",
@@ -4041,7 +4118,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
               , {
             "id": "3d22",
@@ -4063,7 +4140,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
                 , {
             "id": "3d23",
@@ -4092,7 +4169,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
    , {
             "id": "3d24",
@@ -4115,7 +4192,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
  , {
             "id": "3d25",
@@ -4138,7 +4215,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
               , {
             "id": "3d26",
@@ -4161,7 +4238,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d27",
             "title": "Pine Tree",
@@ -4183,7 +4260,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d28",
             "title": "Dragon Head",
@@ -4205,7 +4282,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "3d29",
             "title": "Santa Hat",
@@ -4227,9 +4304,9 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
-              //// videos
+         
 
               , {
             "id": "video1",
@@ -4253,7 +4330,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video2",
             "title": "Character Model - Modelling an Imp",
@@ -4276,7 +4353,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video3",
             "title": "Character Model - Texturing an Imp",
@@ -4299,7 +4376,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video4",
             "title": "Fantasy Sword Speed Model",
@@ -4322,7 +4399,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video5",
             "title": "Fantasy Shield Speed Model",
@@ -4345,7 +4422,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video6",
             "title": "Toon Face Speed Model",
@@ -4368,7 +4445,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video7",
             "title": "Sprite Color Mask Shader",
@@ -4391,7 +4468,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video8",
             "title": "Lizard Model",
@@ -4414,7 +4491,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video9",
             "title": "Gradient Map Effect",
@@ -4437,7 +4514,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
 
 
@@ -4463,7 +4540,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
     },
         {
             "id": "video11",
@@ -4487,7 +4564,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
     },
         {
             "id": "video12",
@@ -4511,7 +4588,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
     },
         {
             "id": "video13",
@@ -4535,7 +4612,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
     },
         {
             "id": "video14",
@@ -4559,7 +4636,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
     }, {
             "id": "video15",
             "title": "Custom UI Meshes URP + Built-In",
@@ -4582,7 +4659,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video16",
             "title": "Unity | Interactive Snow Shader | Stylized Setup URP + Built-In",
@@ -4605,7 +4682,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video17",
             "title": "Unity | How to make Shock / Lightning Particles",
@@ -4628,7 +4705,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         },
         {
             "id": "video18",
@@ -4652,7 +4729,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video19",
             "title": "Recreating Wind Waker Style Lights in Unity",
@@ -4675,7 +4752,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }, {
             "id": "video20",
             "title": "Even Better Interactive Grass System",
@@ -4698,7 +4775,7 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
               , {
             "id": "video21",
@@ -4722,8 +4799,8 @@ var tutorials = {
             ],
             "tags": [
 
-           ],
+           ]
         }
 
 ]
-}
+

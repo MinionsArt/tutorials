@@ -1,253 +1,263 @@
- const queryString = window.location.search;
- const urlParams = new URLSearchParams(queryString);
-
- // get parameters stuff
- const filter = urlParams.get('type');
-
-
-
- function showAllPostsDescending(evt) {
-
-     var i = 0;
-     var list = new Array();
-
-
-
-
-     for (let i = 0; i < tutorials.posts.length; i++) {
-
-         var iDiv = test.content.cloneNode(true);
-         document.getElementById("output").appendChild(iDiv);
-
-
-
-         // elem.append(newDiv); // (*)
-         list.push(tutorials.posts[i]);
-
-
-     };
-     document.getElementById("output").innerHTML = '';
-     list.sort(compare_date);
-     list.reverse();
-     for (let i = 0; i < list.length; i++) {
-         var iDiv = test.content.cloneNode(true);
-         document.getElementById("output").appendChild(iDiv);
-         fillPost(list[i].id);
-
-     };
-
-     if (evt === undefined) {
-
-     } else {
-
-
-         // Get all elements with class="tablinks" and remove the class "active"
-         tablinks = document.getElementsByClassName("tablinks");
-         for (i = 0; i < tablinks.length; i++) {
-             tablinks[i].className = tablinks[i].className.replace(" active", "");
-         }
-
-         // Show the current tab, and add an "active" class to the button that opened the tab
-
-         evt.currentTarget.className += " active";
-
-     }
-
-     console.log("amount of posts: " + tutorials.posts.length);
-
-
- }
-
- function ShowStartButton() {
-     var allbutton = document.getElementById("allbutton");
-     allbutton.className += " active";
-
-     if (filter != undefined) {
-         showfilter(event, filter)
-     }
- }
-
- function showAllPostsAscending() {
-     var i = 0;
-     var list = new Array();
-     for (let i = 0; i < tutorials.posts.length; i++) {
-         var iDiv = test.content.cloneNode(true);
-         document.getElementById("output").appendChild(iDiv);
-
-         // elem.append(newDiv); // (*)
-         list.push(tutorials.posts[i]);
-
-
-     };
-     document.getElementById("output").innerHTML = '';
-     list.sort(compare_date);
-
-     for (let i = 0; i < list.length; i++) {
-         var iDiv = test.content.cloneNode(true);
-         document.getElementById("output").appendChild(iDiv);
-         fillPost(list[i].id);
-
-     };
-
- }
-
- function compare_date(a, b) {
-
-     var dateA = a.date.split('/');
-     dateA = dateA[1] + dateA[0];
-     var dateB = b.date.split('/');
-     dateB = dateB[1] + dateB[0];
-     return dateA - dateB;
-
- }
-
-
-
- function showfilter(evt, type) {
-
-     if (type === undefined) {
-         showAllPostsDescending(evt);
-         var currenturl = window.location.href.split('?')[0];
-         window.history.replaceState({}, 'foo', currenturl);
-         return;
-     }
-     var list = new Array();
-     var textvalue;
-     document.getElementById("output").innerHTML = '';
-     for (let i = 0; i < tutorials.posts.length; i++) {
-         for (let j = 0; j < tutorials.posts[i].types.length; j++) {
-             if (type == tutorials.posts[i].types[j].slug) {
-                 if (!isInArray(list, tutorials.posts[i])) {
-                     list.push(tutorials.posts[i]);
-                 }
-
-             }
-         }
-     }
-     list.sort(compare_date);
-     list.reverse();
-
-     for (let i = 0; i < list.length; i++) {
-         var iDiv = test.content.cloneNode(true);
-         document.getElementById("output").appendChild(iDiv);
-
-         // elem.append(newDiv); // (*)
-
-         fillPost(list[i].id);
-
-     };
-
-     // Get all elements with class="tablinks" and remove the class "active"
-     tablinks = document.getElementsByClassName("tablinks");
-     for (i = 0; i < tablinks.length; i++) {
-         tablinks[i].className = tablinks[i].className.replace(" active", "");
-     }
-
-     // Show the current tab, and add an "active" class to the button that opened the tab
-
-     evt.currentTarget.className += " active";
-
-     var currenturl = window.location.href.split('?')[0];
-
-     window.history.replaceState({}, 'foo', currenturl + "?type=" + type);
- }
-
-
- function searchData() {
-     var input, filter, table, tr, td, i, txtValue;
-     input = document.getElementById("searchInput");
-
-
-     filter = input.value.toUpperCase();
-     // var test = filter.replace(' ', "_");
-     searchUnits(filter);
-
- }
-
- function searchUnits(keyword) {
-     var i, output, textvalue, j, l, result = "";
-
-     var fields = keyword.split(' ');
-     console.log(fields.length);
-     var list = new Array();
-     document.getElementById("output").innerHTML = '';
-
-     var searchList = Array.from(tutorials.posts);
-     for (let i = 0; i < fields.length; i++) {
-         list = new Array();
-         SearchListUsingKeyWordAndPush(searchList, fields[i], list);
-         searchList = Array.from(list);
-
-
-     }
-
-
-
-
-
-     list.sort(compare_date);
-     list.reverse();
-     for (let i = 0; i < list.length; i++) {
-         var iDiv = test.content.cloneNode(true);
-         document.getElementById("output").appendChild(iDiv);
-
-         // elem.append(newDiv); // (*)
-
-         fillPost(list[i].id);
-
-     }
-
- }
-
- function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
-     for (let i = 0; i < inlist.length; i++) {
-         textvalue = inlist[i].title;
-         if (textvalue.toUpperCase().indexOf(keyword) > -1) {
-             if (!isInArray(outlist, inlist[i])) {
-                 outlist.push(inlist[i]);
-             }
-         }
-         textvalue = inlist[i].description;
-         if (textvalue.toUpperCase().indexOf(keyword) > -1) {
-             if (!isInArray(outlist, inlist[i])) {
-                 outlist.push(inlist[i]);
-             }
-         }
-         for (let j = 0; j < inlist[i].tags.length; j++) {
-             if (keyword == inlist[i].tags[j].slug.toUpperCase()) {
-                 if (!isInArray(outlist, inlist[i])) {
-                     outlist.push(inlist[i]);
-                 }
-
-             }
-         }
-         for (let j = 0; j < inlist[i].types.length; j++) {
-             if (keyword == inlist[i].types[j].slug.toUpperCase()) {
-                 if (!isInArray(outlist, inlist[i])) {
-                     outlist.push(inlist[i]);
-                 }
-
-             }
-         }
-     }
-     return outlist;
- }
-
- function isInArray(array, search) {
-     return array.indexOf(search) >= 0;
- }
-
-
-
- function fillPost(id) {
-
-     for (let i = 0; i < tutorials.posts.length; i++) {
-         if (id == tutorials.posts[i].id) {
-             a = tutorials.posts[i];
-             var title, icon, date, originalDate, description, mainlink, type, background, card = "";
-             card = document.getElementById("card");
-             card.setAttribute("id", "card" + a.id);
-             /*if (a.types[0].slug == "video") {
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+// get parameters stuff
+const filter = urlParams.get("type");
+
+var jsonTutorials;
+
+function fetchJsonFiles(filePaths) {
+    return Promise.all(
+        filePaths.map((filePath) =>
+            fetch(filePath).then((response) => {
+                if (!response.ok) {
+                    throw new Error(`Network response was not ok: ${response.statusText}`);
+                }
+                return response.json();
+            })
+        )
+    );
+}
+
+async function GetAllData() {
+    const jsonFilePaths = ["/tutorials/TutData.json"];
+    await fetchJsonFiles(jsonFilePaths)
+        .then((dataArray) => {
+            dataArray.forEach((data, index) => {
+                // console.log(`Data from ${jsonFilePaths[index]}:`, data);
+                if (index == 0) {
+                    jsonTutorials = data;
+                }
+            });
+        })
+        .catch((error) => {
+            console.error("Error fetching JSON files:", error.message);
+        });
+}
+async function CheckData() {
+    if (jsonTutorials === undefined) {
+        await GetAllData();
+
+        HandlePage();
+    }
+}
+
+function showAllPostsDescending(evt) {
+    var i = 0;
+    var list = [];
+
+    var iDiv = "";
+
+    for (let i = 0; i < jsonTutorials.length; i++) {
+        iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+
+        // elem.append(newDiv); // (*)
+        list.push(jsonTutorials[i]);
+    }
+    document.getElementById("output").innerHTML = "";
+    list.sort(compare_date);
+    list.reverse();
+    for (let i = 0; i < list.length; i++) {
+        iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+        fillPost(list[i].id);
+    }
+
+    if (evt === undefined) {
+    } else {
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+
+        evt.currentTarget.className += " active";
+    }
+
+    console.log("amount of posts: " + jsonTutorials.length);
+}
+
+function ShowStartButton() {
+    var allbutton = document.getElementById("allbutton");
+    allbutton.className += " active";
+
+    if (filter != undefined) {
+        showfilter(event, filter);
+    }
+}
+
+function showAllPostsAscending() {
+    var i = 0;
+    var list = [];
+    var iDiv = "";
+    for (let i = 0; i < jsonTutorials.length; i++) {
+        iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+
+        // elem.append(newDiv); // (*)
+        list.push(jsonTutorials[i]);
+    }
+    document.getElementById("output").innerHTML = "";
+    list.sort(compare_date);
+
+    for (let i = 0; i < list.length; i++) {
+        iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+        fillPost(list[i].id);
+    }
+}
+
+function compare_date(a, b) {
+    var dateA = a.date.split("/");
+    dateA = dateA[1] + dateA[0];
+    var dateB = b.date.split("/");
+    dateB = dateB[1] + dateB[0];
+    return dateA - dateB;
+}
+
+function showfilter(evt, type) {
+    var currenturl = "";
+    if (type === undefined) {
+        showAllPostsDescending(evt);
+        currenturl = window.location.href.split("?")[0];
+        window.history.replaceState({}, "foo", currenturl);
+        return;
+    }
+    var list = [];
+    var textvalue;
+    document.getElementById("output").innerHTML = "";
+    for (let i = 0; i < jsonTutorials.length; i++) {
+        for (let j = 0; j < jsonTutorials[i].types.length; j++) {
+            if (type == jsonTutorials[i].types[j].slug) {
+                if (!isInArray(list, jsonTutorials[i])) {
+                    list.push(jsonTutorials[i]);
+                }
+            }
+        }
+    }
+    list.sort(compare_date);
+    list.reverse();
+
+    for (let i = 0; i < list.length; i++) {
+        var iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+
+        // elem.append(newDiv); // (*)
+
+        fillPost(list[i].id);
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+
+    evt.currentTarget.className += " active";
+
+    currenturl = window.location.href.split("?")[0];
+
+    window.history.replaceState({}, "foo", currenturl + "?type=" + type);
+}
+
+function searchData() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("searchInput");
+
+    filter = input.value.toUpperCase();
+    // var test = filter.replace(' ', "_");
+    searchUnits(filter);
+}
+
+function searchUnits(keyword) {
+    var i,
+        output,
+        textvalue,
+        j,
+        l,
+        result = "";
+
+    var fields = keyword.split(" ");
+    console.log(fields.length);
+    var list = [];
+    document.getElementById("output").innerHTML = "";
+
+    var searchList = Array.from(jsonTutorials);
+    for (let i = 0; i < fields.length; i++) {
+        list = [];
+        SearchListUsingKeyWordAndPush(searchList, fields[i], list);
+        searchList = Array.from(list);
+    }
+
+    list.sort(compare_date);
+    list.reverse();
+    for (let i = 0; i < list.length; i++) {
+        var iDiv = test.content.cloneNode(true);
+        document.getElementById("output").appendChild(iDiv);
+
+        // elem.append(newDiv); // (*)
+
+        fillPost(list[i].id);
+    }
+}
+
+function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
+    for (let i = 0; i < inlist.length; i++) {
+        textvalue = inlist[i].title;
+        if (textvalue.toUpperCase().indexOf(keyword) > -1) {
+            if (!isInArray(outlist, inlist[i])) {
+                outlist.push(inlist[i]);
+            }
+        }
+        textvalue = inlist[i].description;
+        if (textvalue.toUpperCase().indexOf(keyword) > -1) {
+            if (!isInArray(outlist, inlist[i])) {
+                outlist.push(inlist[i]);
+            }
+        }
+        for (let j = 0; j < inlist[i].tags.length; j++) {
+            if (keyword == inlist[i].tags[j].slug.toUpperCase()) {
+                if (!isInArray(outlist, inlist[i])) {
+                    outlist.push(inlist[i]);
+                }
+            }
+        }
+        for (let j = 0; j < inlist[i].types.length; j++) {
+            if (keyword == inlist[i].types[j].slug.toUpperCase()) {
+                if (!isInArray(outlist, inlist[i])) {
+                    outlist.push(inlist[i]);
+                }
+            }
+        }
+    }
+    return outlist;
+}
+
+function isInArray(array, search) {
+    return array.indexOf(search) >= 0;
+}
+
+function fillPost(id) {
+    for (let i = 0; i < jsonTutorials.length; i++) {
+        if (id == jsonTutorials[i].id) {
+            a = jsonTutorials[i];
+            var title,
+                icon,
+                date,
+                originalDate,
+                description,
+                mainlink,
+                type,
+                background,
+                card = "";
+            card = document.getElementById("card");
+            card.setAttribute("id", "card" + a.id);
+            /*if (a.types[0].slug == "video") {
                  var iDiv = videoTest.content.cloneNode(true);
                  card.innerHTML = "";
                  card.appendChild(iDiv);
@@ -257,176 +267,152 @@
 
              } else {*/
 
+            //title
+            title = document.getElementById("title");
+            title.innerHTML = a.title;
 
-             //title
-             title = document.getElementById("title");
-             title.innerHTML = a.title;
+            title.setAttribute("id", "title" + a.id);
 
-             title.setAttribute("id", "title" + a.id);
+            // background image
+            //   icon = document.getElementById("previewimage")
+            // icon.innerHTML = "<a href=" + a.link + ">";
 
-             // background image
-             //   icon = document.getElementById("previewimage")
-             // icon.innerHTML = "<a href=" + a.link + ">";
+            // icon.setAttribute("style", "background-image: url(" + "/tutorials/Images/Previews/" + a.id + ".jpg");
 
-             // icon.setAttribute("style", "background-image: url(" + "/tutorials/Images/Previews/" + a.id + ".jpg");
+            //  icon.setAttribute("id", "previewimage" + a.id);
 
+            background = document.getElementById("linkBackground");
 
-             //  icon.setAttribute("id", "previewimage" + a.id);
+            background.setAttribute("href", a.link);
 
-             background = document.getElementById("linkBackground");
+            background.setAttribute("id", "linkBackground" + a.id);
+            background.setAttribute(
+                "style",
+                "background-image: url(" + "/tutorials/Images/Thumbnails/" + a.id + ".jpg"
+            );
 
-             background.setAttribute("href", a.link);
+            // date
+            date = document.getElementById("postdate");
+            originalDate = document.getElementById("originaldate");
+            if (a.originalDate == undefined) {
+                // original date for updated posts
+                date.innerHTML = a.date;
+                originalDate.innerHTML = "";
+            } else {
+                originalDate.innerHTML = a.originalDate;
+                date.innerHTML = a.date + " *Updated*";
+            }
+            originalDate.setAttribute("id", "originaldate" + a.id);
 
-             background.setAttribute("id", "linkBackground" + a.id);
-             background.setAttribute("style", "background-image: url(" + "/tutorials/Images/Thumbnails/" + a.id + ".jpg");
+            date.setAttribute("id", "postdate" + a.id);
 
-             // date
-             date = document.getElementById("postdate");
-             originalDate = document.getElementById("originaldate");
-             if (a.originalDate == undefined) {
-                 // original date for updated posts
-                 date.innerHTML = a.date;
-                 originalDate.innerHTML = "";
+            // description
+            description = document.getElementById("postdescription");
+            description.innerHTML = a.description;
+            description.setAttribute("id", "postdescription" + a.id);
 
-             } else {
-                 originalDate.innerHTML = a.originalDate;
-                 date.innerHTML = a.date + " *Updated*";
-             }
-             originalDate.setAttribute("id", "originaldate" + a.id);
+            extralink = document.getElementById("extralink");
+            if (a.extralink != "") {
+                extralink.setAttribute("href", a.extralink);
+                extralink.innerHTML = a.extralink_description;
+            } else {
+                extralink.innerHTML = "";
+            }
+            extralink.setAttribute("id", "extralink" + a.id);
 
+            patreonlink = document.getElementById("patreonlink");
 
+            if (a.patreonlink != "") {
+                patreonlink.setAttribute("href", a.patreonlink);
+                patreonlink.innerHTML = "<Patreon></Patreon>  Source Files ($10 Tier)";
+            } else {
+                patreonlink.innerHTML = "";
+            }
+            patreonlink.setAttribute("id", "patreonlink" + a.id);
 
-             date.setAttribute("id", "postdate" + a.id);
+            // type
+            type = document.getElementById("type");
+            for (let i = 0; i < a.types.length; i++) {
+                var typeDiv = document.createElement("DIV");
+                typeDiv.className = "typefilter";
 
+                switch (a.types[i].slug) {
+                    case "built-in":
+                        typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
 
-             // description
-             description = document.getElementById("postdescription");
-             description.innerHTML = a.description;
-             description.setAttribute("id", "postdescription" + a.id);
+                        typeDiv.innerHTML = "Built-In";
 
+                        break;
 
-             extralink = document.getElementById("extralink");
-             if (a.extralink != "") {
-                 extralink.setAttribute("href", a.extralink);
-                 extralink.innerHTML = a.extralink_description;
+                    case "3d":
+                        typeDiv.setAttribute("style", "background-color: #c31f8b; border: 2px solid #ff00f6;");
 
+                        typeDiv.innerHTML = "3D";
 
-             } else {
-                 extralink.innerHTML = "";
-             }
-             extralink.setAttribute("id", "extralink" + a.id);
+                        break;
 
-             patreonlink = document.getElementById("patreonlink");
+                    case "other":
+                        typeDiv.setAttribute("style", "background-color: #666666; border: 2px solid #bdbdbd;");
 
-             if (a.patreonlink != "") {
-                 patreonlink.setAttribute("href", a.patreonlink);
-                 patreonlink.innerHTML = "<Patreon></Patreon>  Source Files ($10 Tier)";
+                        typeDiv.innerHTML = "Other";
 
-             } else {
-                 patreonlink.innerHTML = "";
-             }
-             patreonlink.setAttribute("id", "patreonlink" + a.id);
+                        break;
 
-             // type
-             type = document.getElementById("type");
-             for (let i = 0; i < a.types.length; i++) {
+                    case "gameplay":
+                        typeDiv.setAttribute("style", "background-color: #ca9243; border: 2px solid #ffc470;");
 
-                 var typeDiv = document.createElement("DIV");
-                 typeDiv.className = "typefilter";
+                        typeDiv.innerHTML = "Gameplay";
 
-                 switch (a.types[i].slug) {
-                     case "built-in":
+                        break;
+                    case "shader-graph":
+                        typeDiv.setAttribute("style", "background-color: #5ad2b7; border: 2px solid #92ffe7;");
 
-                         typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;")
+                        typeDiv.innerHTML = "Shader Graph";
 
-                         typeDiv.innerHTML = "Built-In";
+                        break;
+                    case "urp":
+                        typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
 
+                        typeDiv.innerHTML = "URP";
 
+                        break;
+                    case "godot":
+                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;");
 
-                         break;
+                        typeDiv.innerHTML = "GODOT";
 
-                     case "3d":
+                        break;
+                    case "asset-pack":
+                        typeDiv.setAttribute("style", "background-color: #8d48cd; border: 2px solid #be79ff;");
 
-                         typeDiv.setAttribute("style", "background-color: #c31f8b; border: 2px solid #ff00f6;")
+                        typeDiv.innerHTML = "Asset Pack";
 
-                         typeDiv.innerHTML = "3D";
+                        break;
+                    case "design":
+                        typeDiv.setAttribute("style", "background-color: #3c422f; border: 2px solid #999c91;");
 
-                         break;
+                        typeDiv.innerHTML = "Design";
 
-                     case "other":
+                        break;
+                    case "texturing":
+                        typeDiv.setAttribute("style", "background-color: #c44e4e; border: 2px solid #f38e8e;");
 
-                         typeDiv.setAttribute("style", "background-color: #666666; border: 2px solid #bdbdbd;")
+                        typeDiv.innerHTML = "Textures";
 
-                         typeDiv.innerHTML = "Other";
+                        break;
+                    case "video":
+                        typeDiv.setAttribute("style", "background-color: #dce065; border: 2px solid #fdffc7;");
 
-                         break;
+                        typeDiv.innerHTML = "Video";
 
-                     case "gameplay":
+                        break;
+                }
+                type.appendChild(typeDiv);
+            }
 
-                         typeDiv.setAttribute("style", "background-color: #ca9243; border: 2px solid #ffc470;")
+            type.setAttribute("id", "type" + a.id);
 
-                         typeDiv.innerHTML = "Gameplay";
-
-                         break;
-                     case "shader-graph":
-
-                         typeDiv.setAttribute("style", "background-color: #5ad2b7; border: 2px solid #92ffe7;")
-
-                         typeDiv.innerHTML = "Shader Graph";
-
-                         break;
-                     case "urp":
-
-                         typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;")
-
-                         typeDiv.innerHTML = "URP";
-
-                         break;
-                     case "godot":
-
-                         typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;")
-
-                         typeDiv.innerHTML = "GODOT";
-
-                         break;
-                     case "asset-pack":
-
-                         typeDiv.setAttribute("style", "background-color: #8d48cd; border: 2px solid #be79ff;")
-
-                         typeDiv.innerHTML = "Asset Pack";
-
-                         break;
-                     case "design":
-
-                         typeDiv.setAttribute("style", "background-color: #3c422f; border: 2px solid #999c91;")
-
-                         typeDiv.innerHTML = "Design";
-
-                         break;
-                     case "texturing":
-
-                         typeDiv.setAttribute("style", "background-color: #c44e4e; border: 2px solid #f38e8e;")
-
-                         typeDiv.innerHTML = "Textures";
-
-                         break;
-                     case "video":
-
-                         typeDiv.setAttribute("style", "background-color: #dce065; border: 2px solid #fdffc7;")
-
-                         typeDiv.innerHTML = "Video";
-
-                         break;
-                 }
-                 type.appendChild(typeDiv);
-
-
-             }
-
-             type.setAttribute("id", "type" + a.id);
-
-
-             /*}*/
-         }
-     }
- }
+            /*}*/
+        }
+    }
+}
