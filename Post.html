@@ -1,40 +1,68 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/tutorials/style.css" />
+        <meta charset="UTF-8" />
+        <title></title>
+    </head>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="/tutorials/style.css">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
+    <body>
+        <div class="header-img">
+            <div class="hero-text">
+                <img src="Images/minionsart.png" width="300px" style="padding-top: 20px" />
 
-<body>
-    <div class="unit_card">
+                <div class="header2">Tutorials</div>
 
-        <div class="date" id="postdate">Post Date</div>
-        <a id="linkBackground">
-            <div class="preview-image-holder" id="previewimage" style="background: url(Images/Previews/article3.jpg)">
-                <div class="typeOfPost" id="type"></div>
-                <div class="centered" id="title">Title of the post</div>
+                <a href="https://twitter.com/minionsart" class="fa-brands fa-twitter"></a>
 
-                <div class="description" id="postdescription">Description of the Post</div>
+                <a href="https://www.youtube.com/c/MinionsArt" class="fa-brands fa-youtube"></a>
 
+                <a href="https://www.twitch.tv/minionsart" class="fa-brands fa-twitch"></a>
+
+                <a href="https://www.patreon.com/minionsart" class="fa-brands fa-patreon"></a>
             </div>
-        </a>
-        <div class="normal-link" id="normallink">
-            Read Post (incl free shader code)
         </div>
 
-        <div class="normal-link" id="extralink">
-            extra link
+        <div class="tab">
+            <button class="tablinks" id="allbutton" onclick="showfilter(event);">All</button>
+            <button class="tablinks" onclick="showfilter(event,'godot');">Godot</button>
+            <button class="tablinks" onclick="showfilter(event,'built-in');">Built-in</button>
+            <button class="tablinks" onclick="showfilter(event,'urp');">URP</button>
+            <button class="tablinks" onclick="showfilter(event,'shader-graph');">Shader Graph</button>
+            <button class="tablinks" onclick="showfilter(event,'3d');">3D</button>
+            <button class="tablinks" onclick="showfilter(event,'texturing');">Textures</button>
+            <button class="tablinks" onclick="showfilter(event,'asset-pack');">Asset Pack</button>
+            <button class="tablinks" onclick="showfilter(event,'gameplay');">Gameplay</button>
+            <button class="tablinks" onclick="showfilter(event,'design');">Design</button>
+            <button class="tablinks" onclick="showfilter(event,'video');">Video</button>
+            <button class="tablinks" onclick="showfilter(event,'other');">Other</button>
         </div>
 
-        <div class="patreon-link" id="patreonlink">
-            patreon link
+        <div class="mainbody">
+            <div class="post_card" id="card">
+                <div>Subheader <div>Part Text</div><a class="post-image-holder" id="linkBackground"> part Image
+                    <div class="centeredbox">
+                        <div class="centered" id="title">Title of the post</div>
+                    </div>
+                    <div class="date" id="postdate">Post Date</div>
+                    <div class="ogdate" id="originaldate">OG Date</div>
+                    <div class="typeOfPost" id="type"></div>
+                </a></div>
+               
+
+                <div class="bottom-holder">
+                    <div class="description" id="postdescription">Description of the Post</div>
+
+                    <a class="normal-link" id="extralink"> extra link </a>
+
+                    <a class="patreon-link" id="patreonlink"> patreon link </a>
+                </div>
+            </div>
+            <div>Related Posts:</div>
+            <div class="grid-container" id="output">
+                <div>Related 1</div>
+                <div>Related 2</div>
+            </div>
         </div>
-
-
-
-    </div>
-</body>
-
+    </body>
 </html>

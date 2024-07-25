@@ -1,10 +1,10 @@
 html {
     background-color: black;
-    font-family: 'Domine', serif;
+    font-family: "Domine", serif;
 }
 
 @font-face {
-    font-family: 'round';
+    font-family: "round";
     src: url(/tutorials/BRLNSDB.TTF);
 }
 
@@ -19,12 +19,30 @@ html {
     padding: 35px;
     border-radius: 10px;
 }
+.post_card {
+    background-color: aliceblue;
+    color: white;
+    position: relative;
+    background-size: cover;
+
+    display: flex;
+
+    width: 900px;
+    height: 460px;
+    border-radius: 15px 15px 0px 0px;
+    text-decoration: none;
+    opacity: 0.9;
+}
 
 .typefilter {
     height: 10px;
     float: right;
     text-align: center;
-    text-shadow: rgb(7, 59, 136) -1px -1px 0px, rgb(7, 59, 136) 1px -1px 0px, rgb(7, 59, 136) -1px 1px 0px, rgb(7, 59, 136) 1px 1px 0px;
+    text-shadow:
+        rgb(7, 59, 136) -1px -1px 0px,
+        rgb(7, 59, 136) 1px -1px 0px,
+        rgb(7, 59, 136) -1px 1px 0px,
+        rgb(7, 59, 136) 1px 1px 0px;
     color: white;
     font-size: 14px;
     font-weight: bold;
@@ -52,7 +70,6 @@ html {
     text-align: left;
     outline: none;
     font-size: 15px;
-
 }
 
 .grid-container {
@@ -84,7 +101,9 @@ html {
 
 .header2 {
     color: white;
-    text-shadow: rgb(136, 70, 190) 3px 3px 1px, rgb(136, 70, 190) 1px 1px 1px,
+    text-shadow:
+        rgb(136, 70, 190) 3px 3px 1px,
+        rgb(136, 70, 190) 1px 1px 1px,
         rgb(136, 70, 190) -1px -1px 1px;
 
     font-size: 40px;
@@ -100,7 +119,6 @@ html {
     position: relative;
     top: 10px;
 
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -114,12 +132,9 @@ html {
 .filterButton {
     background-color: #3c422f;
     border: 2px solid #999c91;
-
-
 }
 
 .tab {
-
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -143,13 +158,16 @@ html {
     border-radius: 10px;
     padding: 14px 16px;
     transition: 0.3s;
-    text-shadow: rgb(7, 59, 136) -1px -1px 0px, rgb(7, 59, 136) 1px -1px 0px, rgb(7, 59, 136) -1px 1px 0px, rgb(7, 59, 136) 1px 1px 0px;
+    text-shadow:
+        rgb(7, 59, 136) -1px -1px 0px,
+        rgb(7, 59, 136) 1px -1px 0px,
+        rgb(7, 59, 136) -1px 1px 0px,
+        rgb(7, 59, 136) 1px 1px 0px;
     color: white;
     font-size: 14px;
     font-weight: bold;
     line-height: 10px;
     font-family: "Franklin Gothic Medium", serif;
-
 }
 
 /* Change background color of buttons on hover */
@@ -158,7 +176,6 @@ html {
 }
 
 .buttons {
-
     width: 500px;
     display: grid;
 
@@ -167,23 +184,22 @@ html {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .centered {
-
-
     width: 280px;
     color: white;
-    text-shadow: #30144a -1px -2px 0px, #30144a 2px -2px 1px, #30144a 0px 1px 1px;
+    text-shadow:
+        #30144a -1px -2px 0px,
+        #30144a 2px -2px 1px,
+        #30144a 0px 1px 1px;
     font-size: 20px;
     line-height: 1;
     height: auto;
-    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-family: "Franklin Gothic Medium", sans-serif;
     text-align: left;
     padding: 5px;
     padding-left: 10px;
-
 }
 
 .bottom-holder {
@@ -194,8 +210,6 @@ html {
     height: 100px;
     border-radius: 15px;
 }
-
-
 
 .number {
     position: absolute;
@@ -210,7 +224,7 @@ html {
     font-size: 18px;
     font-weight: bold;
     line-height: 1;
-    font-family: 'Domine', serif;
+    font-family: "Domine", serif;
 }
 
 .date {
@@ -218,7 +232,10 @@ html {
     top: 5%;
     left: 5%;
     color: white;
-    text-shadow: #30144a -1.5px -1.5px 2px, #30144a 1.5px -1.5px 2px, #30144a -1.5px 1.5px 2px;
+    text-shadow:
+        #30144a -1.5px -1.5px 2px,
+        #30144a 1.5px -1.5px 2px,
+        #30144a -1.5px 1.5px 2px;
     font-size: 14px;
     font-weight: bold;
     font-family: round, sans-serif;
@@ -237,9 +254,7 @@ html {
     text-decoration: none;
 }
 
-
 .description {
-
     text-align: left;
     width: 280px;
 
@@ -288,14 +303,30 @@ html {
     border-radius: 15px 15px 0px 0px;
     text-decoration: none;
     opacity: 0.9;
+}
 
+.post-image-holder {
+    background-color: green;
+    color: white;
+    position: relative;
+    background-size: cover;
+
+    display: flex;
+    width: 300px;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    text-decoration: none;
+    opacity: 0.9;
 }
 
 .preview-image-holder:hover {
     opacity: 1;
 }
 
-
+.SubDiv {
+    display: flex;
+        justify-content: space-between;
+}
 
 .patreon-link {
     position: absolute;
@@ -311,18 +342,17 @@ html {
         1px -1px 0 #a63020,
         -1px 1px 0 #a63020,
         2px 2px 5px #a63020,
-        -2px -2px 5px #a63020, 1px 1px 0 #a63020;
+        -2px -2px 5px #a63020,
+        1px 1px 0 #a63020;
     text-align: left;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     line-height: 40px;
     font-family: round, serif;
-
 }
 
 .normal-link {
-
     position: absolute;
     bottom: 30%;
     height: 40px;
@@ -336,14 +366,14 @@ html {
         1px -1px 0 #a63020,
         -1px 1px 0 #a63020,
         2px 2px 5px #a63020,
-        -2px -2px 5px #a63020, 1px 1px 0 #a63020;
+        -2px -2px 5px #a63020,
+        1px 1px 0 #a63020;
     text-align: left;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     line-height: 40px;
     font-family: round, serif;
-
 }
 
 .headertext {
@@ -351,24 +381,22 @@ html {
     height: 40px;
     color: white;
     text-shadow: 1px 1px #000;
-    background-color: #30144A;
+    background-color: #30144a;
     font-size: 1em;
     padding-top: 23px;
     text-align: center;
     font-weight: bold;
     line-height: 1;
-    font-family: 'Domine', serif;
-    background-image: linear-gradient(to bottom right, #52326F, #492D63);
+    font-family: "Domine", serif;
+    background-image: linear-gradient(to bottom right, #52326f, #492d63);
 }
 
 .patreon-link:hover {
     color: orange;
-
 }
 
 .normal-link:hover {
     color: orange;
-
 }
 
 Patreon {
@@ -421,7 +449,6 @@ PatreonBig {
     position: relative;
 }
 
-
 Twitch {
     max-height: 40px;
     top: 3px;
@@ -434,16 +461,13 @@ Kofi {
     top: 3px;
     content: url(/tutorials/Images/kofiIcon.png);
     position: relative;
-
 }
-
 
 Youtube {
     max-height: 40px;
     top: 3px;
     content: url(/tutorials/Images/Youtube.png);
     position: relative;
-
 }
 
 .LinkButton {
@@ -458,7 +482,7 @@ Youtube {
     font-size: 1em;
     font-weight: bold;
     line-height: 1;
-    font-family: 'Domine', serif;
+    font-family: "Domine", serif;
     background-color: black;
 }
 
@@ -481,12 +505,12 @@ Youtube {
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background: #3b5998;
     color: white;
 }
 
 .fa-twitter {
-    background: #55ACEE;
+    background: #55acee;
     color: white;
 }
 
@@ -518,7 +542,11 @@ Youtube {
 .fa-snapchat-ghost {
     background: #fffc00;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow:
+        -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
 }
 
 .fa-skype {
