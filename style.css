@@ -20,7 +20,7 @@ html {
     border-radius: 10px;
 }
 .post_card {
-    background-color: aliceblue;
+    background-color: dimgrey;
     color: white;
     position: relative;
     background-size: cover;
@@ -306,26 +306,45 @@ html {
 }
 
 .post-image-holder {
-    background-color: green;
+    background-color: transparent;
+
     color: white;
     position: relative;
     background-size: cover;
-
     display: flex;
-    width: 300px;
-    height: 160px;
+    width: 400px;
+    height: 250px;
+    margin: 25px;
     border-radius: 15px 15px 0px 0px;
     text-decoration: none;
     opacity: 0.9;
+}
+
+.section {
+    padding: 20px;
 }
 
 .preview-image-holder:hover {
     opacity: 1;
 }
 
-.SubDiv {
+.SubDivHolder {
     display: flex;
-        justify-content: space-between;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.SubDiv {
+    max-width: 50%;
+    justify-content: space-between;
+}
+
+.post-title-holder {
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .patreon-link {
