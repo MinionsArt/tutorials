@@ -19,6 +19,23 @@ function fetchJsonFiles(filePaths) {
     );
 }
 
+document.addEventListener("DOMContentLoaded", (event) => {
+    const dropdownBtn = document.querySelector(".dropdown-btn");
+    const dropdownContent = document.querySelector(".dropdown-content");
+
+    dropdownBtn.addEventListener("click", () => {
+        dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+    });
+
+    window.addEventListener("click", (event) => {
+        if (!event.target.matches(".dropdown-btn")) {
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            }
+        }
+    });
+});
+
 async function GetAllData() {
     const jsonFilePaths = ["/tutorials/TutData.json"];
     await fetchJsonFiles(jsonFilePaths)
