@@ -20,7 +20,7 @@ html {
     border-radius: 10px;
 }
 .post_card {
-    background-color: dimgrey;
+    background-color: black;
     color: white;
     position: relative;
     background-size: cover;
@@ -28,10 +28,50 @@ html {
     display: flex;
 
     width: 900px;
-    height: 460px;
+    height: auto;
     border-radius: 15px 15px 0px 0px;
     text-decoration: none;
     opacity: 0.9;
+}
+
+.patreonDownloadLink {
+    height: 10px;
+
+    text-align: center;
+    text-shadow:
+        rgb(33, 25, 15) -1px -1px 0px,
+        rgb(33, 25, 15) 1px -1px 0px,
+        rgb(33, 25, 15) -1px 1px 0px,
+        rgb(33, 25, 15) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: #855a25;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.postTags {
+    height: 10px;
+
+    text-align: center;
+    text-shadow:
+        rgb(7, 59, 136) -1px -1px 0px,
+        rgb(7, 59, 136) 1px -1px 0px,
+        rgb(7, 59, 136) -1px 1px 0px,
+        rgb(7, 59, 136) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .typefilter {
@@ -310,12 +350,13 @@ html {
 
     color: white;
     position: relative;
-    background-size: cover;
+
     display: flex;
-    width: 400px;
-    height: 250px;
+    max-width: 400px;
+    object-fit: contain;
+    max-height: 250px;
     margin: 25px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px;
     text-decoration: none;
     opacity: 0.9;
 }
@@ -335,7 +376,7 @@ html {
 }
 
 .SubDiv {
-    max-width: 50%;
+    max-width: 100%;
     justify-content: space-between;
 }
 
@@ -343,7 +384,7 @@ html {
     top: 0;
     left: 0;
     width: inherit;
-    height: 50px;
+
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -420,8 +461,8 @@ html {
 
 Patreon {
     max-height: 20px;
-    top: 10px;
-    right: 5px;
+    top: 6px;
+    right: -1px;
     content: url(/tutorials/Images/PatreonIcon.png);
     position: relative;
 }

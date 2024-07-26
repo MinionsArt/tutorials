@@ -286,6 +286,13 @@ function fillPost(id) {
             background.setAttribute("href", a.link);
 
             background.setAttribute("id", "linkBackground" + a.id);
+
+            var link = extractPostNumber(a.link);
+
+            /*  background.setAttribute(
+                "style",
+                "background-image: url(" + "https://www.patreon.com/meta-image/post/" + link + ")"
+            );*/
             background.setAttribute(
                 "style",
                 "background-image: url(" + "/tutorials/Images/Thumbnails/" + a.id + ".jpg"
@@ -414,5 +421,15 @@ function fillPost(id) {
 
             /*}*/
         }
+    }
+}
+
+function extractPostNumber(url) {
+    const regex = /(\d+)$/;
+    const match = url.match(regex);
+    if (match) {
+        return match[1];
+    } else {
+        return null;
     }
 }

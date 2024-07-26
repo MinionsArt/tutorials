@@ -3,7 +3,18 @@
     <head>
         <link rel="stylesheet" type="text/css" href="/tutorials/style.css" />
         <meta charset="UTF-8" />
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/tutorials/TutData.json"></script>
+        <script type="text/javascript" src="/tutorials/Builder.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
         <title></title>
+        <script>
+            FillInFullPost();
+        </script>
     </head>
 
     <body>
@@ -43,39 +54,133 @@
                 <div class="SubDivHolder">
                     <div class="SubDiv">
                         <div class="post-title-holder">
-                            <div class="centered" id="title">Title of the post</div>
+                            <div class="centered" id="title">Glitch/Wireframe Shader Graph</div>
                         </div>
 
                         <div class="section">
-                            <div>Description:</div>
-                            <div id="postdescription">Description of the Post</div>
+                            <div>DESCRIPTION:</div>
+                            <div id="postdescription">
+                                A Glitchy Wireframe effect using split normals and colored backfaces, for Shader Graph
+                            </div>
                         </div>
                         <div class="section">
-                            <a id="extralink2"> Free Post Link </a>
+                            <div>
+                                <span class="patreonDownloadLink"><patreon></patreon> READ POST</span>
+                                <span id="extralink">Free post </span>
+                            </div>
                         </div>
                         <div class="section">
-                            Files:
-                            <a id="extralink"> extra link </a>
+                            Source Files ($10):
+                            <div>
+                                <span class="patreonDownloadLink"><patreon></patreon> DOWNLOAD</span>
+                                <span id="extralink">extra link </span>
+                            </div>
 
-                            <a id="patreonlink"> patreon link </a>
+                            <div>
+                                <span class="patreonDownloadLink"><patreon></patreon> DOWNLOAD</span>
+                                <span id="patreonlink">extra link </span>
+                            </div>
                         </div>
+
                         <div class="section">
-                            <div id="postdate">Updated: 2 days ago</div>
-                            <div id="originaldate">Published: 8 days ago</div>
+                            LICENSE:
+                            <div>
+                                This shader code can be used in both free and commercial projects. You can modify it to
+                                suit your own needs. Credit is not necessary, but highly appreciated. You may not resell
+                                the assets on their own.
+                            </div>
                         </div>
 
                         <div class="section" id="type">Log:</div>
                     </div>
                 </div>
                 <div class="SubDiv">
-                    <img class="post-image-holder" id="postImage" src="/tutorials/Images/Thumbnails/3d1.jpg" />
+                    <img class="post-image-holder" id="postImage" src="/tutorials/Images/Gifs/preview.gif" />
+                    <div style="display: flex">
+                        <div class="postTags" style="background-color: #416eb3; border: 2px solid #8193ff">URP</div>
+                        <div class="postTags" style="background-color: #416eb3; border: 2px solid #8193ff">
+                            Shader Graph
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div id="postdate">Updated: 2 days ago (20-05-2024)</div>
+                        <div id="originaldate">Published: 8 days ago (20-05-2024)</div>
+                    </div>
                 </div>
             </div>
 
-            <div>Related Posts:</div>
+            <div>RELATED POSTS:</div>
             <div class="grid-container" id="output">
-                <div>Related 1</div>
-                <div>Related 2</div>
+                <div data-brackets-id="325" class="unit_card" id="cardarticle102">
+                    <a
+                        data-brackets-id="326"
+                        class="preview-image-holder"
+                        id="linkBackgroundarticle102"
+                        href="https://www.patreon.com/posts/free-asset-pack-106367673"
+                        style="background-image: url(/tutorials/Images/Thumbnails/article102.jpg">
+                        <div data-brackets-id="327" class="date" id="postdatearticle102">06/2024</div>
+                        <div data-brackets-id="328" class="ogdate" id="originaldatearticle102"></div>
+                        <div data-brackets-id="329" class="typeOfPost" id="typearticle102">
+                            <div class="typefilter" style="background-color: #c31f8b; border: 2px solid #ff00f6">
+                                3D
+                            </div>
+                            <div class="typefilter" style="background-color: #666666; border: 2px solid #bdbdbd">
+                                Other
+                            </div>
+                            <div class="typefilter" style="background-color: #8d48cd; border: 2px solid #be79ff">
+                                Asset Pack
+                            </div>
+                        </div>
+                        <div data-brackets-id="330" class="centeredbox">
+                            <div data-brackets-id="331" class="centered" id="titlearticle102">Dungeon Asset Pack</div>
+                        </div>
+                    </a>
+
+                    <div data-brackets-id="332" class="bottom-holder">
+                        <div data-brackets-id="333" class="description" id="postdescriptionarticle102">
+                            Free Asset Pack - Modular Dungeon
+                        </div>
+
+                        <a data-brackets-id="334" class="normal-link" id="extralinkarticle102"></a>
+
+                        <a data-brackets-id="335" class="patreon-link" id="patreonlinkarticle102"></a>
+                    </div>
+                </div>
+                <div data-brackets-id="325" class="unit_card" id="cardarticle102">
+                    <a
+                        data-brackets-id="326"
+                        class="preview-image-holder"
+                        id="linkBackgroundarticle102"
+                        href="https://www.patreon.com/posts/free-asset-pack-106367673"
+                        style="background-image: url(/tutorials/Images/Thumbnails/article102.jpg">
+                        <div data-brackets-id="327" class="date" id="postdatearticle102">06/2024</div>
+                        <div data-brackets-id="328" class="ogdate" id="originaldatearticle102"></div>
+                        <div data-brackets-id="329" class="typeOfPost" id="typearticle102">
+                            <div class="typefilter" style="background-color: #c31f8b; border: 2px solid #ff00f6">
+                                3D
+                            </div>
+                            <div class="typefilter" style="background-color: #666666; border: 2px solid #bdbdbd">
+                                Other
+                            </div>
+                            <div class="typefilter" style="background-color: #8d48cd; border: 2px solid #be79ff">
+                                Asset Pack
+                            </div>
+                        </div>
+                        <div data-brackets-id="330" class="centeredbox">
+                            <div data-brackets-id="331" class="centered" id="titlearticle102">Dungeon Asset Pack</div>
+                        </div>
+                    </a>
+
+                    <div data-brackets-id="332" class="bottom-holder">
+                        <div data-brackets-id="333" class="description" id="postdescriptionarticle102">
+                            Free Asset Pack - Modular Dungeon
+                        </div>
+
+                        <a data-brackets-id="334" class="normal-link" id="extralinkarticle102"></a>
+
+                        <a data-brackets-id="335" class="patreon-link" id="patreonlinkarticle102"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
