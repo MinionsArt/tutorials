@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="/tutorials/style.css" />
         <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="/tutorials/Images/favicon.ico" />
         <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="/tutorials/TutData.json"></script>
         <script type="text/javascript" src="/tutorials/Builder.js"></script>
@@ -87,11 +88,13 @@
             <div class="post_card" id="card">
                 <div class="post-title-holder">
                     <div class="centered" id="title">Glitch/Wireframe Shader Graph</div>
+
                     <div style="display: flex; margin: 10px" id="type"></div>
                 </div>
                 <div class="SubDivHolder">
                     <div class="SubDiv">
                         <div class="section">
+                            <div id="tinyLink" style="font-size: 10px"></div>
                             <div><span class="dates">Description: </span></div>
                             <div id="postdescription" class="post_description">
                                 A Glitchy Wireframe effect using split normals and colored backfaces, for Shader Graph
@@ -105,6 +108,7 @@
                             Source Files:
                             <div id="sourcelinks"></div>
                         </div>
+                        <div class="section" id="extraLinks"></div>
 
                         <div class="section" style="position: absolute; bottom: 5px; max-width: 450px">
                             <div class="dropdown-content">
@@ -121,6 +125,14 @@
                             id="postPreview"
                             src="/tutorials/Images/Gifs/placeholder.png"
                             onerror="this.onerror=null; this.src='/tutorials/Images/Gifs/placeholder.png';" />
+
+                        <iframe
+                            id="videoPreview"
+                            title="test"
+                            width="450"
+                            height="315"
+                            src="https://www.youtube.com/embed/VIDEO_ID?start=60&autoplay=1"
+                            allowfullscreen></iframe>
 
                         <div class="section" id="dates"></div>
                         <div class="section" style="display: flex">

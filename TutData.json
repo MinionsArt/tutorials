@@ -225,6 +225,7 @@
         "id": "character_customisation_prototype",
         "title": "Character Customisation Prototype",
         "date": "11/2018",
+        "webgllink": "https://tibbletop.itch.io/character-customiser",
         "link": "https://www.patreon.com/posts/22650450",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/22803341",
@@ -237,7 +238,14 @@
                 "slug": "gameplay"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "customisation"
+            }
+        ]
     },
     {
         "id": "interactive_water",
@@ -369,6 +377,9 @@
         "types": [
             {
                 "slug": "design"
+            },
+            {
+                "slug": "asset-pack"
             }
         ],
         "tags": []
@@ -452,7 +463,17 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "parallax"
+            },
+            {
+                "slug": "ice"
+            },
+            {
+                "slug": "gem"
+            }
+        ]
     },
     {
         "id": "interactive_water_shader_graph",
@@ -1206,7 +1227,14 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "halloween"
+            },
+            {
+                "slug": "spooky"
+            }
+        ]
     },
     {
         "id": "after_image_effect",
@@ -1561,7 +1589,14 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "culling"
+            },
+            {
+                "slug": "instance"
+            }
+        ]
     },
     {
         "id": "grass_system_shader_graph",
@@ -1703,7 +1738,14 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "halloween"
+            },
+            {
+                "slug": "spooky"
+            }
+        ]
     },
     {
         "id": "godot_lightning_particles",
@@ -1756,7 +1798,20 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "selective"
+            },
+            {
+                "slug": "image"
+            },
+            {
+                "slug": "fullscreen"
+            },
+            {
+                "slug": "stencil"
+            }
+        ]
     },
     {
         "id": "pixelation_urp",
@@ -1797,7 +1852,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "cutting"
+            }
+        ]
     },
     {
         "id": "worldspace_ground_fog",
@@ -1837,15 +1899,15 @@
         "types": [
             {
                 "slug": "3d"
-            },
-            {
-                "slug": "other"
-            },
-            {
-                "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "dungeon"
+            },
+            {
+                "slug": "environment"
+            }]
     },
     {
         "id": "wireframe_effects",
@@ -2442,13 +2504,20 @@
         "link": "https://www.patreon.com/posts/31055278",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/31141529",
-        "description": "Using an empty pass and outline for a ghost effect",
+        "description": "Using an empty pass and outline for a  effect",
         "types": [
             {
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "ghost"
+            },
+            {
+                "slug": "spooky"
+            }
+        ]
     },
     {
         "id": "u_fog_plane",
@@ -3067,12 +3136,20 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "halloween"
+            },
+            {
+                "slug": "spooky"
+            }
+        ]
     },
     {
         "id": "3d_fish",
         "title": "Fish",
         "date": "12/2017",
+        "webgllink": "https://tibbletop.itch.io/fishing-jam",
         "link": "https://www.patreon.com/posts/15852332",
         "extralink": "https://www.patreon.com/posts/15886388",
         "extralink_description": "Free Models Pack",
@@ -3089,7 +3166,11 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "fish"
+            }
+        ]
     },
     {
         "id": "3d_fantasy_shields",
@@ -3383,6 +3464,7 @@
         "link": "https://www.youtube.com/watch?v=wbEn3PqX80c&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
+        "deprecated": "true",
         "description": "Video on the Compute Shader update for the interactive grass with tool improvements and terrain blending",
         "types": [
             {
@@ -3486,6 +3568,7 @@
         "title": "Portal Decal Effect",
         "date": "12/2023",
         "link": "https://www.youtube.com/watch?v=a1mDf2dj6JU",
+        "videolink": "https://www.youtube.com/embed/a1mDf2dj6JU?si=Ng_xKVURdZjKeX4V",
         "extralink": "",
         "patreonlink": "",
         "description": "How to make a Portal Decal Effect (VFX Breakdown)",
@@ -3494,6 +3577,16 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "portal"
+            },
+            {
+                "slug": "decal"
+            },
+            {
+                "slug": "stencil"
+            }
+        ]
     }
 ]

@@ -106,6 +106,15 @@ function ShowStartButton() {
 
     if (filter != undefined) {
         showfilter(event, filter);
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+            if (tablinks[i].id == filter) {
+                console.log(tablinks[i].id + " " + filter);
+                tablinks[i].className += " active";
+            }
+        }
     }
 }
 
@@ -177,8 +186,9 @@ function showfilter(evt, type) {
     }
 
     // Show the current tab, and add an "active" class to the button that opened the tab
-
-    evt.currentTarget.className += " active";
+    if (evt != undefined) {
+        evt.currentTarget.className += " active";
+    }
 
     currenturl = window.location.href.split("?")[0];
 
@@ -236,26 +246,26 @@ function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
     for (let i = 0; i < inlist.length; i++) {
         textvalue = inlist[i].title;
         if (textvalue.toLowerCase().indexOf(keyword) != -1) {
-            if (!isInArray(outlist, inlist[i])) {
+            if (!isInArray(outlist, inlist[i]) && !inlist[i].hasOwnProperty("deprecated")) {
                 outlist.push(inlist[i]);
             }
         }
         textvalue = inlist[i].description;
         if (textvalue.toLowerCase().indexOf(keyword) != -1) {
-            if (!isInArray(outlist, inlist[i])) {
+            if (!isInArray(outlist, inlist[i]) && !inlist[i].hasOwnProperty("deprecated")) {
                 outlist.push(inlist[i]);
             }
         }
         for (let j = 0; j < inlist[i].tags.length; j++) {
             if (keyword == inlist[i].tags[j].slug.toLowerCase()) {
-                if (!isInArray(outlist, inlist[i])) {
+                if (!isInArray(outlist, inlist[i]) && !inlist[i].hasOwnProperty("deprecated")) {
                     outlist.push(inlist[i]);
                 }
             }
         }
         for (let j = 0; j < inlist[i].types.length; j++) {
             if (keyword == inlist[i].types[j].slug.toLowerCase()) {
-                if (!isInArray(outlist, inlist[i])) {
+                if (!isInArray(outlist, inlist[i]) && !inlist[i].hasOwnProperty("deprecated")) {
                     outlist.push(inlist[i]);
                 }
             }
@@ -288,27 +298,34 @@ function FillInFullPost(id) {
                 mainlink,
                 type,
                 background,
+                links,
                 card = "";
             card = document.getElementById("card");
             card.setAttribute("id", "card" + a.id);
 
             //title
             title = document.getElementById("title");
-            title.innerHTML = a.title + " " + a.id;
+            title.innerHTML = a.title;
 
             title.setAttribute("id", "title" + a.id);
+
+            var tinyLink = document.getElementById("tinyLink");
+            tinyLink.innerHTML = a.id;
+            tinyLink.setAttribute("id", "tinyLink" + a.id);
 
             var postlink = document.getElementById("postlink");
             postlink.innerHTML = "<a href=" + a.link + "><linkIcon></linkIcon> READ POST</a>";
             // background image
-            //   icon = document.getElementById("previewimage")
-            // icon.innerHTML = "<a href=" + a.link + ">";
-
-            // icon.setAttribute("style", "background-image: url(" + "/tutorials/Images/Previews/" + a.id + ".jpg");
-
-            //  icon.setAttribute("id", "previewimage" + a.id);
 
             background = document.getElementById("postPreview");
+            var video = document.getElementById("videoPreview");
+            if (containsTypeSlug(a, "video")) {
+                video.setAttribute("src", a.videolink);
+                video.setAttribute("id", "video" + a.id);
+                background.remove();
+            } else {
+                video.remove();
+            }
 
             // replace link to post with link to new post page thingie
             // const newlink = `/tutorials/Posts.html?post=${a.id}`;
@@ -348,12 +365,24 @@ function FillInFullPost(id) {
                 if (a.patreonlink != "") {
                     var newDateDiv = document.createElement("DIV");
 
-                    // check if not urp
+                    // check if not BIRP
+                    if (
+                        containsTypeSlug(a, "other") ||
+                        containsTypeSlug(a, "gameplay") ||
+                        containsTypeSlug(a, "3d") ||
+                        containsTypeSlug(a, "texturing")
+                    ) {
+                        newDateDiv.innerHTML =
+                            '<span class="patreonDownloadLink"><a href="' +
+                            a.patreonlink +
+                            '">DOWNLOAD </a></span> <patreon></patreon> Files ($10 Tier)';
+                    } else {
+                        newDateDiv.innerHTML =
+                            '<span class="patreonDownloadLink"><a href="' +
+                            a.patreonlink +
+                            '">DOWNLOAD </a></span> <patreon></patreon> BIRP Files ($10 Tier)';
+                    }
 
-                    newDateDiv.innerHTML =
-                        '<span class="patreonDownloadLink"><a href="' +
-                        a.patreonlink +
-                        '">DOWNLOAD </a></span> <patreon></patreon> BIRP Files ($10 Tier)';
                     links.appendChild(newDateDiv);
                 }
             }
@@ -384,10 +413,16 @@ function FillInFullPost(id) {
             }
 
             // there are no links
-            if (links.innerHTML == "") {
+            if (links.innerHTML == "" && !containsTypeSlug(a, "video")) {
                 var newDateDiv = document.createElement("DIV");
                 newDateDiv.innerHTML = "None yet, ask if you need it :)";
                 links.appendChild(newDateDiv);
+            }
+            var linksExtra = document.getElementById("extraLinks");
+            if ("webgllink" in a) {
+                newDateDiv.innerHTML =
+                    '<span class="postLink"><a href="' + a.webgllink + '">DEMO </a></span> Play WEBGL Demo';
+                linksExtra.appendChild(newDateDiv);
             }
 
             // type
@@ -417,15 +452,10 @@ function FillInFullPost(id) {
             /*}*/
         }
     }
-    /*if (a.types[0].slug == "video") {
-                 var iDiv = videoTest.content.cloneNode(true);
-                 card.innerHTML = "";
-                 card.appendChild(iDiv);
-                 video = document.getElementById("video");
-                 video.setAttribute("src", a.videolink);
-                 video.setAttribute("id", "video" + a.id);
+}
 
-             } else {*/
+function containsTypeSlug(jsonData, slug) {
+    return jsonData.types.some((type) => type.slug === slug);
 }
 
 function removeByValue(array, value) {
@@ -604,7 +634,7 @@ function CreateTypeDiv(slug) {
 
             break;
         case "urp":
-            typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
+            typeDiv.setAttribute("style", "background-color: #41b34e; border: 2px solid #8193ff;");
 
             typeDiv.innerHTML = "URP";
 

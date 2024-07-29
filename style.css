@@ -37,8 +37,9 @@ a:hover {
     min-height: 400px;
     width: 990px;
     height: auto;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px;
     text-decoration: none;
+    padding:10px;
     opacity: 0.9;
 }
 
@@ -62,7 +63,7 @@ a:hover {
     padding: 11px;
 }
 
-.postLink :hover {
+.postLink:hover {
     color: aqua;
     filter: brightness(150%);
 }
@@ -74,6 +75,7 @@ a:hover {
 
 .post_description {
     padding: 20px;
+    padding-top: 5px;
 }
 
 .patreonDownloadLink {
@@ -292,7 +294,7 @@ a:hover {
 
     width: 300px;
     text-decoration: none;
-    height: 100px;
+    max-height: 100px;
     border-radius: 15px;
 
     margin-top: 20px;
