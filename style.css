@@ -1,6 +1,6 @@
 html {
     background-color: black;
-    font-family: "Domine", serif;
+    font-family: "round", serif;
 }
 
 @font-face {
@@ -8,11 +8,21 @@ html {
     src: url(/tutorials/BRLNSDB.TTF);
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    filter: brightness(150%);
+}
 .mainbody {
     background-color: #353635;
     color: white;
-    width: 840px;
-    height: 600px;
+    width: 1000px;
+    height: auto;
+
     display: table;
     margin-left: auto;
     margin-right: auto;
@@ -24,14 +34,46 @@ html {
     color: white;
     position: relative;
     background-size: cover;
-
-    display: flex;
-
-    width: 900px;
+    min-height: 400px;
+    width: 990px;
     height: auto;
     border-radius: 15px 15px 0px 0px;
     text-decoration: none;
     opacity: 0.9;
+}
+
+.postLink {
+    height: 10px;
+
+    text-align: center;
+    text-shadow:
+        rgb(33, 25, 15) -1px -1px 0px,
+        rgb(33, 25, 15) 1px -1px 0px,
+        rgb(33, 25, 15) -1px 1px 0px,
+        rgb(33, 25, 15) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: #572585;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 11px;
+}
+
+.postLink :hover {
+    color: aqua;
+    filter: brightness(150%);
+}
+
+.dates {
+    color: #966eff;
+    margin: 5px;
+}
+
+.post_description {
+    padding: 20px;
 }
 
 .patreonDownloadLink {
@@ -48,10 +90,14 @@ html {
     font-weight: bold;
     line-height: 30px;
     font-family: "Franklin Gothic Medium", serif;
-    background-color: #855a25;
-    border-radius: 5px;
+    background-color: #e56d3c;
+    border-radius: 2px;
     margin: 5px;
     padding: 5px;
+}
+
+.patreonDownloadLink:hover {
+    filter: brightness(150%);
 }
 
 .postTags {
@@ -114,6 +160,7 @@ html {
 
 .grid-container {
     display: grid;
+    max-width: 1000px;
     grid-template-columns: auto auto auto;
     gap: 20px;
     padding: 15px;
@@ -229,13 +276,12 @@ html {
 .centered {
     color: white;
     text-shadow:
-        #30144a -1px -2px 0px,
-        #30144a 2px -2px 1px,
+        #6f2faa -1px -2px 0px,
+        #6f2faa 2px -2px 1px,
         #30144a 0px 1px 1px;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1;
     height: auto;
-    font-family: "Franklin Gothic Medium", sans-serif;
     text-align: left;
     padding: 5px;
     margin: 10px;
@@ -248,6 +294,8 @@ html {
     text-decoration: none;
     height: 100px;
     border-radius: 15px;
+
+    margin-top: 20px;
 }
 
 .number {
@@ -333,6 +381,7 @@ html {
     padding: 10px;
     font-size: 16px;
     border: none;
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -341,10 +390,10 @@ html {
 }
 
 .dropdown-content {
-    display: none;
     position: relative;
-    background-color: #f9f9f9;
+    background-color: black;
     min-width: 160px;
+    font-size: 14px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -352,6 +401,7 @@ html {
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
+
     text-decoration: none;
     display: block;
 }
@@ -365,7 +415,7 @@ html {
     bottom: 0px;
     left: 0px;
     width: inherit;
-    height: 50px;
+    height: auto;
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -390,17 +440,28 @@ html {
     position: relative;
 
     display: flex;
-    max-width: 400px;
+    max-width: 450px;
     object-fit: contain;
-    max-height: 250px;
     margin: 25px;
+    margin-bottom: 10px;
     border-radius: 15px;
     text-decoration: none;
     opacity: 0.9;
 }
 
 .section {
-    padding: 20px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectionbackground {
+    padding: 7px;
+    padding-left: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    border-radius: 2px;
+    background-color: #1c1c1c;
 }
 
 .preview-image-holder:hover {
@@ -409,7 +470,7 @@ html {
 
 .SubDivHolder {
     display: flex;
-    width: 900px;
+    width: 990px;
     justify-content: space-between;
 }
 
@@ -419,11 +480,9 @@ html {
 }
 
 .post-title-holder {
-    top: 0;
-    left: 0;
-    width: inherit;
-
-    background: rgba(0, 0, 0, 0.6);
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .patreon-link {
@@ -533,7 +592,7 @@ Photoshop {
     position: relative;
 }
 
-Twitter {
+twitter {
     max-height: 40px;
     top: 3px;
     content: url(/tutorials/Images/TwitterIcon.png);
@@ -547,24 +606,45 @@ PatreonBig {
     position: relative;
 }
 
-Twitch {
+twitch {
     max-height: 40px;
     top: 3px;
     content: url(/tutorials/Images/TwitchIcon.png);
     position: relative;
 }
 
-Kofi {
+kofi {
     max-height: 40px;
     top: 3px;
     content: url(/tutorials/Images/kofiIcon.png);
     position: relative;
 }
 
-Youtube {
+youtube {
     max-height: 40px;
     top: 3px;
     content: url(/tutorials/Images/Youtube.png);
+    position: relative;
+}
+
+calendar {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/calendar.png);
+    position: relative;
+}
+
+tag {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/tag.png);
+    position: relative;
+}
+
+linkIcon {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/link.png);
     position: relative;
 }
 
@@ -586,136 +666,6 @@ Youtube {
 
 .LinkButton:hover {
     color: antiquewhite;
-}
-
-.fa-brands {
-    padding: 10px;
-    font-size: 20px;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px;
-    border-radius: 50%;
-}
-
-.fa-brands:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55acee;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
-
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow:
-        -1px 0 black,
-        0 1px black,
-        1px 0 black,
-        0 -1px black;
-}
-
-.fa-skype {
-    background: #00aff0;
-    color: white;
-}
-
-.fa-android {
-    background: #a4c639;
-    color: white;
-}
-
-.fa-dribbble {
-    background: #ea4c89;
-    color: white;
-}
-
-.fa-vimeo {
-    background: #45bbff;
-    color: white;
-}
-
-.fa-tumblr {
-    background: #2c4762;
-    color: white;
-}
-
-.fa-vine {
-    background: #00b489;
-    color: white;
-}
-
-.fa-foursquare {
-    background: #45bbff;
-    color: white;
-}
-
-.fa-stumbleupon {
-    background: #eb4924;
-    color: white;
-}
-
-.fa-flickr {
-    background: #f40083;
-    color: white;
-}
-
-.fa-yahoo {
-    background: #430297;
-    color: white;
-}
-
-.fa-soundcloud {
-    background: #ff5500;
-    color: white;
-}
-
-.fa-reddit {
-    background: #ff5700;
-    color: white;
-}
-
-.fa-twitch {
-    background: #7d12a5;
-    color: white;
-}
-
-.fa-patreon {
-    background: #ff5700;
-
-    color: white;
 }
 
 #myBtn:hover {

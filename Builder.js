@@ -1,4 +1,5 @@
 const queryString = window.location.search;
+
 const urlParams = new URLSearchParams(queryString);
 
 // get parameters stuff
@@ -23,17 +24,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const dropdownBtn = document.querySelector(".dropdown-btn");
     const dropdownContent = document.querySelector(".dropdown-content");
 
-    dropdownBtn.addEventListener("click", () => {
-        dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
-    });
+    if (dropdownBtn != undefined) {
+        dropdownBtn.addEventListener("click", () => {
+            dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+        });
 
-    window.addEventListener("click", (event) => {
-        if (!event.target.matches(".dropdown-btn")) {
-            if (dropdownContent.style.display === "block") {
-                dropdownContent.style.display = "none";
+        window.addEventListener("click", (event) => {
+            if (!event.target.matches(".dropdown-btn")) {
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                }
             }
-        }
-    });
+        });
+    }
 });
 
 async function GetAllData() {
@@ -198,21 +201,8 @@ function searchUnits(keyword) {
         j,
         l,
         result = "";
-
-    var fields = keyword.split(" ");
-    console.log(fields.length);
-    var list = [];
+    var list = GetSearchList(keyword);
     document.getElementById("output").innerHTML = "";
-
-    var searchList = Array.from(jsonTutorials);
-    for (let i = 0; i < fields.length; i++) {
-        list = [];
-        SearchListUsingKeyWordAndPush(searchList, fields[i], list);
-        searchList = Array.from(list);
-    }
-
-    list.sort(compare_date);
-    list.reverse();
     for (let i = 0; i < list.length; i++) {
         var iDiv = test.content.cloneNode(true);
         document.getElementById("output").appendChild(iDiv);
@@ -223,29 +213,48 @@ function searchUnits(keyword) {
     }
 }
 
+function GetSearchList(keyword) {
+    var fields = keyword.split(" ");
+    console.log(fields);
+    var list = [];
+
+    for (let i = 0; i < fields.length; i++) {
+        if (fields[i] != "") {
+            SearchListUsingKeyWordAndPush(jsonTutorials, fields[i].toLowerCase(), list);
+        }
+
+        //searchList = Array.from(list);
+    }
+
+    list.sort(compare_date);
+    list.reverse();
+    return list;
+}
+
 function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
+    console.log(keyword);
     for (let i = 0; i < inlist.length; i++) {
         textvalue = inlist[i].title;
-        if (textvalue.toUpperCase().indexOf(keyword) > -1) {
+        if (textvalue.toLowerCase().indexOf(keyword) != -1) {
             if (!isInArray(outlist, inlist[i])) {
                 outlist.push(inlist[i]);
             }
         }
         textvalue = inlist[i].description;
-        if (textvalue.toUpperCase().indexOf(keyword) > -1) {
+        if (textvalue.toLowerCase().indexOf(keyword) != -1) {
             if (!isInArray(outlist, inlist[i])) {
                 outlist.push(inlist[i]);
             }
         }
         for (let j = 0; j < inlist[i].tags.length; j++) {
-            if (keyword == inlist[i].tags[j].slug.toUpperCase()) {
+            if (keyword == inlist[i].tags[j].slug.toLowerCase()) {
                 if (!isInArray(outlist, inlist[i])) {
                     outlist.push(inlist[i]);
                 }
             }
         }
         for (let j = 0; j < inlist[i].types.length; j++) {
-            if (keyword == inlist[i].types[j].slug.toUpperCase()) {
+            if (keyword == inlist[i].types[j].slug.toLowerCase()) {
                 if (!isInArray(outlist, inlist[i])) {
                     outlist.push(inlist[i]);
                 }
@@ -256,7 +265,201 @@ function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
 }
 
 function isInArray(array, search) {
-    return array.indexOf(search) >= 0;
+    return array.indexOf(search) != -1;
+}
+
+function ShowPostFromLink() {
+    var spellID = urlParams.get("post");
+    if (spellID != undefined) {
+        document.title = "Minionsart Tutorials - " + spellID;
+        FillInFullPost(spellID, "dataHolder");
+    }
+}
+
+function FillInFullPost(id) {
+    for (let i = 0; i < jsonTutorials.length; i++) {
+        if (id == jsonTutorials[i].id) {
+            a = jsonTutorials[i];
+            var title,
+                icon,
+                date,
+                originalDate,
+                description,
+                mainlink,
+                type,
+                background,
+                card = "";
+            card = document.getElementById("card");
+            card.setAttribute("id", "card" + a.id);
+
+            //title
+            title = document.getElementById("title");
+            title.innerHTML = a.title + " " + a.id;
+
+            title.setAttribute("id", "title" + a.id);
+
+            var postlink = document.getElementById("postlink");
+            postlink.innerHTML = "<a href=" + a.link + "><linkIcon></linkIcon> READ POST</a>";
+            // background image
+            //   icon = document.getElementById("previewimage")
+            // icon.innerHTML = "<a href=" + a.link + ">";
+
+            // icon.setAttribute("style", "background-image: url(" + "/tutorials/Images/Previews/" + a.id + ".jpg");
+
+            //  icon.setAttribute("id", "previewimage" + a.id);
+
+            background = document.getElementById("postPreview");
+
+            // replace link to post with link to new post page thingie
+            // const newlink = `/tutorials/Posts.html?post=${a.id}`;
+
+            background.setAttribute("id", "postPreview" + a.id);
+
+            //
+            background.setAttribute("src", "/tutorials/Images/Gifs/" + a.id + ".gif");
+
+            // date
+            // get dates holder and generate a update or released data
+            date = document.getElementById("dates");
+            var newDateDiv = document.createElement("DIV");
+            newDateDiv.innerHTML = '<span class="dates"><calendar></calendar> Released: </span>' + a.date;
+
+            date.appendChild(newDateDiv);
+
+            if ("updateDate" in a) {
+                var newUpDateDiv = document.createElement("DIV");
+                newUpDateDiv.innerHTML =
+                    '<span class="dates"><calendar></calendar> Updated: </span>' + a.updateDate + "";
+
+                date.appendChild(newDateDiv);
+            }
+            date.setAttribute("id", "updateDate" + a.id);
+
+            // description
+            description = document.getElementById("postdescription");
+            description.innerHTML = a.description;
+            description.setAttribute("id", "postdescription" + a.id);
+
+            // get the links associated with the post
+
+            // keep support for old style of links, but also check for new style
+            links = document.getElementById("sourcelinks");
+            if ("patreonlink" in a) {
+                if (a.patreonlink != "") {
+                    var newDateDiv = document.createElement("DIV");
+
+                    // check if not urp
+
+                    newDateDiv.innerHTML =
+                        '<span class="patreonDownloadLink"><a href="' +
+                        a.patreonlink +
+                        '">DOWNLOAD </a></span> <patreon></patreon> BIRP Files ($10 Tier)';
+                    links.appendChild(newDateDiv);
+                }
+            }
+
+            if ("extralink" in a) {
+                if (a.extralink != "") {
+                    var newDateDiv = document.createElement("DIV");
+                    newDateDiv.innerHTML =
+                        '<span class="patreonDownloadLink"><a href="' +
+                        a.extralink +
+                        '"> DOWNLOAD </a></span>' +
+                        a.extralink_description;
+                    links.appendChild(newDateDiv);
+                }
+            }
+
+            if ("newlinks" in a) {
+                for (let i = 0; i < a.newlinks.length; i++) {
+                    var newDateDiv = document.createElement("DIV");
+
+                    newDateDiv.innerHTML =
+                        '<span class="patreonDownloadLink"><a href="' +
+                        a.newlinks[i].link +
+                        '"><patreon></patreon> DOWNLOAD </a></span>' +
+                        a.newlinks[i].description;
+                    links.appendChild(newDateDiv);
+                }
+            }
+
+            // there are no links
+            if (links.innerHTML == "") {
+                var newDateDiv = document.createElement("DIV");
+                newDateDiv.innerHTML = "None yet, ask if you need it :)";
+                links.appendChild(newDateDiv);
+            }
+
+            // type
+            type = document.getElementById("type");
+            for (let i = 0; i < a.types.length; i++) {
+                var typeDiv = CreateTypeDiv(a.types[i].slug);
+
+                type.appendChild(typeDiv);
+            }
+
+            type.setAttribute("id", "type" + a.id);
+
+            tag = document.getElementById("tags");
+            if ("tags" in a) {
+                for (let i = 0; i < a.tags.length; i++) {
+                    if (i == a.tags.length - 1) {
+                        tag.innerHTML += a.tags[i].slug;
+                    } else {
+                        tag.innerHTML += a.tags[i].slug + ", ";
+                    }
+                }
+            }
+
+            tag.setAttribute("id", "tags" + a.id);
+
+            FindRelatedPosts(a);
+            /*}*/
+        }
+    }
+    /*if (a.types[0].slug == "video") {
+                 var iDiv = videoTest.content.cloneNode(true);
+                 card.innerHTML = "";
+                 card.appendChild(iDiv);
+                 video = document.getElementById("video");
+                 video.setAttribute("src", a.videolink);
+                 video.setAttribute("id", "video" + a.id);
+
+             } else {*/
+}
+
+function removeByValue(array, value) {
+    return array.filter((item) => item !== value);
+}
+
+function FindRelatedPosts(tutData) {
+    var searchEntries = "";
+    if ("tags" in tutData) {
+        for (var i = 0; i < tutData.tags.length; i++) {
+            if (i == tutData.tags.length - 1) {
+                searchEntries += tutData.tags[i].slug;
+            } else {
+                searchEntries += tutData.tags[i].slug + " ";
+            }
+        }
+    }
+    if (searchEntries != "") {
+        var list = GetSearchList(searchEntries);
+        console.log(searchEntries);
+        console.log(list);
+        // remove current entry
+
+        list = removeByValue(list, tutData);
+
+        for (let i = 0; i < list.length; i++) {
+            var iDiv = test.content.cloneNode(true);
+            document.getElementById("relatedPosts").appendChild(iDiv);
+
+            // elem.append(newDiv); // (*)
+
+            fillPost(list[i].id);
+        }
+    }
 }
 
 function fillPost(id) {
@@ -274,15 +477,6 @@ function fillPost(id) {
                 card = "";
             card = document.getElementById("card");
             card.setAttribute("id", "card" + a.id);
-            /*if (a.types[0].slug == "video") {
-                 var iDiv = videoTest.content.cloneNode(true);
-                 card.innerHTML = "";
-                 card.appendChild(iDiv);
-                 video = document.getElementById("video");
-                 video.setAttribute("src", a.videolink);
-                 video.setAttribute("id", "video" + a.id);
-
-             } else {*/
 
             //title
             title = document.getElementById("title");
@@ -300,7 +494,9 @@ function fillPost(id) {
 
             background = document.getElementById("linkBackground");
 
-            background.setAttribute("href", a.link);
+            // replace link to post with link to new post page thingie
+            const newlink = `/tutorials/Posts.html?post=${a.id}`;
+            background.setAttribute("href", newlink);
 
             background.setAttribute("id", "linkBackground" + a.id);
 
@@ -335,7 +531,7 @@ function fillPost(id) {
             description.innerHTML = a.description;
             description.setAttribute("id", "postdescription" + a.id);
 
-            extralink = document.getElementById("extralink");
+            /*extralink = document.getElementById("extralink");
             if (a.extralink != "") {
                 extralink.setAttribute("href", a.extralink);
                 extralink.innerHTML = a.extralink_description;
@@ -352,85 +548,13 @@ function fillPost(id) {
             } else {
                 patreonlink.innerHTML = "";
             }
-            patreonlink.setAttribute("id", "patreonlink" + a.id);
+            patreonlink.setAttribute("id", "patreonlink" + a.id);*/
 
             // type
             type = document.getElementById("type");
             for (let i = 0; i < a.types.length; i++) {
-                var typeDiv = document.createElement("DIV");
-                typeDiv.className = "typefilter";
+                var typeDiv = CreateTypeDiv(a.types[i].slug);
 
-                switch (a.types[i].slug) {
-                    case "built-in":
-                        typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
-
-                        typeDiv.innerHTML = "Built-In";
-
-                        break;
-
-                    case "3d":
-                        typeDiv.setAttribute("style", "background-color: #c31f8b; border: 2px solid #ff00f6;");
-
-                        typeDiv.innerHTML = "3D";
-
-                        break;
-
-                    case "other":
-                        typeDiv.setAttribute("style", "background-color: #666666; border: 2px solid #bdbdbd;");
-
-                        typeDiv.innerHTML = "Other";
-
-                        break;
-
-                    case "gameplay":
-                        typeDiv.setAttribute("style", "background-color: #ca9243; border: 2px solid #ffc470;");
-
-                        typeDiv.innerHTML = "Gameplay";
-
-                        break;
-                    case "shader-graph":
-                        typeDiv.setAttribute("style", "background-color: #5ad2b7; border: 2px solid #92ffe7;");
-
-                        typeDiv.innerHTML = "Shader Graph";
-
-                        break;
-                    case "urp":
-                        typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
-
-                        typeDiv.innerHTML = "URP";
-
-                        break;
-                    case "godot":
-                        typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;");
-
-                        typeDiv.innerHTML = "GODOT";
-
-                        break;
-                    case "asset-pack":
-                        typeDiv.setAttribute("style", "background-color: #8d48cd; border: 2px solid #be79ff;");
-
-                        typeDiv.innerHTML = "Asset Pack";
-
-                        break;
-                    case "design":
-                        typeDiv.setAttribute("style", "background-color: #3c422f; border: 2px solid #999c91;");
-
-                        typeDiv.innerHTML = "Design";
-
-                        break;
-                    case "texturing":
-                        typeDiv.setAttribute("style", "background-color: #c44e4e; border: 2px solid #f38e8e;");
-
-                        typeDiv.innerHTML = "Textures";
-
-                        break;
-                    case "video":
-                        typeDiv.setAttribute("style", "background-color: #dce065; border: 2px solid #fdffc7;");
-
-                        typeDiv.innerHTML = "Video";
-
-                        break;
-                }
                 type.appendChild(typeDiv);
             }
 
@@ -439,6 +563,84 @@ function fillPost(id) {
             /*}*/
         }
     }
+}
+
+function CreateTypeDiv(slug) {
+    var typeDiv = document.createElement("DIV");
+    typeDiv.className = "typefilter";
+
+    switch (slug) {
+        case "built-in":
+            typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
+
+            typeDiv.innerHTML = "Built-In";
+
+            break;
+
+        case "3d":
+            typeDiv.setAttribute("style", "background-color: #c31f8b; border: 2px solid #ff00f6;");
+
+            typeDiv.innerHTML = "3D";
+
+            break;
+
+        case "other":
+            typeDiv.setAttribute("style", "background-color: #666666; border: 2px solid #bdbdbd;");
+
+            typeDiv.innerHTML = "Other";
+
+            break;
+
+        case "gameplay":
+            typeDiv.setAttribute("style", "background-color: #ca9243; border: 2px solid #ffc470;");
+
+            typeDiv.innerHTML = "Gameplay";
+
+            break;
+        case "shader-graph":
+            typeDiv.setAttribute("style", "background-color: #5ad2b7; border: 2px solid #92ffe7;");
+
+            typeDiv.innerHTML = "Shader Graph";
+
+            break;
+        case "urp":
+            typeDiv.setAttribute("style", "background-color: #416eb3; border: 2px solid #8193ff;");
+
+            typeDiv.innerHTML = "URP";
+
+            break;
+        case "godot":
+            typeDiv.setAttribute("style", "background-color: #5ecd68; border: 2px solid #91ff9b;");
+
+            typeDiv.innerHTML = "GODOT";
+
+            break;
+        case "asset-pack":
+            typeDiv.setAttribute("style", "background-color: #8d48cd; border: 2px solid #be79ff;");
+
+            typeDiv.innerHTML = "Asset Pack";
+
+            break;
+        case "design":
+            typeDiv.setAttribute("style", "background-color: #3c422f; border: 2px solid #999c91;");
+
+            typeDiv.innerHTML = "Design";
+
+            break;
+        case "texturing":
+            typeDiv.setAttribute("style", "background-color: #c44e4e; border: 2px solid #f38e8e;");
+
+            typeDiv.innerHTML = "Textures";
+
+            break;
+        case "video":
+            typeDiv.setAttribute("style", "background-color: #dce065; border: 2px solid #fdffc7;");
+
+            typeDiv.innerHTML = "Video";
+
+            break;
+    }
+    return typeDiv;
 }
 
 function extractPostNumber(url) {
