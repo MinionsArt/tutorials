@@ -141,10 +141,16 @@ function showAllPostsAscending() {
 }
 
 function compare_date(a, b) {
-    var dateA = a.date.split("/");
-    dateA = dateA[1] + dateA[0];
-    var dateB = b.date.split("/");
-    dateB = dateB[1] + dateB[0];
+    // Helper function to parse dates
+    function parseDate(dateString) {
+        let dateParts = dateString.split("/");
+        return dateParts[1] + dateParts[0];
+    }
+
+    // Determine the date to use for comparison
+    let dateA = a.updateDate ? parseDate(a.updateDate) : parseDate(a.date);
+    let dateB = b.updateDate ? parseDate(b.updateDate) : parseDate(b.date);
+
     return dateA - dateB;
 }
 
@@ -275,27 +281,6 @@ function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
     return outlist;
 }
 
-function setMetaTag(property, content) {
-    let metaTag = document.querySelector(`meta[property='${property}']`);
-    if (!metaTag) {
-        metaTag = document.createElement("meta");
-        metaTag.setAttribute("property", property);
-        document.head.appendChild(metaTag);
-    }
-    metaTag.setAttribute("content", content);
-}
-
-function SetMetaTagsForPost(a) {
-    setMetaTag("og:type", "website");
-    setMetaTag("og:url", "https://linkfork.co/");
-    setMetaTag("og:title", a.title);
-    setMetaTag(
-        "og:description",
-        "LinkFork lets you shorten, and customize how your link will appear when shared on social media, for free."
-    );
-    setMetaTag("og:image", "/tutorials/thumbnails/" + a.id + ".jpg");
-}
-
 function isInArray(array, search) {
     return array.indexOf(search) != -1;
 }
@@ -314,7 +299,6 @@ function FillInFullPost(id) {
         if (id == jsonTutorials[i].id) {
             a = jsonTutorials[i];
 
-            SetMetaTagsForPost(a);
             var title,
                 icon,
                 date,
