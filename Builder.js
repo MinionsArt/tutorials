@@ -275,6 +275,27 @@ function SearchListUsingKeyWordAndPush(inlist, keyword, outlist) {
     return outlist;
 }
 
+function setMetaTag(property, content) {
+    let metaTag = document.querySelector(`meta[property='${property}']`);
+    if (!metaTag) {
+        metaTag = document.createElement("meta");
+        metaTag.setAttribute("property", property);
+        document.head.appendChild(metaTag);
+    }
+    metaTag.setAttribute("content", content);
+}
+
+function SetMetaTagsForPost(a) {
+    setMetaTag("og:type", "website");
+    setMetaTag("og:url", "https://linkfork.co/");
+    setMetaTag("og:title", a.title);
+    setMetaTag(
+        "og:description",
+        "LinkFork lets you shorten, and customize how your link will appear when shared on social media, for free."
+    );
+    setMetaTag("og:image", "/tutorials/thumbnails/" + a.id + ".jpg");
+}
+
 function isInArray(array, search) {
     return array.indexOf(search) != -1;
 }
@@ -283,6 +304,7 @@ function ShowPostFromLink() {
     var spellID = urlParams.get("post");
     if (spellID != undefined) {
         document.title = "Minionsart Tutorials - " + spellID;
+
         FillInFullPost(spellID, "dataHolder");
     }
 }
@@ -291,6 +313,8 @@ function FillInFullPost(id) {
     for (let i = 0; i < jsonTutorials.length; i++) {
         if (id == jsonTutorials[i].id) {
             a = jsonTutorials[i];
+
+            SetMetaTagsForPost(a);
             var title,
                 icon,
                 date,
