@@ -427,8 +427,9 @@
         "updateDate": "11/2022",
         "date": "04/2019",
         "link": "https://www.patreon.com/posts/26438849",
-        "extralink": "",
-        "patreonlink": "https://www.patreon.com/posts/world-position-74358101",
+        "extralink": "https://www.patreon.com/posts/world-position-74358101",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "patreonlink": "",
         "description": "Shader Graph conversion of the World Position Radius Effects (Appear, Swap, Disappear)",
         "types": [
             {
@@ -1996,8 +1997,9 @@
         "title": "World Position Effects 2: More Shapes",
         "date": "01/2023",
         "link": "https://www.patreon.com/posts/urp-world-part-2-77812661",
-        "extralink": "",
-        "patreonlink": "https://www.patreon.com/posts/world-position-74358101",
+        "extralink": "https://www.patreon.com/posts/world-position-74358101",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "patreonlink": "",
         "description": "Box/Square Shape and Multiple Interactors",
         "types": [
             {
@@ -2445,7 +2447,7 @@
         "title": "Worldspace Ground Fog Effect",
         "date": "06/2024",
         "link": "https://www.patreon.com/posts/worldspace-fog-107004859",
-        "extralink": "",
+        "extralink": "https://www.patreon.com/posts/worldspace-fog-109121106",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "patreonlink": "",
         "description": "Creating a parallax moving ground fog",
