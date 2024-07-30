@@ -71,9 +71,10 @@ function showAllPostsDescending(evt) {
     for (let i = 0; i < jsonTutorials.length; i++) {
         iDiv = test.content.cloneNode(true);
         document.getElementById("output").appendChild(iDiv);
-
-        // elem.append(newDiv); // (*)
-        list.push(jsonTutorials[i]);
+        if (!jsonTutorials[i].hasOwnProperty("deprecated")) {
+            // elem.append(newDiv); // (*)
+            list.push(jsonTutorials[i]);
+        }
     }
     document.getElementById("output").innerHTML = "";
     list.sort(compare_date);
@@ -161,7 +162,7 @@ function showfilter(evt, type) {
     for (let i = 0; i < jsonTutorials.length; i++) {
         for (let j = 0; j < jsonTutorials[i].types.length; j++) {
             if (type == jsonTutorials[i].types[j].slug) {
-                if (!isInArray(list, jsonTutorials[i])) {
+                if (!isInArray(list, jsonTutorials[i]) && !jsonTutorials[i].hasOwnProperty("deprecated")) {
                     list.push(jsonTutorials[i]);
                 }
             }
@@ -309,9 +310,9 @@ function FillInFullPost(id) {
 
             title.setAttribute("id", "title" + a.id);
 
-            var tinyLink = document.getElementById("tinyLink");
+            /* var tinyLink = document.getElementById("tinyLink");
             tinyLink.innerHTML = a.id;
-            tinyLink.setAttribute("id", "tinyLink" + a.id);
+            tinyLink.setAttribute("id", "tinyLink" + a.id);*/
 
             var postlink = document.getElementById("postlink");
             postlink.innerHTML = "<a href=" + a.link + "><linkIcon></linkIcon> READ POST</a>";
@@ -344,11 +345,12 @@ function FillInFullPost(id) {
             date.appendChild(newDateDiv);
 
             if ("updateDate" in a) {
+                console.log("here");
                 var newUpDateDiv = document.createElement("DIV");
                 newUpDateDiv.innerHTML =
-                    '<span class="dates"><calendar></calendar> Updated: </span>' + a.updateDate + "";
+                    '<span class="dates2"><calendar></calendar> *Updated*: </span>' + a.updateDate + "";
 
-                date.appendChild(newDateDiv);
+                date.appendChild(newUpDateDiv);
             }
             date.setAttribute("id", "updateDate" + a.id);
 
@@ -376,6 +378,12 @@ function FillInFullPost(id) {
                             '<span class="patreonDownloadLink"><a href="' +
                             a.patreonlink +
                             '">DOWNLOAD </a></span> <patreon></patreon> Files ($10 Tier)';
+                    } else if (a.hasOwnProperty("patreonlink_description")) {
+                        newDateDiv.innerHTML =
+                            '<span class="patreonDownloadLink"><a href="' +
+                            a.patreonlink +
+                            '">DOWNLOAD </a></span> <patreon></patreon>' +
+                            a.patreonlink_description;
                     } else {
                         newDateDiv.innerHTML =
                             '<span class="patreonDownloadLink"><a href="' +
@@ -419,7 +427,9 @@ function FillInFullPost(id) {
                 links.appendChild(newDateDiv);
             }
             var linksExtra = document.getElementById("extraLinks");
+
             if ("webgllink" in a) {
+                var newDateDiv = document.createElement("DIV");
                 newDateDiv.innerHTML =
                     '<span class="postLink"><a href="' + a.webgllink + '">DEMO </a></span> Play WEBGL Demo';
                 linksExtra.appendChild(newDateDiv);
@@ -544,13 +554,13 @@ function fillPost(id) {
             // date
             date = document.getElementById("postdate");
             originalDate = document.getElementById("originaldate");
-            if (a.originalDate == undefined) {
+            if (a.updateDate == undefined) {
                 // original date for updated posts
                 date.innerHTML = a.date;
                 originalDate.innerHTML = "";
             } else {
-                originalDate.innerHTML = a.originalDate;
-                date.innerHTML = a.date + " *Updated*";
+                originalDate.innerHTML = a.date;
+                date.innerHTML = a.updateDate + " *Updated*";
             }
             originalDate.setAttribute("id", "originaldate" + a.id);
 

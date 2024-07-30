@@ -47,10 +47,10 @@
         "id": "rendertexture_painting_examples",
         "title": "RenderTexture Painting Examples",
         "date": "12/2017",
-        "link": "https://www.patreon.com/posts/17804712",
+        "link": "https://www.patreon.com/posts/rendertexture-15961186",
         "extralink": "",
         "patreonlink": "",
-        "description": "A few ways to paint on meshes and UI using RenderTextures in Unity",
+        "description": "A few ways to paint on meshes and UI using RenderTextures in Unity, Laser, Snow, Map notes, Texture drawing",
         "types": [
             {
                 "slug": "built-in"
@@ -150,6 +150,8 @@
             },
             {
                 "slug": "kat"
+            }, {
+                "slug": "environment"
             }
         ]
     },
@@ -185,7 +187,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "vertexcolor"
+            },
+            {
+                "slug": "polybrush"
+            }
+        ]
     },
     {
         "id": "astro_kat_moving_kat",
@@ -203,6 +212,9 @@
         "tags": [
             {
                 "slug": "kat"
+            },
+            {
+                "slug": "ik"
             }
         ]
     },
@@ -219,7 +231,17 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "decal"
+            },
+            {
+                "slug": "rendertexture"
+            },
+            {
+                "slug": "paint"
+            }
+        ]
     },
     {
         "id": "character_customisation_prototype",
@@ -260,7 +282,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "rendertexture"
+            }
+        ]
     },
     {
         "id": "intro_shader_graph",
@@ -278,7 +307,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "intro"
+            }
+        ]
     },
     {
         "id": "shadergraph_conversion",
@@ -296,7 +329,17 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "iridescent"
+            },
+            {
+                "slug": "snow"
+            },
+            {
+                "slug": "toon"
+            }
+        ]
     },
     {
         "id": "shadergraph_conversion2",
@@ -314,7 +357,20 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "waterfall"
+            },
+            {
+                "slug": "triplanar"
+            },
+            {
+                "slug": "liquid"
+            }
+        ]
     },
     {
         "id": "interactive_snow",
@@ -324,13 +380,23 @@
         "link": "https://www.patreon.com/posts/25641162",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/25736816",
-        "description": "Interactive snow using RenderTexture and Tesselation",
+        "description": "Interactive snow using RenderTexture and Tessellation",
         "types": [
             {
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "snow"
+            },
+            {
+                "slug": "rendertexture"
+            },
+            {
+                "slug": "tessellation"
+            }
+        ]
     },
     {
         "id": "selective_image_effects",
@@ -345,7 +411,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "stencil"
+            },
+            {
+                "slug": "image"
+            }
+        ]
     },
     {
         "id": "world_position_effects1_urp",
@@ -364,7 +437,20 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "swap"
+            },
+            {
+                "slug": "disappear"
+            },
+            {
+                "slug": "appear"
+            },
+            {
+                "slug": "positional"
+            }
+        ]
     },
     {
         "id": "ak_character_design",
@@ -382,7 +468,11 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            }
+        ]
     },
     {
         "id": "stylized_skybox",
@@ -397,7 +487,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "skybox"
+            },
+            {
+                "slug": "cloud"
+            }
+        ]
     },
     {
         "id": "shader_graph_vertex_colors",
@@ -415,7 +512,17 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "vertexcolor"
+            },
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "paint"
+            }
+        ]
     },
     {
         "id": "blendshapes_eye_tracking",
@@ -430,7 +537,14 @@
                 "slug": "other"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "blendshape"
+            },
+            {
+                "slug": "eye"
+            }
+        ]
     },
     {
         "id": "hit_explosion_effects",
@@ -439,6 +553,7 @@
         "link": "https://www.patreon.com/posts/28616038",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/28733514",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "description": "Making hit/explosion particle effects with custom particle shaders",
         "types": [
             {
@@ -448,7 +563,17 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "explosion"
+            },
+            {
+                "slug": "hit"
+            },
+            {
+                "slug": "particle"
+            }
+        ]
     },
     {
         "id": "parallax_effects",
@@ -491,7 +616,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "refraction"
+            }
+        ]
     },
     {
         "id": "toon_shader_hit_effects",
@@ -509,7 +641,14 @@
                 "slug": "gameplay"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "hit"
+            }
+        ]
     },
     {
         "id": "positional_effects",
@@ -518,7 +657,7 @@
         "link": "https://www.patreon.com/posts/31938500",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/31970239",
-        "description": "Moving Scattered Objects Back / Growing Flowers",
+        "description": "Moving Scattered Objects Back / Growing Flowers using instanced properties",
         "types": [
             {
                 "slug": "built-in"
@@ -527,7 +666,17 @@
                 "slug": "gameplay"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "positional"
+            },
+            {
+                "slug": "grow"
+            },
+            {
+                "slug": "instance"
+            }
+        ]
     },
     {
         "id": "positional_effects_urp",
@@ -545,7 +694,17 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "positional"
+            },
+            {
+                "slug": "grow"
+            },
+            {
+                "slug": "instance"
+            }
+        ]
     },
     {
         "id": "thermal_vision",
@@ -563,7 +722,14 @@
                 "slug": "gameplay"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "thermal"
+            },
+            {
+                "slug": "image"
+            }
+        ]
     },
     {
         "id": "lava_shader",
@@ -578,7 +744,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "lava"
+            },
+            {
+                "slug": "vertexcolor"
+            }
+        ]
     },
     {
         "id": "lava_shader_urp",
@@ -596,7 +769,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "lava"
+            },
+            {
+                "slug": "vertexcolor"
+            }
+        ]
     },
     {
         "id": "2d_sprite_overlays",
@@ -605,6 +785,7 @@
         "link": "https://www.patreon.com/posts/33606001",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/33606001",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "description": "Sprite based Overlay effects for 2D games",
         "types": [
             {
@@ -614,7 +795,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            }
+        ]
     },
     {
         "id": "shadergraph_eyes",
@@ -632,7 +817,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "eye"
+            }
+        ]
     },
     {
         "id": "moving_kat2",
@@ -650,6 +839,9 @@
         "tags": [
             {
                 "slug": "kat"
+            },
+            {
+                "slug": "character"
             }
         ]
     },
@@ -669,7 +861,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "dissolve"
+            },
+            {
+                "slug": "teleport"
+            }
+        ]
     },
     {
         "id": "resources_vfx",
@@ -684,7 +883,14 @@
                 "slug": "other"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "vfx"
+            },
+            {
+                "slug": "resource"
+            }
+        ]
     },
     {
         "id": "asset_pack_2020",
@@ -699,7 +905,36 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "props"
+            }
+        ]
+    },
+    {
+        "id": "asset_pack_nature",
+        "title": "Free Nature Assets",
+        "date": "09/2019",
+        "link": "https://www.patreon.com/posts/free-nature-29930637",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Handfull of low-poly nature models",
+        "types": [
+            {
+                "slug": "asset-pack"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "nature"
+            },
+            {
+                "slug": "environment"
+            },
+            {
+                "slug": "props"
+            }
+        ]
     },
     {
         "id": "minimap_setup",
@@ -746,7 +981,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "animated_light_cookies",
@@ -783,7 +1025,14 @@
                 "slug": "gameplay"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "chain"
+            },
+            {
+                "slug": "joint"
+            }
+        ]
     },
     {
         "id": "skybox_shader_graph",
@@ -801,7 +1050,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "skybox"
+            }
+        ]
     },
     {
         "id": "gradient_map_image_effects",
@@ -809,6 +1062,7 @@
         "date": "08/2020",
         "link": "https://www.patreon.com/posts/40192059",
         "extralink": "",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "patreonlink": "https://www.patreon.com/posts/image-effects-40445929",
         "description": "ImageEffect setup for URP and Built-in",
         "types": [
@@ -822,7 +1076,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "image"
+            }
+        ]
     },
     {
         "id": "waterfall",
@@ -831,13 +1089,26 @@
         "link": "https://www.patreon.com/posts/40078029",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/new-waterfall-40810634",
-        "description": "New Waterfall with Refractions, Interactivity",
+        "description": "New Waterfall with Refractions, Interactivity via RenderTexture",
         "types": [
             {
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "waterfall"
+            },
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "refraction"
+            },
+            {
+                "slug": "rendertexture"
+            }
+        ]
     },
     {
         "id": "waterfall_urp",
@@ -855,7 +1126,20 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "waterfall"
+            },
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "refraction"
+            },
+            {
+                "slug": "rendertexture"
+            }
+        ]
     },
     {
         "id": "moving_kat3",
@@ -873,6 +1157,9 @@
         "tags": [
             {
                 "slug": "kat"
+            },
+            {
+                "slug": "character"
             }
         ]
     },
@@ -889,7 +1176,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "glass"
+            }
+        ]
     },
     {
         "id": "glass_urp",
@@ -907,7 +1198,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "glass"
+            }
+        ]
     },
     {
         "id": "ui_sprite_swapping",
@@ -915,6 +1210,7 @@
         "date": "11/2020",
         "link": "https://www.patreon.com/posts/43816363",
         "extralink": "",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "patreonlink": "https://www.patreon.com/posts/44255626",
         "description": "Sprite effects for URP and Built-In",
         "types": [
@@ -925,7 +1221,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "swap"
+            }
+        ]
     },
     {
         "id": "geometry_grass1",
@@ -940,27 +1243,39 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "geometry"
+            }
+        ]
     },
     {
         "id": "urp_tessellation",
-        "title": "URP Tessellation",
+        "title": "URP tessellation",
         "updateDate": "06/2022",
         "date": "12/2020",
         "link": "https://www.patreon.com/posts/45320078",
         "extralink": "",
         "patreonlink": "",
-        "description": "Basic Tessellation setup in URP",
+        "description": "Basic tessellation setup in URP",
         "types": [
             {
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "tessellation"
+            }
+        ]
     },
     {
         "id": "geometry_grass2",
         "title": "Grass Geometry Shader with Interactivity 2",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "date": "01/2021",
         "link": "https://www.patreon.com/posts/40077798",
         "extralink": "",
@@ -974,7 +1289,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "tool"
+            }
+        ]
     },
     {
         "id": "geometry_grass_urp",
@@ -989,7 +1311,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "geometry"
+            }
+        ]
     },
     {
         "id": "interactive_snow_urp",
@@ -999,13 +1328,20 @@
         "link": "https://www.patreon.com/posts/47452596",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/48489345",
-        "description": "Toon Snow with trails",
+        "description": "Toon Snow with trails from rendertexture",
         "types": [
             {
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "snow"
+            },
+            {
+                "slug": "rendertexture"
+            }
+        ]
     },
     {
         "id": "decals_prototype",
@@ -1020,7 +1356,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "prototype"
+            },
+            {
+                "slug": "decal"
+            }
+        ]
     },
     {
         "id": "decals_prototype_urp",
@@ -1035,7 +1378,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "prototype"
+            },
+            {
+                "slug": "decal"
+            }
+        ]
     },
     {
         "id": "shiny_sparkly_improved",
@@ -1050,7 +1400,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "iridescent"
+            },
+            {
+                "slug": "shiny"
+            }
+        ]
     },
     {
         "id": "shiny_sparkly_improved_urp",
@@ -1068,7 +1425,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "iridescent"
+            },
+            {
+                "slug": "shiny"
+            }
+        ]
     },
     {
         "id": "potions_asset_pack",
@@ -1084,7 +1448,20 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "potion"
+            },
+            {
+                "slug": "poison"
+            },
+            {
+                "slug": "liquid"
+            },
+            {
+                "slug": "props"
+            }
+        ]
     },
     {
         "id": "twitch_chat_overlay",
@@ -1099,7 +1476,11 @@
                 "slug": "other"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "twitch"
+            }
+        ]
     },
     {
         "id": "compute_grass_tool",
@@ -1115,7 +1496,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "compute_grass_tool_urp",
@@ -1131,7 +1516,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "lit_toon_urp",
@@ -1149,7 +1538,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            }
+        ]
     },
     {
         "id": "inky_outline_urp",
@@ -1164,7 +1557,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "directional_rim_outline_urp",
@@ -1179,7 +1576,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "aura_outline_urp",
@@ -1194,7 +1595,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "bat_vfx",
@@ -1203,6 +1608,7 @@
         "link": "https://www.patreon.com/posts/57349862",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/57731700",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "description": "VFX Breakdown : Animated Bats Particles + Shader (Built-in and URP)",
         "types": [
             {
@@ -1212,7 +1618,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "bat"
+            },
+            {
+                "slug": "vfx"
+            }
+        ]
     },
     {
         "id": "halloween_asset_pack",
@@ -1253,7 +1666,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "mesh"
+            },
+            {
+                "slug": "trail"
+            }
+        ]
     },
     {
         "id": "toon_lit_urp_update",
@@ -1272,7 +1692,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "point"
+            }
+        ]
     },
     {
         "id": "culling_system",
@@ -1291,7 +1718,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "cull"
+            },
+            {
+                "slug": "hide"
+            }
+        ]
     },
     {
         "id": "grass_painting_tool_update",
@@ -1311,7 +1745,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "grass_compute_blending",
@@ -1330,7 +1768,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "terrain"
+            }
+        ]
     },
     {
         "id": "moving_kat4",
@@ -1348,6 +1793,9 @@
         "tags": [
             {
                 "slug": "kat"
+            },
+            {
+                "slug": "character"
             }
         ]
     },
@@ -1367,6 +1815,9 @@
         "tags": [
             {
                 "slug": "kat"
+            },
+            {
+                "slug": "character"
             }
         ]
     },
@@ -1384,7 +1835,14 @@
                 "slug": "asset-pack"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "rpg"
+            },
+            {
+                "slug": "props"
+            }
+        ]
     },
     {
         "id": "glitch_wireframe_urp",
@@ -1418,6 +1876,7 @@
         "link": "https://www.patreon.com/posts/69499068",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/custom-meshes-in-70427383",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "description": "Script and Shaders to create Custom Meshes in the UI",
         "types": [
             {
@@ -1427,7 +1886,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "mesh"
+            }
+        ]
     },
     {
         "id": "lightning_shock_particles",
@@ -1445,7 +1911,17 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "particle"
+            },
+            {
+                "slug": "shock"
+            },
+            {
+                "slug": "lightning"
+            }
+        ]
     },
     {
         "id": "urp_mesh_decals",
@@ -1460,7 +1936,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "mesh"
+            },
+            {
+                "slug": "decal"
+            }
+        ]
     },
     {
         "id": "resource_orb_ui",
@@ -1468,6 +1951,7 @@
         "date": "10/2022",
         "link": "https://www.patreon.com/posts/resource-orb-urp-73860779",
         "extralink": "",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "patreonlink": "https://www.patreon.com/posts/resource-orb-urp-74346346",
         "description": "A filling Resource UI Shader with custom shape support",
         "types": [
@@ -1478,7 +1962,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "shape"
+            }
+        ]
     },
     {
         "id": "fake_liquid_urp",
@@ -1493,7 +1984,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "liquid"
+            }
+        ]
     },
     {
         "id": "worldposition_effects2_urp",
@@ -1511,7 +2006,14 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "positional"
+            },
+            {
+                "slug": "swap"
+            }
+        ]
     },
     {
         "id": "worldposition_effects2",
@@ -1526,7 +2028,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "positional"
+            },
+            {
+                "slug": "swap"
+            }
+        ]
     },
     {
         "id": "stencil_buffer_lights",
@@ -1545,7 +2054,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "light"
+            },
+            {
+                "slug": "stencil"
+            }
+        ]
     },
     {
         "id": "basic_tree_culling",
@@ -1567,7 +2083,14 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "instance"
+            },
+            {
+                "slug": "culling"
+            }
+        ]
     },
     {
         "id": "basic_tree_culling2",
@@ -1614,7 +2137,11 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "grass_system",
@@ -1636,7 +2163,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "tool"
+            }
+        ]
     },
     {
         "id": "portal_stencil_decals",
@@ -1655,7 +2189,17 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "decal"
+            },
+            {
+                "slug": "portal"
+            },
+            {
+                "slug": "stencil"
+            }
+        ]
     },
     {
         "id": "animated_light_cookie_urp",
@@ -1695,7 +2239,11 @@
                 "slug": "godot"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "skybox"
+            }
+        ]
     },
     {
         "id": "animated_light_cookie_urp2",
@@ -1760,7 +2308,17 @@
                 "slug": "godot"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "particle"
+            },
+            {
+                "slug": "lighting"
+            },
+            {
+                "slug": "shock"
+            }
+        ]
     },
     {
         "id": "glitchy_display_shader",
@@ -1779,7 +2337,14 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "glitch"
+            }
+        ]
     },
     {
         "id": "selective_image_effects_urp",
@@ -1830,7 +2395,20 @@
                 "slug": "shader-graph"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "pixel"
+            },
+            {
+                "slug": "selective"
+            },
+            {
+                "slug": "image"
+            },
+            {
+                "slug": "fullscreen"
+            }
+        ]
     },
     {
         "id": "grass_system_cutting",
@@ -1898,7 +2476,7 @@
         "description": "Free Asset Pack - Modular Dungeon",
         "types": [
             {
-                "slug": "3d"
+                "slug": "asset-pack"
             }
         ],
         "tags": [
@@ -1907,7 +2485,8 @@
             },
             {
                 "slug": "environment"
-            }]
+            }
+        ]
     },
     {
         "id": "wireframe_effects",
@@ -1948,7 +2527,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            }
+        ]
     },
     {
         "id": "u_heat_distortion",
@@ -1963,7 +2546,17 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "distort"
+            },
+            {
+                "slug": "heat"
+            },
+            {
+                "slug": "particle"
+            }
+        ]
     },
     {
         "id": "u_toon_fire_particles",
@@ -1978,7 +2571,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "fire"
+            },
+            {
+                "slug": "particle"
+            }
+        ]
     },
     {
         "id": "u_portal_effect",
@@ -1993,7 +2593,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "portal"
+            }
+        ]
     },
     {
         "id": "u_toon_dissolve",
@@ -2008,7 +2612,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "dissolve"
+            }
+        ]
     },
     {
         "id": "u_toon_ice",
@@ -2023,7 +2634,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "ice"
+            }
+        ]
     },
     {
         "id": "u_toon_specular",
@@ -2038,7 +2656,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "specular"
+            }
+        ]
     },
     {
         "id": "u_moving_grass_shader",
@@ -2053,7 +2678,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            },
+            {
+                "slug": "sway"
+            }
+        ]
     },
     {
         "id": "u_hologram",
@@ -2068,7 +2700,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "hologram"
+            },
+            {
+                "slug": "glitch"
+            }
+        ]
     },
     {
         "id": "u_color_mask",
@@ -2083,7 +2722,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "mask"
+            },
+            {
+                "slug": "swap"
+            }
+        ]
     },
     {
         "id": "u_stencil_buffer",
@@ -2092,13 +2738,20 @@
         "link": "https://www.patreon.com/posts/14782336",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/14821653",
-        "description": "Using the stencil buffer to hide or reveal meshes",
+        "description": "Using the stencil buffer to hide or reveal meshes, card example",
         "types": [
             {
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "stencil"
+            },
+            {
+                "slug": "hide"
+            }
+        ]
     },
     {
         "id": "u_noise_outline",
@@ -2113,7 +2766,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "u_stylized_water",
@@ -2128,7 +2785,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "water"
+            }
+        ]
     },
     {
         "id": "u_painting_on_meshes",
@@ -2143,7 +2804,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "paint"
+            }
+        ]
     },
     {
         "id": "u_iridescent",
@@ -2158,7 +2823,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "iridescent"
+            },
+            {
+                "slug": "shiny"
+            }
+        ]
     },
     {
         "id": "u_directional_rim_outline",
@@ -2173,7 +2845,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "u_snow_buildup",
@@ -2188,7 +2864,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "snow"
+            }
+        ]
     },
     {
         "id": "u_eye_track_blinking",
@@ -2206,7 +2886,11 @@
                 "slug": "other"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "eye"
+            }
+        ]
     },
     {
         "id": "u_uv_distortion",
@@ -2221,7 +2905,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "uv"
+            },
+            {
+                "slug": "distort"
+            }
+        ]
     },
     {
         "id": "u_triplanar",
@@ -2236,7 +2927,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "triplanar"
+            }
+        ]
     },
     {
         "id": "u_fire_shader",
@@ -2251,7 +2946,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "fire"
+            }
+        ]
     },
     {
         "id": "u_cloud_shader",
@@ -2266,7 +2965,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "cloud"
+            }
+        ]
     },
     {
         "id": "u_aura_outline",
@@ -2281,7 +2984,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "u_fake_liquid",
@@ -2297,7 +3004,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "liquid"
+            }
+        ]
     },
     {
         "id": "u_waterfall",
@@ -2312,7 +3023,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "waterfall"
+            }
+        ]
     },
     {
         "id": "u_worldposition_shader",
@@ -2327,7 +3045,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "positional"
+            },
+            {
+                "slug": "swap"
+            }
+        ]
     },
     {
         "id": "u_interactive_grass",
@@ -2342,7 +3067,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "u_directional_shadow_colors",
@@ -2357,7 +3086,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "shadow"
+            }
+        ]
     },
     {
         "id": "u_sprite_outline_glow",
@@ -2372,7 +3105,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "u_toon_metal",
@@ -2387,7 +3127,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            },
+            {
+                "slug": "metal"
+            }
+        ]
     },
     {
         "id": "u_sprite_aura",
@@ -2402,7 +3149,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "outline"
+            }
+        ]
     },
     {
         "id": "u_material_property_blocks",
@@ -2417,7 +3171,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "instance"
+            }
+        ]
     },
     {
         "id": "u_snow_icicles",
@@ -2426,13 +3184,20 @@
         "link": "https://www.patreon.com/posts/23437127",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/23449485",
-        "description": "Adding per-instance data to shaders",
+        "description": "Adding per-instance data to shaders with tessellation",
         "types": [
             {
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "snow"
+            },
+            {
+                "slug": "ice"
+            }
+        ]
     },
     {
         "id": "u_caustics_projector",
@@ -2447,7 +3212,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "caustic"
+            },
+            {
+                "slug": "projector"
+            }
+        ]
     },
     {
         "id": "u_bastion_tile_effect",
@@ -2462,7 +3234,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "instance"
+            },
+            {
+                "slug": "positional"
+            }
+        ]
     },
     {
         "id": "u_particle_fire_shader",
@@ -2471,6 +3250,7 @@
         "link": "https://www.patreon.com/posts/quick-game-art-27093551",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/29164761",
+        "patreonlink_description": "BIRP / URP Files ($10 Tier)",
         "description": "Using custom data from particles for a fire effect(lifetime)",
         "types": [
             {
@@ -2480,7 +3260,14 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "fire"
+            },
+            {
+                "slug": "particle"
+            }
+        ]
     },
     {
         "id": "u_procedural_eye",
@@ -2495,7 +3282,11 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "eye"
+            }
+        ]
     },
     {
         "id": "u_ghost_shader",
@@ -2535,7 +3326,11 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "fog"
+            }
+        ]
     },
     {
         "id": "u_dissolve",
@@ -2550,7 +3345,14 @@
                 "slug": "built-in"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "dissolve"
+            },
+            {
+                "slug": "teleport"
+            }
+        ]
     },
     {
         "id": "u_ui_color_mask",
@@ -2568,7 +3370,17 @@
                 "slug": "urp"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "mask"
+            }
+        ]
     },
     {
         "id": "u_glitch_wireframe",
@@ -2605,7 +3417,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            },
+            {
+                "slug": "lazy"
+            }
+        ]
     },
     {
         "id": "t_lazy_unwrapping_extra",
@@ -2620,7 +3439,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            },
+            {
+                "slug": "lazy"
+            }
+        ]
     },
     {
         "id": "t_palettes",
@@ -2635,7 +3461,11 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "palette"
+            }
+        ]
     },
     {
         "id": "t_palettes2",
@@ -2650,7 +3480,11 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "palette"
+            }
+        ]
     },
     {
         "id": "t_applying_palette",
@@ -2665,7 +3499,11 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "palette"
+            }
+        ]
     },
     {
         "id": "t_gradient_tricks",
@@ -2695,7 +3533,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            },
+            {
+                "slug": "lazy"
+            }
+        ]
     },
     {
         "id": "t_gradient_setup",
@@ -2710,7 +3555,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            },
+            {
+                "slug": "lazy"
+            }
+        ]
     },
     {
         "id": "t_alien_plants",
@@ -2728,7 +3580,11 @@
                 "slug": "design"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "plant"
+            }
+        ]
     },
     {
         "id": "t_metal_gradient",
@@ -2743,7 +3599,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            },
+            {
+                "slug": "lazy"
+            }
+        ]
     },
     {
         "id": "t_handpainted_rock",
@@ -2758,7 +3621,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "handpainted"
+            },
+            {
+                "slug": "rock"
+            }
+        ]
     },
     {
         "id": "t_gradients_cloth",
@@ -2773,7 +3643,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            },
+            {
+                "slug": "lazy"
+            }
+        ]
     },
     {
         "id": "t_handpainted_grass",
@@ -2788,7 +3665,14 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "handpainted"
+            },
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "t_handpainted_stone_tiles",
@@ -2803,7 +3687,17 @@
                 "slug": "texturing"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "handpainted"
+            },
+            {
+                "slug": "rock"
+            },
+            {
+                "slug": "stone"
+            }
+        ]
     },
     {
         "id": "3d_stylized_house",
@@ -2818,7 +3712,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "house"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_prototyping_primitives",
@@ -2833,7 +3734,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "shape"
+            },
+            {
+                "slug": "primitive"
+            }
+        ]
     },
     {
         "id": "3d_character_buildup",
@@ -2848,7 +3756,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_tree",
@@ -2863,7 +3778,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "tree"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_stylized_ruins",
@@ -2878,7 +3800,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "castle"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_humanoid_strong_base",
@@ -2893,7 +3822,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_quadruped_base",
@@ -2908,7 +3844,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "monster"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_humanoid_cute_base",
@@ -2923,7 +3866,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_toon_eyes",
@@ -2938,7 +3888,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "eye"
+            }
+        ]
     },
     {
         "id": "3d_base_finished_cute",
@@ -2953,7 +3907,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "finished"
+            }
+        ]
     },
     {
         "id": "3d_tiny_concept_enviroments",
@@ -2968,7 +3926,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "environment"
+            }
+        ]
     },
     {
         "id": "3d_stylized_rocks",
@@ -2983,7 +3945,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "rock"
+            }
+        ]
     },
     {
         "id": "3d_minotaur",
@@ -2998,7 +3964,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "finished"
+            }
+        ]
     },
     {
         "id": "3d_stylized_hair",
@@ -3013,7 +3986,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "hair"
+            },
+            {
+                "slug": "face"
+            }
+        ]
     },
     {
         "id": "3d_fantasy_swords",
@@ -3021,6 +4001,7 @@
         "date": "06/2017",
         "link": "https://www.patreon.com/posts/11826759",
         "extralink": "",
+        "webgllink": "https://tibbletop.itch.io/sword-generator",
         "patreonlink": "https://www.patreon.com/posts/11861442",
         "description": "Making swords from components (with Random Generator)",
         "types": [
@@ -3031,7 +4012,14 @@
                 "slug": "other"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "base"
+            },
+            {
+                "slug": "weapon"
+            }
+        ]
     },
     {
         "id": "3d_hands",
@@ -3046,7 +4034,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "hand"
+            }
+        ]
     },
     {
         "id": "3d_bat_wings",
@@ -3061,7 +4053,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "bat"
+            },
+            {
+                "slug": "wing"
+            }
+        ]
     },
     {
         "id": "3d_toon_skulls",
@@ -3076,7 +4075,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "skull"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_layered_rocks",
@@ -3091,7 +4097,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "rock"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_jacket_trousers",
@@ -3106,7 +4119,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "cloth"
+            }
+        ]
     },
     {
         "id": "3d_stylized_tree",
@@ -3121,7 +4141,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "tree"
+            },
+            {
+                "slug": "base"
+            }
+        ]
     },
     {
         "id": "3d_spooky_props",
@@ -3142,6 +4169,9 @@
             },
             {
                 "slug": "spooky"
+            },
+            {
+                "slug": "props"
             }
         ]
     },
@@ -3200,7 +4230,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "face"
+            }
+        ]
     },
     {
         "id": "3d_modular_wall",
@@ -3215,7 +4249,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "environment"
+            },
+            {
+                "slug": "wall"
+            }
+        ]
     },
     {
         "id": "3d_pine_tree",
@@ -3230,7 +4271,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "tree"
+            }
+        ]
     },
     {
         "id": "3d_dragon_head",
@@ -3245,7 +4290,14 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "dragon"
+            },
+            {
+                "slug": "face"
+            }
+        ]
     },
     {
         "id": "3d_santa_hat",
@@ -3260,7 +4312,11 @@
                 "slug": "3d"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "hat"
+            }
+        ]
     },
     {
         "id": "video_character_model_concept_art",
@@ -3269,6 +4325,7 @@
         "link": "https://www.youtube.com/watch?v=oYer6ukpBBk&list=PLV96MV08FFhfKZ8uJmJSj4luyfUH0IPcJ&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
+        "videolink": "https://www.youtube.com/embed/oYer6ukpBBk?si=XuZ7WBjeIO53lgVr",
         "description": "The first step in this character model series, making the concept art for an imp",
         "types": [
             {
@@ -3284,6 +4341,7 @@
         "link": "https://www.youtube.com/watch?v=L0J3nZTk-No&list=PLV96MV08FFhfKZ8uJmJSj4luyfUH0IPcJ&index=3&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
+        "videolink": "https://www.youtube.com/embed/L0J3nZTk-No?si=bJJMcc77g61N7ZGm",
         "description": "The second step in this character model series, making the 3D model",
         "types": [
             {
@@ -3296,6 +4354,7 @@
         "id": "video_character_model_texture",
         "title": "Character Model - Texturing an Imp",
         "date": "09/2017",
+        "videolink": "https://www.youtube.com/embed/DD84GSJiTVc?si=YkuqbHE9B2GyPR9-",
         "link": "https://www.youtube.com/watch?v=DD84GSJiTVc&list=PLV96MV08FFhfKZ8uJmJSj4luyfUH0IPcJ&index=3&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
@@ -3305,7 +4364,11 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "gradienttexture"
+            }
+        ]
     },
     {
         "id": "video_fantasy_sword",
@@ -3313,6 +4376,7 @@
         "date": "08/2017",
         "link": "https://www.youtube.com/watch?v=f77_sQEUKng&ab_channel=MinionsArt",
         "extralink": "",
+        "videolink": "https://www.youtube.com/embed/f77_sQEUKng?si=3roapa9sgkXWMsAO",
         "patreonlink": "",
         "description": "Making a fantasy sword in Maya LT 2017 based on a loose sketch. ",
         "types": [
@@ -3320,12 +4384,17 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "weapon"
+            }
+        ]
     },
     {
         "id": "video_fantasy_shield",
         "title": "Fantasy Shield Speed Model",
         "date": "08/2017",
+        "videolink": "https://www.youtube.com/embed/IJYH8bVQqVI?si=gAMSjgwFezQIZW31",
         "link": "https://www.youtube.com/watch?v=IJYH8bVQqVI&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
@@ -3335,7 +4404,11 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "weapon"
+            }
+        ]
     },
     {
         "id": "video_toon_face",
@@ -3344,13 +4417,18 @@
         "link": "https://www.youtube.com/watch?v=py4DVbNOMQ8&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
+        "videolink": "https://www.youtube.com/embed/py4DVbNOMQ8?si=TN82Fdi4tbKvAfIa",
         "description": "Speed modeling a toon face in Maya LT. ",
         "types": [
             {
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "face"
+            }
+        ]
     },
     {
         "id": "video_sprite_color_mask_shader",
@@ -3359,18 +4437,27 @@
         "link": "https://www.youtube.com/watch?v=4dAGUxvsD24&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
+        "videolink": "https://www.youtube.com/embed/4dAGUxvsD24?si=HY8eU3fWnNkXtITW",
         "description": "Creating a Sprite Color Mask in Shader Graph ",
         "types": [
             {
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "sprite"
+            },
+            {
+                "slug": "mask"
+            }
+        ]
     },
     {
         "id": "video_lizard_model",
         "title": "Lizard Model",
         "date": "07/2020",
+        "videolink": "https://www.youtube.com/embed/MCQPAQq2lsI?si=NTsnwdvQVZr3TCJa",
         "link": "https://www.youtube.com/watch?v=MCQPAQq2lsI&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
@@ -3380,7 +4467,14 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "lizard"
+            }
+        ]
     },
     {
         "id": "video_gradient_map_effect",
@@ -3388,6 +4482,7 @@
         "date": "08/2020",
         "link": "https://www.youtube.com/watch?v=Kv9W7qQ0ONY&ab_channel=MinionsArt",
         "extralink": "",
+        "videolink": "https://www.youtube.com/embed/Kv9W7qQ0ONY?si=uW4_eNcik75z0MKb",
         "patreonlink": "",
         "description": "Custom Image Effects | Gradient Map in Unity URP",
         "types": [
@@ -3395,12 +4490,20 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "image"
+            },
+            {
+                "slug": "fullscreen"
+            }
+        ]
     },
     {
         "id": "video_stylized_waterfall_shader",
         "title": "Stylized Waterfall Shader",
         "date": "08/2020",
+        "videolink": "https://www.youtube.com/embed/DIE3qfCGXl8?si=XKLAMCfEU93eK-v-",
         "link": "https://www.youtube.com/watch?v=DIE3qfCGXl8&ab_channel=MinionsArt",
         "extralink": "",
         "patreonlink": "",
@@ -3410,13 +4513,18 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "waterfall"
+            }
+        ]
     },
     {
         "id": "video_stylized_glass_shader_graph",
         "title": "Stylized Glass Shader Graph",
         "date": "11/2020",
         "link": "https://www.youtube.com/watch?v=B975bBfHTTg&ab_channel=MinionsArt",
+        "videolink": "https://www.youtube.com/embed/B975bBfHTTg?si=W4zWsuudTWvuWpWy",
         "extralink": "",
         "patreonlink": "",
         "description": "Unity Shader Graph | Creating Stylized Glass",
@@ -3425,15 +4533,21 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "glass"
+            }
+        ]
     },
     {
         "id": "video_geometry_grass_tool",
         "title": "Geometry Grass Tool",
         "date": "01/2021",
         "link": "https://www.youtube.com/watch?v=xKJHL8nQiuM&ab_channel=MinionsArt",
+        "videolink": "https://www.youtube.com/embed/xKJHL8nQiuM?si=dmK0-znITE9JXTyz",
         "extralink": "",
         "patreonlink": "",
+        "deprecated": "true",
         "description": "Unity | I made an Interactive Grass Shader + Tool",
         "types": [
             {
@@ -3447,6 +4561,7 @@
         "title": "Lit Toon Shader Graph",
         "date": "08/2021",
         "link": "https://www.youtube.com/watch?v=FIP6I1x6lMA&ab_channel=MinionsArt",
+        "videolink": "https://www.youtube.com/embed/FIP6I1x6lMA?si=GJV3aEyy9TyhtX1Y",
         "extralink": "",
         "patreonlink": "",
         "description": "Creating a lit toon shader graph",
@@ -3455,7 +4570,11 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "toon"
+            }
+        ]
     },
     {
         "id": "video_compute_grass_update",
@@ -3478,6 +4597,7 @@
         "title": "Custom UI Meshes URP + Built-In",
         "date": "08/2022",
         "link": "https://youtu.be/G9teDAkhaXs",
+        "videolink": "https://www.youtube.com/embed/G9teDAkhaXs?si=wJ4uESfZjbpJ4viW",
         "extralink": "",
         "patreonlink": "",
         "description": "Creating Custom Meshes for UI",
@@ -3486,13 +4606,21 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "mesh"
+            }
+        ]
     },
     {
         "id": "video_interactive_snow",
         "title": "Unity | Interactive Snow Shader | Stylized Setup URP + Built-In",
         "date": "07/2022",
         "link": "https://www.youtube.com/watch?v=zr5kgZeo9LA&ab_channel=MinionsArt",
+        "videolink": "https://www.youtube.com/embed/zr5kgZeo9LA?si=Eg7YT4cUJCYzkBP9",
         "extralink": "",
         "patreonlink": "",
         "description": "Interactive Snow Shader",
@@ -3501,13 +4629,18 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "snow"
+            }
+        ]
     },
     {
         "id": "video_shock_lightning_particles",
         "title": "Unity | How to make Shock / Lightning Particles",
         "date": "09/2022",
         "link": "https://www.youtube.com/watch?v=NMTXHnsxgss&ab_channel=MinionsArt",
+        "videolink": "https://www.youtube.com/embed/NMTXHnsxgss?si=h0iNvdn4TWBrV9-Z",
         "extralink": "",
         "patreonlink": "",
         "description": "Lightning VFX breakdown",
@@ -3516,7 +4649,14 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "lightning"
+            },
+            {
+                "slug": "vfx"
+            }
+        ]
     },
     {
         "id": "video_liquid_shader",
@@ -3524,6 +4664,7 @@
         "date": "12/2022",
         "link": "https://www.youtube.com/watch?v=DKSpgFuKeb4&ab_channel=MinionsArt",
         "extralink": "",
+        "videolink": "https://www.youtube.com/embed/DKSpgFuKeb4?si=m6ZEFCTZaC1vivfz",
         "patreonlink": "",
         "description": "Liquid Shader Breakdown Video",
         "types": [
@@ -3531,13 +4672,18 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "liquid"
+            }
+        ]
     },
     {
         "id": "video_wind_waker_lights",
         "title": "Recreating Wind Waker Style Lights in Unity",
         "date": "03/2023",
         "link": "https://youtu.be/mNndyHHNh78",
+        "videolink": "https://www.youtube.com/embed/mNndyHHNh78?si=ReRKec3ci8xV0zxH",
         "extralink": "",
         "patreonlink": "",
         "description": "Stencil Lights Breakdown Video",
@@ -3546,13 +4692,21 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "stencil"
+            },
+            {
+                "slug": "light"
+            }
+        ]
     },
     {
         "id": "video_even_better_grass_system",
         "title": "Even Better Interactive Grass System",
         "date": "03/2023",
         "link": "https://youtu.be/2OA9sicjj7E",
+        "videolink": "https://www.youtube.com/embed/2OA9sicjj7E?si=sPDwLjFb9ICEC4WR",
         "extralink": "",
         "patreonlink": "",
         "description": "Grass System Update Video",
@@ -3561,7 +4715,11 @@
                 "slug": "video"
             }
         ],
-        "tags": []
+        "tags": [
+            {
+                "slug": "grass"
+            }
+        ]
     },
     {
         "id": "video_portal_decal",
@@ -3586,6 +4744,26 @@
             },
             {
                 "slug": "stencil"
+            }
+        ]
+    },
+    {
+        "id": "video_grass_cutting",
+        "title": "Grass System - Cutting Extension",
+        "date": "04/2024",
+        "link": "https://www.youtube.com/watch?v=XC0-dsqK1iA",
+        "videolink": "https://www.youtube.com/embed/XC0-dsqK1iA?si=sdjT_6I13rW70bB4",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "How to add cutting to the grass system",
+        "types": [
+            {
+                "slug": "video"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "grass"
             }
         ]
     }

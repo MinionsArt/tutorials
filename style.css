@@ -39,7 +39,7 @@ a:hover {
     height: auto;
     border-radius: 15px;
     text-decoration: none;
-    padding:10px;
+    padding: 10px;
     opacity: 0.9;
 }
 
@@ -70,6 +70,10 @@ a:hover {
 
 .dates {
     color: #966eff;
+    margin: 5px;
+}
+.dates2 {
+    color: #d46eff;
     margin: 5px;
 }
 
@@ -273,6 +277,20 @@ a:hover {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.centeredSmaller {
+    color: white;
+    text-shadow:
+        #6f2faa -1px -2px 0px,
+        #6f2faa 2px -2px 1px,
+        #30144a 0px 1px 1px;
+    font-size: 22px;
+    line-height: 1;
+    height: auto;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
 }
 
 .centered {
@@ -650,6 +668,82 @@ linkIcon {
     position: relative;
 }
 
+godot {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/godot.png);
+    position: relative;
+}
+
+builtin {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/builtin.png);
+    position: relative;
+}
+urp {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/urp.png);
+    position: relative;
+}
+
+shadergraph {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/shadergraph.png);
+    position: relative;
+}
+i3d {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/3d.png);
+    position: relative;
+}
+
+texture {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/texture.png);
+    position: relative;
+}
+assetpack {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/assetpack.png);
+    position: relative;
+}
+videoI {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/video.png);
+    position: relative;
+}
+
+gameplay {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/gameplay.png);
+    position: relative;
+}
+design {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/design.png);
+    position: relative;
+}
+other {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/other.png);
+    position: relative;
+}
+all {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/all.png);
+    position: relative;
+}
 .LinkButton {
     border-radius: 15px;
     height: 20px;
