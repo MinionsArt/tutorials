@@ -342,7 +342,7 @@ function FillInFullPost(id) {
             background.setAttribute("id", "postPreview" + a.id);
 
             //
-            background.setAttribute("src", "/tutorials/Images/Gifs/" + a.id + ".gif");
+            background.setAttribute("src", "/tutorials/Images/Avif/" + a.id + ".avif");
 
             // date
             // get dates holder and generate a update or released data
