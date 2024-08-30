@@ -2021,6 +2021,32 @@
         ]
     },
     {
+        "id": "worldposition_effects3_urp",
+        "title": "World Position Effects 3: Textures",
+        "date": "08/2024",
+        "link": "https://www.patreon.com/posts/world-position-3-110217346",
+        "extralink": "https://www.patreon.com/posts/world-position-74358101",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "patreonlink": "",
+        "description": "Adding Texture Array support to Multiple Interactors",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "positional"
+            },
+            {
+                "slug": "swap"
+            }
+        ]
+    },
+    {
         "id": "worldposition_effects2",
         "title": "World Position Effects 2: More Shapes",
         "date": "02/2023",
@@ -2467,6 +2493,32 @@
             },
             {
                 "slug": "parallax"
+            }
+        ]
+    },
+    {
+        "id": "metal_shader_graph",
+        "title": "Stylized Metal Shader Graph",
+        "date": "08/2024",
+        "link": "https://www.patreon.com/posts/stylized-metal-111029610",
+        "extralink": "https://www.patreon.com/posts/metal-gold-graph-111082807",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "patreonlink": "",
+        "description": "Making a stylized gold or metal effect",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "gold"
+            },
+            {
+                "slug": "metal"
             }
         ]
     },
@@ -3126,7 +3178,7 @@
         "link": "https://www.patreon.com/posts/21398935",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/21400430",
-        "description": "A Shiny Specular material based on View and Lighting directions",
+        "description": "A Shiny Specular metal material based on View and Lighting directions",
         "types": [
             {
                 "slug": "built-in"
@@ -3138,6 +3190,9 @@
             },
             {
                 "slug": "metal"
+            },
+            {
+                "slug": "gold"
             }
         ]
     },
