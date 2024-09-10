@@ -4826,5 +4826,28 @@
                 "slug": "grass"
             }
         ]
+    },
+    {
+        "id": "video_metal_graph",
+        "title": "Stylized Metal/Gold Graph",
+        "date": "09/2024",
+        "link": "https://www.youtube.com/watch?v=ttVEvYQ7X5A",
+        "videolink": "https://www.youtube.com/watch?v=ttVEvYQ7X5A",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Breakdown of the Stylized Metal Shader Graph",
+        "types": [
+            {
+                "slug": "video"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "gold"
+            },
+            {
+                "slug": "metal"
+            }
+        ]
     }
 ]
