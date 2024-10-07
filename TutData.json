@@ -1682,9 +1682,9 @@
         "title": " Toon Lighting Update",
         "date": "12/2021",
         "link": "https://www.patreon.com/posts/59854502",
-        "extralink": "https://www.patreon.com/posts/59945936",
+        "extralink": "https://www.patreon.com/posts/59945186",
         "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
-        "patreonlink": "https://www.patreon.com/posts/59945186",
+        "patreonlink": "https://www.patreon.com/posts/59945936",
         "description": "Update to the Toon Shader for Built-in and URP to better handle point lights",
         "types": [
             {
