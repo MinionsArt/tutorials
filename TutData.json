@@ -2553,7 +2553,7 @@
         "extralink": "https://www.patreon.com/posts/104040755",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "patreonlink": "https://www.patreon.com/posts/fun-with-birp-104040983",
-        "description": "Using the built-in wireframe shader for some dissolving effects",
+        "description": "Using the built-in Wireframe shader for some dissolving effects",
         "types": [
             {
                 "slug": "urp"
