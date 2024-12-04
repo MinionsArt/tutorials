@@ -1527,6 +1527,7 @@
     {
         "id": "lit_toon_urp",
         "title": " Lit Toon Shader Graph",
+        "updateDate": "09/2024",
         "date": "08/2021",
         "link": "https://www.patreon.com/posts/54740865",
         "extralink": "",
@@ -1681,6 +1682,7 @@
         "id": "toon_lit_urp_update",
         "title": " Toon Lighting Update",
         "date": "12/2021",
+        "updateDate": "09/2024",
         "link": "https://www.patreon.com/posts/59854502",
         "extralink": "https://www.patreon.com/posts/59945186",
         "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
@@ -1898,6 +1900,55 @@
         ]
     },
     {
+        "id": "look_at_ghost_shaders",
+        "title": "A look at Ghost Shaders",
+        "date": "10/2024",
+        "link": "https://www.patreon.com/posts/look-at-ghost-115109082",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/look-at-ghost-115530761",
+        "patreonlink_description": "URP Files ($10 Tier)",
+        "description": "Looking at ghost shaders from Zelda,Mario,Dark Souls, Murdered Souls Suspect",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "ghost"
+            }
+        ]
+    },
+    {
+        "id": "glitchy_textmeshpro",
+        "title": "Glitchy Textmeshpro Shader",
+        "date": "10/2024",
+        "link": "https://www.patreon.com/posts/custom-shader-114938130",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/glitchy-files-115529676",
+        "patreonlink_description": "URP Files ($10 Tier)",
+        "description": "Adjusting the TextmeshPro SDF shader to add glitchy effects",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "glitch"
+            },
+            {
+                "slug": "text"
+            }
+        ]
+    },
+    {
         "id": "lightning_shock_particles",
         "title": "Lightning / Shock Particles",
         "date": "08/2022",
@@ -2072,6 +2123,7 @@
         "id": "stencil_buffer_lights",
         "title": "Stencil Buffer Lights",
         "date": "02/2023",
+        "updateDate": "09/2024",
         "link": "https://www.patreon.com/posts/wind-waker-style-78831006",
         "extralink": "https://www.patreon.com/posts/stencil-buffer-78907348",
         "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
@@ -2178,6 +2230,7 @@
         "id": "grass_system",
         "title": "Grass System",
         "date": "06/2023",
+        "updateDate": "09/2024",
         "link": "https://www.patreon.com/posts/grass-system-urp-83683483",
         "extralink": "https://www.patreon.com/posts/grass-system-urp-85356573",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
@@ -4811,6 +4864,7 @@
         "id": "video_grass_cutting",
         "title": "Grass System - Cutting Extension",
         "date": "04/2024",
+        "updateDate": "09/2024",
         "link": "https://www.youtube.com/watch?v=XC0-dsqK1iA",
         "videolink": "https://www.youtube.com/embed/XC0-dsqK1iA?si=sdjT_6I13rW70bB4",
         "extralink": "",
