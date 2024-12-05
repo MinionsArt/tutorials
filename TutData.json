@@ -1325,11 +1325,12 @@
     {
         "id": "interactive_snow_urp",
         "title": "URP Interactive Snow ",
-        "updateDate": "07/2022",
+        "updateDate": "11/2024",
         "date": "02/2021",
         "link": "https://www.patreon.com/posts/47452596",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/48489345",
+         "patreonlink_description": "URP Files ($10 Tier)",
         "description": "Toon Snow with trails from rendertexture",
         "types": [
             {
