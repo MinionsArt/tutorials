@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/tutorials/style.css" />
+        <meta charset="UTF-8" />
+        <meta property="og:title" content="Minionsart Tutorials" />
+        <meta property="og:type" content="image/png" />
+        <meta property="og:url" content="https://https://minionsart.github.io/tutorials/" />
+        <meta property="og:image" content="/tutorials/Images/kat.jpg" />
+        <link rel="shortcut icon" href="/tutorials/Images/favicon.ico" />
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/tutorials/TutData.json"></script>
+        <script type="text/javascript" src="/tutorials/Builder.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <script>
+            $("#body").ready(function () {
+                CheckData();
+            });
+
+            function HandlePage() {
+               // ShowPostFromLink();
+            }
+        </script>
+
+        <template id="test">
+            <div class="unit_card" id="card">
+                <a class="preview-image-holder" id="linkBackground">
+                    <div class="date" id="postdate">Post Date</div>
+                    <div class="ogdate" id="originaldate">OG Date</div>
+                    <div class="typeOfPost" id="type"></div>
+                    <div class="centeredbox">
+                        <div class="centeredSmaller" id="title">Title of the post</div>
+                    </div>
+                </a>
+
+                <div class="bottom-holder">
+                    <div class="description" id="postdescription">Description of the Post</div>
+                </div>
+            </div>
+        </template>
+
+        <template id="videoTest">
+            <iframe
+                id="video"
+                width="300"
+                height="315"
+                title=""
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </template>
+
+        <title>Minionsart Tutorials</title>
+    </head>
+
+    <body>
+        <div class="header-img">
+            <div class="hero-text">
+                <img src="Images/minionsart.png" width="300px" style="padding-top: 20px" />
+
+                <div class="header2">Tutorials</div>
+
+                <a href="https://twitter.com/minionsart"><twitter></twitter></a>
+
+                <a href="https://www.youtube.com/c/MinionsArt"><youtube></youtube></a>
+
+                <a href="https://www.twitch.tv/minionsart"><twitch></twitch></a>
+
+                <a href="https://www.patreon.com/minionsart"><PatreonBig></PatreonBig></a>
+            </div>
+        </div>
+        <div class="tab">
+            <a href="/tutorials/index.html"
+                ><button class="tablinks" id="allbutton"><all></all> All</button></a
+            >
+            <a href="/tutorials/index.html?type=godot"
+                ><button class="tablinks"><godot></godot> Godot</button></a
+            >
+            <a href="/tutorials/index.html?type=built-in"
+                ><button class="tablinks"><builtin></builtin> Built-in</button></a
+            >
+            <a href="/tutorials/index.html?type=urp"
+                ><button class="tablinks"><urp></urp> URP</button></a
+            >
+            <a href="/tutorials/index.html?type=shader-graph"
+                ><button class="tablinks"><shadergraph></shadergraph> Shader Graph</button></a
+            >
+            <a href="/tutorials/index.html?type=3d">
+                <button class="tablinks"><i3d></i3d> 3D</button></a
+            >
+            <a href="/tutorials/index.html?type=texturing"
+                ><button class="tablinks"><texture></texture> Textures</button></a
+            >
+            <a href="/tutorials/index.html?type=asset-pack"
+                ><button class="tablinks"><assetpack></assetpack> Asset Pack</button></a
+            >
+            <a href="/tutorials/index.html?type=gameplay"
+                ><button class="tablinks"><gameplay></gameplay> Gameplay</button></a
+            >
+
+            <a href="/tutorials/index.html?type=design"
+                ><button class="tablinks"><design></design> Design</button></a
+            >
+            <a href="/tutorials/index.html?type=video"
+                ><button class="tablinks"><videoI></videoI> Video</button></a
+            >
+            <a href="/tutorials/index.html?type=other"
+                ><button class="tablinks"><other></other> Other</button></a
+            >
+        </div>
+
+        <div class="mainbody">
+            <div class="post-title-holder">
+                <div class="centered" id="title">Grass System Overview</div>
+
+                <div style="display: flex; margin: 10px" id="type"></div>
+            </div>
+            <div class="post_card" id="card">
+                <div class="post-title-holder">
+                    <div class="centered" id="title">Basic</div>
+
+                    <div style="display: flex; margin: 10px" id="type"></div>
+                </div>
+                <div class="SubDivHolder">
+                    <div class="SubDiv">
+                        <div class="section">
+                            <div id="tinyLink" style="font-size: 10px"></div>
+                            <div><span class="dates">Description: </span></div>
+                            <div id="postdescription" class="post_description">
+                                A Glitchy Wireframe effect using split normals and colored backfaces, for Shader Graph
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <div><span class="postLink" id="postlink">Free post </span> Free resources!</div>
+                        </div>
+                        <div class="sectionbackground">
+                            Source Files:
+                            <div id="sourcelinks"></div>
+                        </div>
+                        <div class="section" id="extraLinks"></div>
+
+                        <div class="section" style="position: absolute; bottom: 5px; max-width: 450px">
+                            <div class="dropdown-content">
+                                <span class="dates">Permission: </span> This asset can be used in both free and
+                                commercial projects. You can modify it to suit your own needs. Credit is not necessary,
+                                but highly appreciated. You may not resell the assets on their own.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="SubDiv">
+                        <img
+                            class="post-image-holder"
+                            id="postPreview"
+                            src="/tutorials/Images/empty.png"
+                            onerror="this.onerror=null; this.src='/tutorials/Images/Gifs/placeholder.png';" />
+
+                        <div class="section" id="dates"></div>
+                        <div class="section" style="display: flex">
+                            <div>
+                                <span class="dates"><tag></tag> Tags: </span>
+                            </div>
+                            <div id="tags" style="position: relative; top: 5px"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post_card" id="card">
+                <div class="post-title-holder">
+                    <div class="centered" id="title">Basic</div>
+
+                    <div style="display: flex; margin: 10px" id="type"></div>
+                </div>
+                <div class="SubDivHolder">
+                    <div class="SubDiv">
+                        <div class="section">
+                            <div id="tinyLink" style="font-size: 10px"></div>
+                            <div><span class="dates">Description: </span></div>
+                            <div id="postdescription" class="post_description">
+                                A Glitchy Wireframe effect using split normals and colored backfaces, for Shader Graph
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <div><span class="postLink" id="postlink">Free post </span> Free resources!</div>
+                        </div>
+                        <div class="sectionbackground">
+                            Source Files:
+                            <div id="sourcelinks"></div>
+                        </div>
+                        <div class="section" id="extraLinks"></div>
+
+                        <div class="section" style="position: absolute; bottom: 5px; max-width: 450px">
+                            <div class="dropdown-content">
+                                <span class="dates">Permission: </span> This asset can be used in both free and
+                                commercial projects. You can modify it to suit your own needs. Credit is not necessary,
+                                but highly appreciated. You may not resell the assets on their own.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="SubDiv">
+                        <img
+                            class="post-image-holder"
+                            id="postPreview"
+                            src="/tutorials/Images/empty.png"
+                            onerror="this.onerror=null; this.src='/tutorials/Images/Gifs/placeholder.png';" />
+
+                        <div class="section" id="dates"></div>
+                        <div class="section" style="display: flex">
+                            <div>
+                                <span class="dates"><tag></tag> Tags: </span>
+                            </div>
+                            <div id="tags" style="position: relative; top: 5px"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainbody" style="background-color: black">
+            <div style="color: white">RELATED POSTS:</div>
+            <div class="grid-container" id="relatedPosts"></div>
+        </div>
+    </body>
+</html>
+<footer>
+    <br />
+    <br />
+</footer>
