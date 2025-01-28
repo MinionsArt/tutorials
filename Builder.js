@@ -20,6 +20,14 @@ function fetchJsonFiles(filePaths) {
     );
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("header.html")
+        .then((response) => response.text())
+        .then((headerHTML) => {
+            document.body.insertAdjacentHTML("afterbegin", headerHTML);
+        });
+});
+
 document.addEventListener("DOMContentLoaded", (event) => {
     const dropdownBtn = document.querySelector(".dropdown-btn");
     const dropdownContent = document.querySelector(".dropdown-content");
@@ -155,51 +163,56 @@ function compare_date(a, b) {
 }
 
 function showfilter(evt, type) {
-    var currenturl = "";
-    if (type === undefined) {
-        showAllPostsDescending(evt);
-        currenturl = window.location.href.split("?")[0];
-        window.history.replaceState({}, "foo", currenturl);
-        return;
-    }
-    var list = [];
-    var textvalue;
-    document.getElementById("output").innerHTML = "";
-    for (let i = 0; i < jsonTutorials.length; i++) {
-        for (let j = 0; j < jsonTutorials[i].types.length; j++) {
-            if (type == jsonTutorials[i].types[j].slug) {
-                if (!isInArray(list, jsonTutorials[i]) && !jsonTutorials[i].hasOwnProperty("deprecated")) {
-                    list.push(jsonTutorials[i]);
+    var currenturl = window.location.href.split("?")[0];
+    if (currenturl.includes("Posts")) {
+        // from selected post
+        window.location.href = "/tutorials/index.html?type=" + type;
+    } else {
+        if (type === undefined) {
+            showAllPostsDescending(evt);
+            currenturl = window.location.href.split("?")[0];
+            window.history.replaceState({}, "foo", currenturl);
+            return;
+        }
+        var list = [];
+        var textvalue;
+        document.getElementById("output").innerHTML = "";
+        for (let i = 0; i < jsonTutorials.length; i++) {
+            for (let j = 0; j < jsonTutorials[i].types.length; j++) {
+                if (type == jsonTutorials[i].types[j].slug) {
+                    if (!isInArray(list, jsonTutorials[i]) && !jsonTutorials[i].hasOwnProperty("deprecated")) {
+                        list.push(jsonTutorials[i]);
+                    }
                 }
             }
         }
+        list.sort(compare_date);
+        list.reverse();
+
+        for (let i = 0; i < list.length; i++) {
+            var iDiv = test.content.cloneNode(true);
+            document.getElementById("output").appendChild(iDiv);
+
+            // elem.append(newDiv); // (*)
+
+            fillPost(list[i].id);
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        if (evt != undefined) {
+            evt.currentTarget.className += " active";
+        }
+
+        currenturl = window.location.href.split("?")[0];
+
+        window.history.replaceState({}, "foo", currenturl + "?type=" + type);
     }
-    list.sort(compare_date);
-    list.reverse();
-
-    for (let i = 0; i < list.length; i++) {
-        var iDiv = test.content.cloneNode(true);
-        document.getElementById("output").appendChild(iDiv);
-
-        // elem.append(newDiv); // (*)
-
-        fillPost(list[i].id);
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    if (evt != undefined) {
-        evt.currentTarget.className += " active";
-    }
-
-    currenturl = window.location.href.split("?")[0];
-
-    window.history.replaceState({}, "foo", currenturl + "?type=" + type);
 }
 
 function searchData() {
