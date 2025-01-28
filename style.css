@@ -619,6 +619,13 @@ twitter {
     position: relative;
 }
 
+bluesky {
+    max-height: 40px;
+    top: 3px;
+    content: url(/tutorials/Images/Bluesky_Logo.svg.png);
+    position: relative;
+}
+
 PatreonBig {
     max-height: 40px;
     top: 3px;

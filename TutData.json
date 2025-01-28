@@ -1330,7 +1330,7 @@
         "link": "https://www.patreon.com/posts/47452596",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/48489345",
-         "patreonlink_description": "URP Files ($10 Tier)",
+        "patreonlink_description": "URP Files ($10 Tier)",
         "description": "Toon Snow with trails from rendertexture",
         "types": [
             {
@@ -1343,6 +1343,61 @@
             },
             {
                 "slug": "rendertexture"
+            }
+        ]
+    },
+    {
+        "id": "snow_icicles_urp",
+        "title": "Snow and Icicles Shader Graph",
+        "date": "12/2024",
+        "link": "https://www.patreon.com/posts/snow-and-icicles-118211037",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/snow-and-icicles-118217354",
+        "patreonlink_description": "URP Files ($10 Tier)",
+        "description": "Adding Snow and Icicles by painting vertex colors",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "snow"
+            },
+            {
+                "slug": "ice"
+            }
+        ]
+    },
+    {
+        "id": "snow_icicles_tessellation_urp",
+        "title": "Snow and Icicles Tessellation Shader Graph",
+        "date": "12/2024",
+        "link": "https://www.patreon.com/posts/snow-and-icicles-118519855",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/snow-and-icicles-118519905",
+        "patreonlink_description": "URP Files ($10 Tier)",
+        "description": "Adding Snow and Icicles by painting vertex colors, with Shader Graph Tessellation",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "snow"
+            },
+            {
+                "slug": "ice"
+            },
+            {
+                "slug": "tessellation"
             }
         ]
     },
