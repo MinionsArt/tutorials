@@ -164,7 +164,7 @@ function compare_date(a, b) {
 
 function showfilter(evt, type) {
     var currenturl = window.location.href.split("?")[0];
-    if (currenturl.includes("Posts")) {
+    if (currenturl.includes("Posts") || currenturl.includes("grasssystem")) {
         // from selected post
         window.location.href = "/tutorials/index.html?type=" + type;
     } else {

@@ -22,7 +22,7 @@
             });
 
             function HandlePage() {
-                ShowPostFromLink();
+                //ShowPostFromLink();
             }
         </script>
 
@@ -57,72 +57,24 @@
     </head>
 
     <body>
-        <div class="header-img">
-            <div class="hero-text">
-                <img src="Images/minionsart.png" width="300px" style="padding-top: 20px" />
-
-                <div class="header2">Tutorials</div>
-
-                <a href="https://twitter.com/minionsart"><twitter></twitter></a>
-
-                <a href="https://bsky.app/profile/minionsart.bsky.social"><bluesky></bluesky></a>
-
-                <a href="https://www.youtube.com/c/MinionsArt"><youtube></youtube></a>
-
-                <a href="https://www.twitch.tv/minionsart"><twitch></twitch></a>
-
-                <a href="https://www.patreon.com/minionsart"><PatreonBig></PatreonBig></a>
-            </div>
-        </div>
-        <div class="tab">
-            <a href="/tutorials/index.html"
-                ><button class="tablinks" id="allbutton"><all></all> All</button></a
-            >
-            <a href="/tutorials/index.html?type=godot"
-                ><button class="tablinks"><godot></godot> Godot</button></a
-            >
-            <a href="/tutorials/index.html?type=built-in"
-                ><button class="tablinks"><builtin></builtin> Built-in</button></a
-            >
-            <a href="/tutorials/index.html?type=urp"
-                ><button class="tablinks"><urp></urp> URP</button></a
-            >
-            <a href="/tutorials/index.html?type=shader-graph"
-                ><button class="tablinks"><shadergraph></shadergraph> Shader Graph</button></a
-            >
-            <a href="/tutorials/index.html?type=3d">
-                <button class="tablinks"><i3d></i3d> 3D</button></a
-            >
-            <a href="/tutorials/index.html?type=texturing"
-                ><button class="tablinks"><texture></texture> Textures</button></a
-            >
-            <a href="/tutorials/index.html?type=asset-pack"
-                ><button class="tablinks"><assetpack></assetpack> Asset Pack</button></a
-            >
-            <a href="/tutorials/index.html?type=gameplay"
-                ><button class="tablinks"><gameplay></gameplay> Gameplay</button></a
-            >
-
-            <a href="/tutorials/index.html?type=design"
-                ><button class="tablinks"><design></design> Design</button></a
-            >
-            <a href="/tutorials/index.html?type=video"
-                ><button class="tablinks"><videoI></videoI> Video</button></a
-            >
-            <a href="/tutorials/index.html?type=other"
-                ><button class="tablinks"><other></other> Other</button></a
-            >
-        </div>
-
         <div class="mainbody">
+            <div class="header2" id="title" style="text-align: center">Grass System Overview</div>
+            <div class="section" style="position: relative; bottom: 5px; align-content: center">
+                <div class="dropdown-content" style="max-width: 450px; align-content: center; margin: auto">
+                    <span class="dates">Permission: </span> These assets can be used in both free and commercial
+                    projects. You can modify it to suit your own needs. Credit is not necessary, but highly appreciated.
+                    You may not resell the assets on their own.
+                </div>
+            </div>
             <div class="post-title-holder">
-                <div class="centered" id="title">Grass System Overview</div>
-
                 <div style="display: flex; margin: 10px" id="type"></div>
             </div>
             <div class="post_card" id="card">
                 <div class="post-title-holder">
-                    <div class="centered" id="title">Base Grass System</div>
+                    <div class="centered">
+                        Base Grass System
+                        <hr />
+                    </div>
 
                     <div style="display: flex; margin: 10px" id="type"></div>
                 </div>
@@ -131,24 +83,57 @@
                         <div class="section">
                             <div id="tinyLink" style="font-size: 10px"></div>
                             <div><span class="dates">Description: </span></div>
-                            <div id="postdescription" class="post_description">Grass system basic setup</div>
+                            <div id="postdescription" class="post_description">
+                                Base Setup for the Grass System:
+                                <bulletlist
+                                    ><bullet>Grass Painter Tool</bullet>
+                                    <bullet>Generate Grass on Meshes/Terrain</bullet
+                                    ><bullet>Change Grass Length/Width/Color/Amount etc.</bullet
+                                    ><bullet>Blend Grass with Terrain/Meshes</bullet>
+                                    <bullet>Interactive Setup</bullet></bulletlist
+                                >
+                            </div>
                         </div>
 
                         <div class="section">
-                            <div><span class="postLink" id="postlink">Free post </span> Free resources!</div>
-                            <div><span class="postLink" id="postlink">Runtime script </span> Free resources!</div>
+                            <div>
+                                <span class="postLink" id="postlink"
+                                    ><a href="https://www.patreon.com/posts/grass-system-urp-83683483"
+                                        ><linkicon></linkicon>Free post</a
+                                    >
+                                </span>
+                                Base Grass System for BIRP and URP
+                            </div>
+                            <br />
+                            <div>
+                                <span class="postLink" id="postlink"
+                                    ><a href="https://www.patreon.com/posts/grass-system-120955134"
+                                        ><linkicon></linkicon>Free post
+                                    </a></span
+                                >
+                                Runtime/Procedural Grass Script
+                            </div>
                         </div>
                         <div class="sectionbackground">
-                            Source Files:
+                            Source Files (Seperate Runtime Package included):<br />
                             <div id="sourcelinks">
                                 <div class="section" id="extraLinks">
                                     <div>
                                         <span class="patreonDownloadLink"
-                                            ><a href="https://www.patreon.com/posts/snow-and-icicles-118217354"
+                                            ><a href="https://www.patreon.com/posts/grass-system-urp-85356573"
                                                 >DOWNLOAD
                                             </a></span
                                         >
                                         <patreon></patreon>URP Files ($10 Tier)
+                                    </div>
+                                    <br />
+                                    <div>
+                                        <span class="patreonDownloadLink"
+                                            ><a href="https://www.patreon.com/posts/grass-system-in-85318378"
+                                                >DOWNLOAD
+                                            </a></span
+                                        >
+                                        <patreon></patreon>BIRP Files ($10 Tier)
                                     </div>
                                 </div>
                             </div>
@@ -162,12 +147,8 @@
                             src="/tutorials/Images/Avif/grass_system.avif"
                             onerror="this.onerror=null; this.src='/tutorials/Images/Gifs/placeholder.png';" />
 
-                        <div class="section" id="dates"></div>
-                        <div class="section" style="display: flex">
-                            <div>
-                                <span class="dates"><tag></tag> Tags: </span>
-                            </div>
-                            <div id="tags" style="position: relative; top: 5px"></div>
+                        <div class="section" id="dates">
+                            <a href="https://www.youtube.com/watch?v=2OA9sicjj7E"><youtube></youtube>Video Tutorial</a>
                         </div>
                     </div>
                 </div>
@@ -175,31 +156,68 @@
             <br />
             <div class="post_card" id="card2">
                 <div class="post-title-holder">
-                    <div class="centered" id="title2">Grass System with Cutting</div>
+                    <div class="centered" id="title2">
+                        Grass System with Cutting
+                        <hr />
+                    </div>
 
                     <div style="display: flex; margin: 10px" id="type2"></div>
                 </div>
                 <div class="SubDivHolder">
                     <div class="SubDiv">
                         <div class="section">
-                            <div id="tinyLink2" style="font-size: 10px"></div>
+                            <div id="tinyLink" style="font-size: 10px"></div>
                             <div><span class="dates">Description: </span></div>
-                            <div id="postdescription2" class="post_description"></div>
-                            Grass system basic setup with cutting
+                            <div id="postdescription" class="post_description">
+                                Base Grass System with also:
+                                <bulletlist
+                                    ><bullet>Grass Clipping</bullet>
+                                    <bullet>Cutting Object</bullet>
+                                    <bullet>Cut Particles</bullet>
+                                </bulletlist>
+                            </div>
                         </div>
-
                         <div class="section">
-                            <div><span class="postLink" id="postlink">Free post </span> Free resources!</div>
-                            <div><span class="postLink" id="postlink">Runtime script </span> Free resources!</div>
-                        </div>
-                        <div class="sectionbackground">
-                            Source Files:
-                            <div id="sourcelinks2">
-                                <span class="patreonDownloadLink"
-                                    ><a href="https://www.patreon.com/posts/snow-and-icicles-118519905"
-                                        >DOWNLOAD
+                            <div>
+                                <span class="postLink" id="postlink"
+                                    ><a href="https://www.patreon.com/posts/grass-system-100668614"
+                                        ><linkicon></linkicon>Free post</a
+                                    >
+                                </span>
+                                Cutting Grass System for BIRP and URP
+                            </div>
+                            <br />
+                            <div>
+                                <span class="postLink" id="postlink"
+                                    ><a href="https://www.patreon.com/posts/grass-system-120955134"
+                                        ><linkicon></linkicon>Free post
                                     </a></span
                                 >
+                                Runtime/Procedural Grass Script
+                            </div>
+                        </div>
+                        <div class="sectionbackground">
+                            Source Files (Seperate Runtime Package included):<br />
+                            <div id="sourcelinks">
+                                <div class="section" id="extraLinks">
+                                    <div>
+                                        <span class="patreonDownloadLink"
+                                            ><a href="https://www.patreon.com/posts/grass-system-urp-101031491"
+                                                >DOWNLOAD
+                                            </a></span
+                                        >
+                                        <patreon></patreon>URP Files ($10 Tier)
+                                    </div>
+                                    <br />
+                                    <div>
+                                        <span class="patreonDownloadLink"
+                                            ><a href="https://www.patreon.com/posts/grass-system-101033622"
+                                                >DOWNLOAD
+                                            </a></span
+                                        >
+                                        <patreon></patreon>BIRP Files ($10 Tier)
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="section" id="extraLinks2"></div>
@@ -214,19 +232,23 @@
 
                         <div class="section" id="dates2"></div>
                         <div class="section" style="display: flex">
-                            <div>
-                                <span class="dates"><tag></tag> Tags: </span>
+                            <div class="section" id="dates">
+                                <a href="https://www.youtube.com/watch?v=XC0-dsqK1iA"
+                                    ><youtube></youtube>Video Tutorial</a
+                                >
                             </div>
-                            <div id="tags" style="position: relative; top: 5px"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <br />
+            <div class="post_card" id="card2" style="min-height: 0">
+                <div class="post-title-holder">
+                    <div class="centered" id="title2">Grass system with textures.. soon</div>
 
-        <div class="mainbody" style="background-color: black">
-            <div style="color: white">RELATED POSTS:</div>
-            <div class="grid-container" id="relatedPosts"></div>
+                    <div style="display: flex; margin: 10px" id="type2"></div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
