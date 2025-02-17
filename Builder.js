@@ -409,7 +409,7 @@ function FillInFullPost(id) {
                         newDateDiv.innerHTML =
                             '<span class="patreonDownloadLink"><a href="' +
                             a.patreonlink +
-                            '">DOWNLOAD </a></span> <patreon></patreon> BIRP Files ($10 Tier)';
+                            '">DOWNLOAD </a></span> <patreon></patreon> Files ($10 Tier)';
                     }
 
                     links.appendChild(newDateDiv);
