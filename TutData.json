@@ -1402,6 +1402,67 @@
         ]
     },
     {
+        "id": "custom_post_processing_urp",
+        "title": "Custom Post Processing for Volumes in URP",
+        "date": "02/2025",
+        "link": "https://www.patreon.com/posts/custom-post-for-123154106",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/custom-post-for-125382613",
+        "patreonlink_description": "URP Files ($10 Tier)",
+        "description": "Setting up custom post processing for Volume components",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "postprocessing"
+            },
+            {
+                "slug": "volume"
+            },
+            {
+                "slug": "stencil"
+            }
+        ]
+    },
+    {
+        "id": "custom_post_processing_urp_render_graph",
+        "title": "Custom Post Processing with Render Graph",
+        "date": "03/2025",
+        "link": "https://www.patreon.com/posts/custom-post-with-125382930",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/custom-post-for-123214524",
+        "patreonlink_description": "URP Files ($10 Tier)",
+        "description": "Setting up custom post processing for Volume components using the new Render Graph",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "postprocessing"
+            },
+            {
+                "slug": "volume"
+            },
+            {
+                "slug": "render-graph"
+            },
+            {
+                "slug": "stencil"
+            }
+        ]
+    },
+    {
         "id": "decals_prototype",
         "title": " Forward Decals Prototype",
         "date": "03/2021",
@@ -2132,7 +2193,7 @@
         "title": "World Position Effects 3: Textures",
         "date": "08/2024",
         "link": "https://www.patreon.com/posts/world-position-3-110217346",
-        "extralink": "https://www.patreon.com/posts/121216373?pr=true",
+        "extralink": "https://www.patreon.com/posts/121216373",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "patreonlink": "",
         "description": "Adding Texture Array support to Multiple Interactors",
@@ -2286,7 +2347,7 @@
         "id": "grass_system",
         "title": "Grass System",
         "date": "06/2023",
-        "updateDate": "09/2024",
+        "updateDate": "01/2025",
         "link": "https://www.patreon.com/posts/grass-system-urp-83683483",
         "extralink": "https://www.patreon.com/posts/grass-system-urp-85356573",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
@@ -2389,6 +2450,7 @@
         "id": "animated_light_cookie_urp2",
         "title": "URP Light Cookies",
         "date": "10/2023",
+        "updateDate": "04/2025",
         "link": "https://www.patreon.com/posts/urp-light-color-88419650",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/urp-light-cookie-91271610",
@@ -4957,6 +5019,29 @@
             },
             {
                 "slug": "metal"
+            }
+        ]
+    },
+    {
+        "id": "video_world_changing_effect",
+        "title": "World Position Changing Effects Video",
+        "date": "02/2025",
+        "link": "https://youtu.be/xgDtQpu_pog",
+        "videolink": "https://youtu.be/xgDtQpu_pog",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Breakdown of the World Position Changing Effect",
+        "types": [
+            {
+                "slug": "video"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "position"
+            },
+            {
+                "slug": "change"
             }
         ]
     }
