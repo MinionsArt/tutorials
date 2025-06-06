@@ -366,12 +366,13 @@ function FillInFullPost(id) {
             date.appendChild(newDateDiv);
 
             if ("updateDate" in a) {
-                console.log("here");
-                var newUpDateDiv = document.createElement("DIV");
-                newUpDateDiv.innerHTML =
-                    '<span class="dates2"><calendar></calendar> *Updated*: </span>' + a.updateDate + "";
+                if (a.updateDate != "") {
+                    var newUpDateDiv = document.createElement("DIV");
+                    newUpDateDiv.innerHTML =
+                        '<span class="dates2"><calendar></calendar> *Updated*: </span>' + a.updateDate + "";
 
-                date.appendChild(newUpDateDiv);
+                    date.appendChild(newUpDateDiv);
+                }
             }
             date.setAttribute("id", "updateDate" + a.id);
 
@@ -575,7 +576,7 @@ function fillPost(id) {
             // date
             date = document.getElementById("postdate");
             originalDate = document.getElementById("originaldate");
-            if (a.updateDate == undefined) {
+            if (a.updateDate == undefined || a.updateDate == "") {
                 // original date for updated posts
                 date.innerHTML = a.date;
                 originalDate.innerHTML = "";

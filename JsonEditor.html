@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>JSON Data Editor</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                padding: 20px;
+                max-width: 900px;
+                margin: auto;
+            }
+            .field {
+                margin-bottom: 10px;
+            }
+            label {
+                display: block;
+                font-weight: bold;
+            }
+            input,
+            textarea {
+                width: 100%;
+                padding: 4px;
+            }
+            button {
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+            .entry-list {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-top: 20px;
+                background: #f9f9f9;
+            }
+            .json-output {
+                white-space: pre;
+                background: #f0f0f0;
+                padding: 10px;
+                margin-top: 10px;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>JSON Tutorial Data Editor</h2>
+
+        <input type="file" id="fileInput" accept=".json" />
+        <button onclick="downloadJSON()">Download JSON</button>
+
+        <div class="entry-list" id="entryList">
+            <h3>Entries</h3>
+            <div id="entries"></div>
+        </div>
+
+        <h3>Add or Edit Entry</h3>
+        <div class="field"><label>ID</label><input type="text" id="id" /></div>
+        <div class="field"><label>Title</label><input type="text" id="title" /></div>
+        <div class="field"><label>Date</label><input type="text" id="date" /></div>
+        <div class="field"><label>Update Date</label><input type="text" id="updatedate" /></div>
+        <div class="field"><label>Link</label><input type="text" id="link" /></div>
+        <div class="field"><label>Extra Link</label><input type="text" id="extralink" /></div>
+        <div class="field"><label>Patreon Link</label><input type="text" id="patreonlink" /></div>
+         <div class="field"><label>Video Link</label><input type="text" id="videolink" /></div>
+        <div class="field">
+            <label>Extralink Description</label><textarea id="extralink_description" rows="2"></textarea>
+        </div>
+        <div class="field"><label>Description</label><textarea id="description" rows="2"></textarea></div>
+
+        <div class="field"><label>Types (comma separated)</label><input type="text" id="types" /></div>
+        <div class="field"><label>Tags (comma separated)</label><input type="text" id="tags" /></div>
+
+        <input type="hidden" id="editIndex" value="-1" />
+
+        <button onclick="saveEntry()">Save Entry</button>
+        <button onclick="clearForm()">Clear Form</button>
+
+        <h3>Live JSON Output</h3>
+        <pre class="json-output" id="jsonOutput"></pre>
+
+        <script>
+            let data = [];
+
+            document.getElementById("fileInput").addEventListener("change", function (event) {
+                const reader = new FileReader();
+                reader.onload = function () {
+                    try {
+                        data = JSON.parse(reader.result);
+                        renderEntries();
+                        updateJSONPreview();
+                    } catch (e) {
+                        alert("Invalid JSON file.");
+                    }
+                };
+                reader.readAsText(event.target.files[0]);
+            });
+
+            function renderEntries() {
+                const container = document.getElementById("entries");
+                container.innerHTML = "";
+                data.forEach((entry, index) => {
+                    const div = document.createElement("div");
+                    div.innerHTML = `
+              <strong>${entry.title}</strong> (${entry.id})
+              <button onclick="editEntry(${index})">Edit</button>
+              <button onclick="deleteEntry(${index})">Delete</button>
+            `;
+                    container.appendChild(div);
+                });
+            }
+
+            function updateJSONPreview() {
+                document.getElementById("jsonOutput").textContent = JSON.stringify(data, null, 2);
+            }
+
+            function saveEntry() {
+                const entry = {
+                    id: document.getElementById("id").value,
+                    title: document.getElementById("title").value,
+                    date: document.getElementById("date").value,
+                    updateDate: document.getElementById("updatedate").value,
+
+                    link: document.getElementById("link").value,
+                    extralink: document.getElementById("extralink").value,
+                    patreonlink: document.getElementById("patreonlink").value,
+                    videolink: document.getElementById("videolink").value,
+                    description: document.getElementById("description").value,
+                    extralink_description: document.getElementById("extralink_description").value,
+
+                    types: document
+                        .getElementById("types")
+                        .value.split(",")
+                        .filter((x) => x.trim())
+                        .map((slug) => ({ slug: slug.trim() })),
+                    tags: document
+                        .getElementById("tags")
+                        .value.split(",")
+                        .filter((x) => x.trim())
+                        .map((slug) => ({ slug: slug.trim() }))
+                };
+
+                const editIndex = parseInt(document.getElementById("editIndex").value, 10);
+                if (editIndex >= 0) {
+                    data[editIndex] = entry;
+                } else {
+                    data.push(entry);
+                }
+
+                clearForm();
+                renderEntries();
+                updateJSONPreview();
+            }
+
+            function editEntry(index) {
+                const entry = data[index];
+                document.getElementById("id").value = entry.id;
+                document.getElementById("title").value = entry.title;
+                document.getElementById("date").value = entry.date;
+                document.getElementById("updatedate").value = entry.updateDate;
+                document.getElementById("link").value = entry.link;
+                document.getElementById("extralink").value = entry.extralink;
+                document.getElementById("patreonlink").value = entry.patreonlink;
+                document.getElementById("videolink").value = entry.videolink;
+                document.getElementById("description").value = entry.description;
+                document.getElementById("extralink_description").value = entry.extralink_description;
+                document.getElementById("types").value = entry.types.map((t) => t.slug).join(", ");
+                document.getElementById("tags").value = entry.tags.map((t) => t.slug).join(", ");
+                document.getElementById("editIndex").value = index;
+            }
+
+            function deleteEntry(index) {
+                if (confirm("Delete this entry?")) {
+                    data.splice(index, 1);
+                    renderEntries();
+                    updateJSONPreview();
+                }
+            }
+
+            function clearForm() {
+                document.querySelectorAll("input, textarea").forEach((el) => {
+                    if (el.type !== "file") el.value = "";
+                });
+                document.getElementById("editIndex").value = -1;
+            }
+
+            function downloadJSON() {
+                const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+                const a = document.createElement("a");
+                a.href = URL.createObjectURL(blob);
+                a.download = "TutData_updated.json";
+                a.click();
+            }
+        </script>
+    </body>
+</html>

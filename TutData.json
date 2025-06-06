@@ -1488,6 +1488,7 @@
         "id": "decals_prototype_urp",
         "title": " URP Forward Decals Prototype",
         "date": "04/2021",
+        "updateDate": "05/2025",
         "link": "https://www.patreon.com/posts/49899065",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/49939876",
@@ -1799,12 +1800,13 @@
         "id": "toon_lit_urp_update",
         "title": " Toon Lighting Update",
         "date": "12/2021",
-        "updateDate": "09/2024",
+        "updateDate": "05/2025",
         "link": "https://www.patreon.com/posts/59854502",
         "extralink": "https://www.patreon.com/posts/59945186",
-        "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
         "patreonlink": "https://www.patreon.com/posts/59945936",
+        "videolink": "undefined",
         "description": "Update to the Toon Shader for Built-in and URP to better handle point lights",
+        "extralink_description": "<Patreon></Patreon>URP Source Files ($10 Tier)",
         "types": [
             {
                 "slug": "built-in"
@@ -5042,6 +5044,82 @@
             },
             {
                 "slug": "change"
+            }
+        ]
+    },
+    {
+        "id": "video_light_cookies",
+        "title": "Cool things to do with Light Cookies",
+        "date": "04/2025",
+        "link": "https://youtu.be/n6RFeQfG9mU",
+        "videolink": "https://youtu.be/n6RFeQfG9mU",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Making a few light cookie effects (clouds, magic, caustics)",
+        "types": [
+            {
+                "slug": "video"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "cookie"
+            },
+            {
+                "slug": "light"
+            },
+            {
+                "slug": "clouds"
+            }
+        ]
+    },
+    {
+        "id": "tessellation_shader_graph",
+        "title": "Adding Tessellation into URP Shader Graph",
+        "date": "05/2025",
+        "updateDate": "",
+        "link": "https://www.patreon.com/posts/adding-into-urp-130160596",
+        "extralink": "https://www.patreon.com/posts/adding-to-shader-130607567",
+        "patreonlink": "",
+        "videolink": "",
+        "description": "Injecting tessellation into Shader Graph using Custom Functions (Unity 6+)",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "types": [
+            {
+                "slug": "shader-graph"
+            },
+            {
+                "slug": "urp"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "tessellation"
+            }
+        ]
+    },
+    {
+        "id": "curve_layout_group",
+        "title": "Curve Layout Group for UI",
+        "date": "05/2025",
+        "updateDate": "",
+        "link": "https://www.patreon.com/posts/curving-radial-129990032",
+        "extralink": "",
+        "patreonlink": "",
+        "videolink": "",
+        "description": "Adding curving and radial layouts for UI buttons",
+        "extralink_description": "",
+        "types": [
+            {
+                "slug": "other"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "curve"
             }
         ]
     }
