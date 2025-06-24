@@ -5122,5 +5122,31 @@
                 "slug": "curve"
             }
         ]
+    },
+    {
+        "id": "transparent_grabpass_feature",
+        "title": "Transparency Scene Color Renderer Feature",
+        "date": "06/2025",
+        "updateDate": "",
+        "link": "https://www.patreon.com/posts/custom-scene-urp-131806853",
+        "extralink": "https://www.patreon.com/posts/custom-scene-132107597",
+        "patreonlink": "",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "videolink": "",
+        "description": "A custom Render Graph Renderer Feature that allows for transparent objects in the scene color",
+     
+        "types": [
+            {
+                "slug": "urp"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "tranparency"
+            },
+            {
+                "slug": "grabpass"
+            }
+        ]
     }
 ]

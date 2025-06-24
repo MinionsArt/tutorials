@@ -13,6 +13,15 @@ a {
     text-decoration: none;
 }
 
+.header-holder {
+    display: flex;
+    height: 70px;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 a:hover {
     color: aqua;
     filter: brightness(150%);
