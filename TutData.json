@@ -1996,6 +1996,8 @@
         "id": "custom_meshes_ui",
         "title": "Custom Meshes in UI",
         "date": "08/2022",
+        
+        "updateDate": "06/2025",
         "link": "https://www.patreon.com/posts/69499068",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/custom-meshes-in-70427383",
@@ -4829,7 +4831,6 @@
         "id": "video_custom_ui_meshes",
         "title": "Custom UI Meshes URP + Built-In",
         "date": "08/2022",
-        "updateDate": "06/2025",
         "link": "https://youtu.be/G9teDAkhaXs",
         "videolink": "https://www.youtube.com/embed/G9teDAkhaXs?si=wJ4uESfZjbpJ4viW",
         "extralink": "",
