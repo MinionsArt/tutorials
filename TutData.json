@@ -4829,6 +4829,7 @@
         "id": "video_custom_ui_meshes",
         "title": "Custom UI Meshes URP + Built-In",
         "date": "08/2022",
+        "updateDate": "06/2025",
         "link": "https://youtu.be/G9teDAkhaXs",
         "videolink": "https://www.youtube.com/embed/G9teDAkhaXs?si=wJ4uESfZjbpJ4viW",
         "extralink": "",
@@ -5134,7 +5135,6 @@
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "videolink": "",
         "description": "A custom Render Graph Renderer Feature that allows for transparent objects in the scene color",
-     
         "types": [
             {
                 "slug": "urp"
