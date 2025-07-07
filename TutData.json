@@ -969,6 +969,32 @@
         ]
     },
     {
+        "id": "minimap_setup2",
+        "title": "Clean (Mini)Map Setup 2",
+        "date": "06/2025",
+        "link": "https://www.patreon.com/posts/clean-minimap-2-133030439",
+        "description": "Making a clean 3D/ Room-Based(mini)map using Navmesh",
+        "types": [
+            {
+                "slug": "built-in"
+            },
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "gameplay"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "map"
+            },
+            {
+                "slug": "navmesh"
+            }
+        ]
+    },
+    {
         "id": "sprite_outlines_shader_graph",
         "title": "Shader Graph Sprite Outline Effects",
         "date": "05/2020",
