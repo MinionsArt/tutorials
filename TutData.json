@@ -376,7 +376,7 @@
     {
         "id": "interactive_snow",
         "title": "Interactive Snow",
-        "updateDate": "07/2022",
+        "updateDate": "07/2025",
         "date": "03/2019",
         "link": "https://www.patreon.com/posts/25641162",
         "extralink": "",
@@ -1352,7 +1352,7 @@
     {
         "id": "interactive_snow_urp",
         "title": "URP Interactive Snow ",
-        "updateDate": "11/2024",
+        "updateDate": "07/2025",
         "date": "02/2021",
         "link": "https://www.patreon.com/posts/47452596",
         "extralink": "",
@@ -5099,6 +5099,29 @@
             },
             {
                 "slug": "clouds"
+            }
+        ]
+    },
+     {
+        "id": "video_navmesh_map",
+        "title": " How to make a Stylized Minimap (with Navmesh)",
+        "date": "07/2025",
+        "link": "https://youtu.be/L84mEQRWgSo",
+        "videolink": "https://youtu.be/L84mEQRWgSo",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Setting up a (Mini)Map using Navmesh as a base, with a custom shader",
+        "types": [
+            {
+                "slug": "video"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "navmesh"
+            },
+            {
+                "slug": "minimap"
             }
         ]
     },
