@@ -737,6 +737,7 @@
         "id": "lava_shader",
         "title": "Stylized Lava Shader",
         "date": "01/2020",
+        
         "link": "https://www.patreon.com/posts/32245619",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/33250352",
@@ -759,6 +760,7 @@
         "id": "lava_shader_urp",
         "title": "Shader Graph Lava",
         "date": "01/2020",
+          "updateDate": "08/2025",
         "link": "https://www.patreon.com/posts/33388865",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/33416472",
@@ -777,6 +779,30 @@
             },
             {
                 "slug": "vertexcolor"
+            }
+        ]
+    },
+    {
+        "id": "lowpoly_glitch",
+        "title": "Low Poly Glitch Effect",
+        "date": "08/2025",
+        "link": "https://www.patreon.com/posts/low-poly-glitch-137243734",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/low-poly-glitch-137547468",
+        "description": "Using Round() for a low poly glitch effect",
+        "types": [
+            {
+                "slug": "shader-graph"
+            },
+            {
+                "slug": "urp"
+            }, {
+                "slug": "birp"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "glitch"
             }
         ]
     },
@@ -2379,7 +2405,7 @@
         "id": "grass_system",
         "title": "Grass System",
         "date": "06/2023",
-        "updateDate": "01/2025",
+        "updateDate": "08/2025",
         "link": "https://www.patreon.com/posts/grass-system-urp-83683483",
         "extralink": "https://www.patreon.com/posts/grass-system-urp-85356573",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
