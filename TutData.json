@@ -5227,5 +5227,58 @@
                 "slug": "grabpass"
             }
         ]
+    },
+     {
+        "id": "laser_beam",
+        "title": "Laser Beam",
+        "date": "10/2025",
+        "updateDate": "",
+        "link": "https://www.patreon.com/posts/141944688",
+        "extralink": "https://www.patreon.com/posts/142233644",
+        "patreonlink": "https://www.patreon.com/posts/142233865",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "videolink": "",
+        "description": "A (Laser)Beam effect shader for Line Renderers and 3D stretched meshes",
+        "types": [
+            {
+                "slug": "urp"
+            },{
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "laser"
+            },
+            {
+                "slug": "linerenderer"
+            }
+        ]
+    }, {
+        "id": "spooky_particles",
+        "title": "Spooky Particles",
+        "date": "10/2025",
+        "updateDate": "",
+        "link": "https://www.patreon.com/posts/animated-mesh-142420286",
+        "extralink": "https://www.patreon.com/posts/vertex-animated-142717757",
+        "patreonlink": "https://www.patreon.com/posts/vertex-animated-142738042",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "videolink": "",
+        "description": "Vertex Color Animated particles setup for Bats, Spiders, and Fish",
+        "types": [
+            {
+                "slug": "urp"
+            }, {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "particles"
+            },
+            {
+                "slug": "vertex color"
+            }
+        ]
     }
 ]
