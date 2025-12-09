@@ -47,6 +47,7 @@
         "id": "rendertexture_painting_examples",
         "title": "RenderTexture Painting Examples",
         "date": "12/2017",
+          "updateDate": "11/2025",
         "link": "https://www.patreon.com/posts/rendertexture-15961186",
         "extralink": "",
         "patreonlink": "",
@@ -54,6 +55,8 @@
         "types": [
             {
                 "slug": "built-in"
+            }, {
+                "slug": "shader-graph"
             }
         ],
         "tags": [
@@ -480,6 +483,7 @@
         "id": "stylized_skybox",
         "title": "Stylized Skybox",
         "date": "06/2019",
+        "updateDate": "11/2025",
         "link": "https://www.patreon.com/posts/27402644",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/27806295",
@@ -760,7 +764,7 @@
         "id": "lava_shader_urp",
         "title": "Shader Graph Lava",
         "date": "01/2020",
-          "updateDate": "08/2025",
+          "updateDate": "11/2025",
         "link": "https://www.patreon.com/posts/33388865",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/33416472",
