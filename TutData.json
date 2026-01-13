@@ -5164,6 +5164,7 @@
         "link": "https://www.patreon.com/posts/ui-background-146360090",
         "extralink": "https://www.patreon.com/posts/ui-background-146583276",
         "patreonlink": "https://www.patreon.com/posts/ui-background-146640057",
+         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "description": "A Shader(Graph) that makes a gradient/patterned background for UI",
         "types": [
             {
@@ -5173,7 +5174,7 @@
                 "slug": "built-in"
             },
             {
-                "slug": "urp"
+                "slug": "shader-graph"
             }
         ],
         "tags": [
