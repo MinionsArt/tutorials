@@ -47,7 +47,7 @@
         "id": "rendertexture_painting_examples",
         "title": "RenderTexture Painting Examples",
         "date": "12/2017",
-          "updateDate": "11/2025",
+        "updateDate": "11/2025",
         "link": "https://www.patreon.com/posts/rendertexture-15961186",
         "extralink": "",
         "patreonlink": "",
@@ -55,7 +55,8 @@
         "types": [
             {
                 "slug": "built-in"
-            }, {
+            },
+            {
                 "slug": "shader-graph"
             }
         ],
@@ -741,7 +742,6 @@
         "id": "lava_shader",
         "title": "Stylized Lava Shader",
         "date": "01/2020",
-        
         "link": "https://www.patreon.com/posts/32245619",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/33250352",
@@ -764,7 +764,7 @@
         "id": "lava_shader_urp",
         "title": "Shader Graph Lava",
         "date": "01/2020",
-          "updateDate": "11/2025",
+        "updateDate": "11/2025",
         "link": "https://www.patreon.com/posts/33388865",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/33416472",
@@ -800,7 +800,8 @@
             },
             {
                 "slug": "urp"
-            }, {
+            },
+            {
                 "slug": "birp"
             }
         ],
@@ -972,7 +973,7 @@
         "id": "minimap_setup",
         "title": "Clean (Mini)Map Setup",
         "date": "05/2020",
-         "updateDate": "06/2025",
+        "updateDate": "06/2025",
         "link": "https://www.patreon.com/posts/making-clean-map-37285218",
         "extralink": "https://www.patreon.com/posts/urp-friendly-map-37881295",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
@@ -1003,7 +1004,7 @@
         "title": "Clean (Mini)Map Setup 2",
         "date": "06/2025",
         "link": "https://www.patreon.com/posts/clean-minimap-2-133030439",
-        "patreonlink" : "https://www.patreon.com/posts/clean-minimap-2-134165304",
+        "patreonlink": "https://www.patreon.com/posts/clean-minimap-2-134165304",
         "description": "Making a clean 3D/ Room-Based(mini)map using Navmesh",
         "types": [
             {
@@ -1098,7 +1099,7 @@
         "id": "skybox_shader_graph",
         "title": "Shader Graph Stylized Skybox",
         "date": "07/2020",
-            "updateDate": "09/2025",
+        "updateDate": "09/2025",
         "link": "https://www.patreon.com/posts/shader-graph-39024186",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/shader-graph-39069131",
@@ -2055,7 +2056,6 @@
         "id": "custom_meshes_ui",
         "title": "Custom Meshes in UI",
         "date": "08/2022",
-        
         "updateDate": "06/2025",
         "link": "https://www.patreon.com/posts/69499068",
         "extralink": "",
@@ -5134,7 +5134,7 @@
             }
         ]
     },
-     {
+    {
         "id": "video_navmesh_map",
         "title": " How to make a Stylized Minimap (with Navmesh)",
         "date": "07/2025",
@@ -5154,6 +5154,34 @@
             },
             {
                 "slug": "minimap"
+            }
+        ]
+    },
+    {
+        "id": "ui_background_shader",
+        "title": "UI Background Shader",
+        "date": "12/2025",
+        "link": "https://www.patreon.com/posts/ui-background-146360090",
+        "extralink": "https://www.patreon.com/posts/ui-background-146583276",
+        "patreonlink": "https://www.patreon.com/posts/ui-background-146640057",
+        "description": "A Shader(Graph) that makes a gradient/patterned background for UI",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "built-in"
+            },
+            {
+                "slug": "urp"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "gradient"
             }
         ]
     },
@@ -5232,7 +5260,7 @@
             }
         ]
     },
-     {
+    {
         "id": "laser_beam",
         "title": "Laser Beam",
         "date": "10/2025",
@@ -5246,7 +5274,8 @@
         "types": [
             {
                 "slug": "urp"
-            },{
+            },
+            {
                 "slug": "built-in"
             }
         ],
@@ -5258,7 +5287,8 @@
                 "slug": "linerenderer"
             }
         ]
-    }, {
+    },
+    {
         "id": "spooky_particles",
         "title": "Spooky Particles",
         "date": "10/2025",
@@ -5272,7 +5302,8 @@
         "types": [
             {
                 "slug": "urp"
-            }, {
+            },
+            {
                 "slug": "built-in"
             }
         ],
