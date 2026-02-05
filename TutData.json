@@ -5164,7 +5164,7 @@
         "link": "https://www.patreon.com/posts/ui-background-146360090",
         "extralink": "https://www.patreon.com/posts/ui-background-146583276",
         "patreonlink": "https://www.patreon.com/posts/ui-background-146640057",
-         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
+        "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "description": "A Shader(Graph) that makes a gradient/patterned background for UI",
         "types": [
             {
@@ -5314,6 +5314,33 @@
             },
             {
                 "slug": "vertex color"
+            }
+        ]
+    },
+    {
+        "id": "ui_invert_maskable",
+        "title": "UI(Canvas) Invert Mask ",
+        "date": "01/2026",
+        "updateDate": "",
+        "link": "https://www.patreon.com/posts/ui-invert-mask-149493803",
+        "extralink": "",
+        "patreonlink": "",
+        "videolink": "",
+        "description": "A script to invert masks in the Canvas UI",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "mask"
             }
         ]
     }
