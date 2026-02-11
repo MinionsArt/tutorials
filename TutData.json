@@ -5164,6 +5164,7 @@
         "updateDate": "02/2026",
         "link": "https://www.patreon.com/posts/ui-background-146360090",
         "extralink": "https://www.patreon.com/posts/ui-background-146583276",
+       
         "patreonlink": "https://www.patreon.com/posts/ui-background-146640057",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
         "description": "A Shader(Graph) that makes a gradient/patterned background for UI",
@@ -5287,6 +5288,32 @@
             },
             {
                 "slug": "linerenderer"
+            }
+        ]
+    },
+     {
+        "id": "cleaning_prototype",
+        "title": "Cleaning Prototype",
+        "date": "02/2026",
+        "link": "https://www.patreon.com/posts/rendertexture-150091521",
+           "webgllink": "https://tibbletop.itch.io/rendertexture-drawing-example",
+        "patreonlink": "https://www.patreon.com/posts/rendertexture-150103884",
+        "videolink": "",
+        "description": "Rendertexture Drawing Example: Cleaning Prototype. A playable object cleaning using lightmap textures",
+        "types": [
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "rendertexture"
+            },
+            {
+                "slug": "drawing"
             }
         ]
     },
