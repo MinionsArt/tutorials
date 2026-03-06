@@ -43,6 +43,30 @@
             }
         ]
     },
+     {
+        "id": "terrain_blending_urp",
+        "title": "Terrain/Mesh Blending for URP",
+        "date": "03/2026",
+        "link": "https://www.patreon.com/posts/terrain-mesh-urp-152116212",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/terrain-mesh-urp-152228971",
+        "description": "Blend with (non) terrain using specific Renderer Feature RenderTextures",
+        "types": [
+            {
+                "slug": "urp"
+            }, {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "blending"
+            },
+            {
+                "slug": "terrain"
+            }
+        ]
+    },
     {
         "id": "rendertexture_painting_examples",
         "title": "RenderTexture Painting Examples",
