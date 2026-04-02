@@ -68,6 +68,56 @@
         ]
     },
     {
+        "id": "terrain_blending_birp",
+        "title": "Terrain/Mesh Blending for BIRP",
+        "date": "03/2026",
+        "link": "https://www.patreon.com/posts/terrain-mesh-for-154018991",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/terrain-mesh-for-154018954",
+        "description": "Blend with (non) terrain using Camera.SetReplacementShader ",
+        "types": [
+            {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "blending"
+            },
+            {
+                "slug": "terrain"
+            }
+        ]
+    },
+    {
+        "id": "ui_mask_shader_animation",
+        "title": "UI Mask Shader Animation Script",
+        "date": "03/2026",
+        "link": "https://www.patreon.com/posts/ui-mask-shader-154508047",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/posts/ui-mask-shader-154590462",
+        "description": "A script and example shaders for animating UI masks",
+        "types": [
+            {
+                "slug": "built-in"
+            },
+             {
+                "slug": "urp"
+            },
+             {
+                "slug": "shader-graph"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "ui"
+            },
+            {
+                "slug": "utility"
+            }
+        ]
+    },
+    {
         "id": "rendertexture_painting_examples",
         "title": "RenderTexture Painting Examples",
         "date": "12/2017",
@@ -2080,7 +2130,7 @@
         "id": "custom_meshes_ui",
         "title": "Custom Meshes in UI",
         "date": "08/2022",
-        "updateDate": "06/2025",
+        "updateDate": "03/2026",
         "link": "https://www.patreon.com/posts/69499068",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/custom-meshes-in-70427383",
