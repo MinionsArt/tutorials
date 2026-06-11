@@ -685,6 +685,7 @@
         "id": "interactive_water_shader_graph",
         "title": "Shader Graph Interactive Water",
         "date": "10/2019",
+        "updateDate": "05/2026",
         "link": "https://www.patreon.com/posts/30490169",
         "extralink": "",
         "patreonlink": "https://www.patreon.com/posts/30596272",
@@ -5464,6 +5465,31 @@
             },
             {
                 "slug": "mask"
+            }
+        ]
+    }, {
+        "id": "stylized_water_2026",
+        "title": "Stylized Water 2026",
+        "date": "06/2026",
+      
+        "link": "https://www.patreon.com/minionsart/posts/stylized-water-160525474",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/minionsart/posts/stylized-water-160797477",
+        "description": "(Interactive)Stylized Water with refraction and waves in Shader Graph",
+        "types": [
+            {
+                "slug": "shader-graph"
+            },
+            {
+                "slug": "urp"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "water"
+            },
+            {
+                "slug": "refraction"
             }
         ]
     }
