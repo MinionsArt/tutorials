@@ -1021,6 +1021,25 @@
         ]
     },
     {
+        "id": "asset_pack_fall_nature",
+        "title": "Free Asset Pack - Fall Nature",
+        "date": "09/2026",
+        "link": "https://www.patreon.com/minionsart/posts/fall-autumn-pack-168285387",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "40+ Fall/Autumn themed assets, trees, pinecones, mushrooms, leaves, pumpkins",
+        "types": [
+            {
+                "slug": "asset-pack"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "nature"
+            }
+        ]
+    },
+    {
         "id": "asset_pack_2020",
         "title": "Free models from B-day Stream",
         "date": "05/2020",
@@ -5536,6 +5555,33 @@
         "tags": [
             {
                 "slug": "fog"
+            },
+            {
+                "slug": "volume"
+            }
+        ]
+    },{
+        "id": "volumetric_low_clouds",
+        "title": "Low Rolling Clouds Volume",
+        "date": "08/2026",
+        "link": "https://www.patreon.com/minionsart/posts/rolling-local-166282612",
+        "extralink": "",
+        "patreonlink": "https://www.patreon.com/minionsart/posts/rolling-local-in-166679374",
+        "description": "Creating a rolling volumetric clouds box",
+        "types": [
+            {
+                "slug": "shader-graph"
+            },
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "clouds"
             },
             {
                 "slug": "volume"
