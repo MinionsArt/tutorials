@@ -2524,7 +2524,7 @@
         "id": "grass_system",
         "title": "Grass System",
         "date": "06/2023",
-        "updateDate": "04/2026",
+        "updateDate": "10/2026",
         "link": "https://www.patreon.com/posts/grass-system-urp-83683483",
         "extralink": "https://www.patreon.com/posts/grass-system-urp-85356573",
         "extralink_description": "<Patreon></Patreon> URP Files ($10 Tier)",
@@ -5560,7 +5560,8 @@
                 "slug": "volume"
             }
         ]
-    },{
+    },
+    {
         "id": "volumetric_low_clouds",
         "title": "Low Rolling Clouds Volume",
         "date": "08/2026",
@@ -5585,6 +5586,31 @@
             },
             {
                 "slug": "volume"
+            }
+        ]
+    },
+    {
+        "id": "perspective_decals",
+        "title": "Perspective Decals + Trigger Interaction",
+        "date": "10/2026",
+        "link": "https://www.patreon.com/minionsart/posts/perspective-urp-173436185",
+        "extralink": "https://www.patreon.com/minionsart/posts/perspective-urp-173436212",
+        "patreonlink": "https://www.patreon.com/minionsart/posts/perspective-birp-174071030",
+        "description": "Creating an illusion with perspective and decals",
+        "types": [
+            {
+                "slug": "shader-graph"
+            },
+            {
+                "slug": "urp"
+            },
+            {
+                "slug": "built-in"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "decal"
             }
         ]
     }
